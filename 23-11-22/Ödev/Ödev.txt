@@ -1,0 +1,21 @@
+1. Kitap listeleme
+
+	1.1 Seçili kitapevindeki mevcut kitaplar user a gösterilecek -- Frontend Backendin oluşturduğu databaseden
+mevcut kitap listediki kitapları aldığı link ile user a gösterecek
+
+2. Kitap işlem
+	
+	2.1 User karşısına gelen kitaplardan istedikleri sepetine ekleyebilecek -- Frontend backendden gelen link get metotunu kullanarak kitapları 
+listeleyecek
+	2.2 User a seçtiği kitaplar gösterilecek ve ödeme işlemi yapılacak	-- Backend tarafında müşterinin kiraladığı kitapların bilgisi
+										database eklenecek ve frontend de başarılı tarzı bir şey gösterilebilir
+
+3. Yönetici ekranı
+	
+	3.1 Yönetici daha önceden eklediği kitapları görüp istediğini silecek veya yeni bir kitap oluşturacak -- Frontend ekle sil komutlarını
+yöneticiye sunacak seçili metot bakcend tarafında yazılan kod sayesinde id si ile silenecek(delete) veya eklenecek(post)
+
+4. Yönetici sipariş takip
+
+	4.1 Yönetici backend tarafında oluşturulan kiralanan kitapları frontendcinin aldığı linki get ile kullanarak yöneticiye sunacak.
+	
