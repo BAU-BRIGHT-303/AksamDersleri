@@ -1,0 +1,147 @@
+﻿<Evler>
+  <EvID>1</EvID>
+  <EvTurleri>
+    <EvTuru>Müstakil</EvTuru>
+    <EvDurumlari>
+      <EvDurum>Satılık</EvDurum>
+      <OdaSayilari>
+        <OdaSayisi>2+1 </OdaSayisi>
+        <IsitmaTurleri>
+          <IsitmaTuru>Doğalgaz</IsitmaTuru>
+          <Sehirler>
+            <SehirAdi>İSTANBUL</SehirAdi>
+            <Ilceler>
+              <IlceAdi>KARTAL</IlceAdi>
+            </Ilceler>
+          </Sehirler>
+        </IsitmaTurleri>
+      </OdaSayilari>
+    </EvDurumlari>
+  </EvTurleri>
+</Evler>
+<Evler>
+  <EvID>2</EvID>
+  <EvTurleri>
+    <EvTuru>Apartman Dairesi</EvTuru>
+    <EvDurumlari>
+      <EvDurum>Satılık</EvDurum>
+      <OdaSayilari>
+        <OdaSayisi>2+1 </OdaSayisi>
+        <IsitmaTurleri>
+          <IsitmaTuru>Merkezi Sistem</IsitmaTuru>
+          <Sehirler>
+            <SehirAdi>İSTANBUL</SehirAdi>
+            <Ilceler>
+              <IlceAdi>SANCAKTEPE</IlceAdi>
+            </Ilceler>
+          </Sehirler>
+        </IsitmaTurleri>
+      </OdaSayilari>
+    </EvDurumlari>
+  </EvTurleri>
+</Evler>
+<Evler>
+  <EvID>3</EvID>
+  <EvTurleri>
+    <EvTuru>Residence</EvTuru>
+    <EvDurumlari>
+      <EvDurum>Kiralık</EvDurum>
+      <OdaSayilari>
+        <OdaSayisi>4+1 </OdaSayisi>
+        <IsitmaTurleri>
+          <IsitmaTuru>Klima</IsitmaTuru>
+          <Sehirler>
+            <SehirAdi>İZMİR</SehirAdi>
+            <Ilceler>
+              <IlceAdi>FOÇA</IlceAdi>
+            </Ilceler>
+          </Sehirler>
+        </IsitmaTurleri>
+      </OdaSayilari>
+    </EvDurumlari>
+  </EvTurleri>
+</Evler>
+<Evler>
+  <EvID>4</EvID>
+  <EvTurleri>
+    <EvTuru>Yazlık</EvTuru>
+    <EvDurumlari>
+      <EvDurum>Kiralık</EvDurum>
+      <OdaSayilari>
+        <OdaSayisi>5+2 </OdaSayisi>
+        <IsitmaTurleri>
+          <IsitmaTuru>Merkezi Sistem</IsitmaTuru>
+          <Sehirler>
+            <SehirAdi>İSTANBUL</SehirAdi>
+            <Ilceler>
+              <IlceAdi>BEYKOZ</IlceAdi>
+            </Ilceler>
+          </Sehirler>
+        </IsitmaTurleri>
+      </OdaSayilari>
+    </EvDurumlari>
+  </EvTurleri>
+</Evler>
+<Evler>
+  <EvID>5</EvID>
+  <EvTurleri>
+    <EvTuru>Villa</EvTuru>
+    <EvDurumlari>
+      <EvDurum>Kiralık</EvDurum>
+      <OdaSayilari>
+        <OdaSayisi>5+2 </OdaSayisi>
+        <IsitmaTurleri>
+          <IsitmaTuru>Merkezi Sistem</IsitmaTuru>
+          <Sehirler>
+            <SehirAdi>İSTANBUL</SehirAdi>
+            <Ilceler>
+              <IlceAdi>SARIYER</IlceAdi>
+            </Ilceler>
+          </Sehirler>
+        </IsitmaTurleri>
+      </OdaSayilari>
+    </EvDurumlari>
+  </EvTurleri>
+</Evler>
+<Evler>
+  <EvID>6</EvID>
+  <EvTurleri>
+    <EvTuru>Çiftlik Evi</EvTuru>
+    <EvDurumlari>
+      <EvDurum>Kiralık</EvDurum>
+      <OdaSayilari>
+        <OdaSayisi>5+2 </OdaSayisi>
+        <IsitmaTurleri>
+          <IsitmaTuru>Merkezi Sistem</IsitmaTuru>
+          <Sehirler>
+            <SehirAdi>İSTANBUL</SehirAdi>
+            <Ilceler>
+              <IlceAdi>ŞİLE</IlceAdi>
+            </Ilceler>
+          </Sehirler>
+        </IsitmaTurleri>
+      </OdaSayilari>
+    </EvDurumlari>
+  </EvTurleri>
+</Evler>
+<Evler>
+  <EvID>7</EvID>
+  <EvTurleri>
+    <EvTuru>Yalı</EvTuru>
+    <EvDurumlari>
+      <EvDurum>Günlük Kiralık</EvDurum>
+      <OdaSayilari>
+        <OdaSayisi>2+1 </OdaSayisi>
+        <IsitmaTurleri>
+          <IsitmaTuru>Doğalgaz</IsitmaTuru>
+          <Sehirler>
+            <SehirAdi>İSTANBUL</SehirAdi>
+            <Ilceler>
+              <IlceAdi>ESENYURT</IlceAdi>
+            </Ilceler>
+          </Sehirler>
+        </IsitmaTurleri>
+      </OdaSayilari>
+    </EvDurumlari>
+  </EvTurleri>
+</Evler>
