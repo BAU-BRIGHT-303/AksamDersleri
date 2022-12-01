@@ -1,0 +1,82 @@
+<!-- Yorum satırı bu şekilde yapılmaktadır -->
+
+<!-- Yorum satırı oluşturmak için özellikle çoklu satırlarda istediğimiz alanları seçili hale getirip ctrl + k + c diyerek yorum satırına alabiliyoruz. Aynı zamanda yorum satırından çıkartmak için de ctrl + k + u yazıyoruz. -->
+
+<!-- html sayfamızı oluşturmak için oluşturmuş olduğumuz new file'ın ismini belirledik. Uzantısını da .html şeklinde verdik -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- head bölümü sayfayı doğrudan değil dolaylı yoldan etkileyen bir takım komutların yazıldığı alandır. Ve biz burada bir kaç farklı özellik ekleyeceğiz
+    Nedir bu özellikler? Örneğin html kodlarımızın içerisine yerleştireceğimiz harici kaynaklar burada sayfaya tanıtılır ( örneğin dış kaynaklı css dosyaları, js dosyaları, font dosyaları ikon dosyaları gibi) -->
+    <!-- Bununla beraber isteğe bağlı olarak sayfanın google arama motorları tarafından bulunabilirliğini kolaylaştıran seo çalışmalarında ön plana çıkmayı sağlayan meta tagleri de burada belirtilir. Ek olarak title denen sayfanın başlığını gördüğümüz alan burada tanımlanır. Ek olarak isteğe bağlı olarak sayfanın stilinin tasarlandığı alan da burada ayarlanabilmektedir. -->
+
+    <title>Bright Eğitimi</title>
+    <!-- şimdi de meta taglerimizi ekleyelim-->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html" ; charset="utf-8" />
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
+    <meta name="description" content="Bright eğitiminde front-end başlangıcı" />
+    <meta name="keywords" content="html,css,javascript" />
+    <meta name="author" content="Yiğit Paşa" />
+    <!-- harici kaynakları eklemek için ise link elementini kullanmaktayız. linklere bir dosya yolu ya da url eklenir. Bu eklemeyi de link elementine ait olan href propuna yazarız.-->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- sayfamıza isteğimize bağlı olarak stil eklemek istersek de style elementini kullanabiliyoruz-->
+    <style></style>
+  </head>
+  <body>
+    <!-- başlık etiketimiz h etiketidir. 1'den 6'ya kadar gider ve boyutları da ters orantılıdır.-->
+    <h1>H1 Başlık</h1>
+    <h2>H2 Başlık</h2>
+    <h3>H3 Başlık</h3>
+    <h4>H4 Başlık</h4>
+    <h5>H5 Başlık</h5>
+    <h6>H6 Başlık</h6>
+
+    <!-- uzun metin ifadeleri gireceğimiz zaman paragraf kısaltması olan p etiketini kullanmaktayız-->
+
+    <p>Bright 303 sınıfı efsane.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem eum
+      porro itaque voluptatibus praesentium, maxime quos dignissimos vero
+      eveniet officia rem placeat. Provident sequi vel veniam est tenetur quis
+      ab, eaque incidunt quibusdam perferendis explicabo aspernatur, fugiat
+      dolor porro, cum hic quasi dicta ipsum. Enim et sed minus nam voluptates!
+    </p>
+
+    <!-- yazıların arasında bir yatay çizgi istiyorsak -->
+    <hr />
+
+    <!-- linklere yönlendirme yapmak istiyorsak yani tıklanıldığı anda bir yere göndermek istediğimiz bir yapıya ihtiyacımız var ise a tagini kullanıyoruz-->
+    <!-- bu etiketteki href property'si yönlendirilecek alan ya da dosya yoludur.-->
+    <a href="https://www.google.com/">Buraya tıkla!</a>
+    <br />
+    <br />
+    <a href="./denemesayfa.html" target="_blank"
+      >Diğer Sayfaya Gitmek İçin Tıkla!</a
+    >
+
+    <!-- fotoğraf eklemek için ise img tagini kullanıyoruz-->
+
+    <center>
+      <img
+        src="https://media-exp1.licdn.com/dms/image/C4D03AQFlvYKYU5PfXA/profile-displayphoto-shrink_800_800/0/1662852842876?e=2147483647&v=beta&t=p4d44Fe7rhpDZACAR7ZJFL1tTXHreiePY36ytUjWOhE"
+        alt="Barbaros CİGA"
+        width="150px"
+      />
+      <br />
+      <a href="https://www.instagram.com/handemiyy/?hl=tr" target="_blank">
+        <img
+          src="https://cdn.iha.com.tr/Contents/images/2022/13/4644319.jpg"
+          alt=""
+          width="150px"
+        />
+      </a>
+    </center>
+    <br />
+    <p style="color: blueviolet; font-size: 20px">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque
+      soluta unde asperiores amet ducimus!
+    </p>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+Bir oyun tanıtım sayfası. En son çıkan 5 oyunu listeliyoruz.
+- aynı sayfa içerisinde alt alta 3 adet oyun fotoğrafı,
+oyunun adı, oyunun açıklaması yazılacak.
+-Oyun detayına git diye yönlendirme yapılacak. Yönlendirme sonucunu oyunla alakalı bir sayfaya yönlendirebilirsiniz.
+
+-- opsiyonel olarak oyun detay sayfalarını da siz tasarlayacaksınız. detay sayfalarında da oyunun adı oyunun fotoğrafı oyunun uzun açıklaması puanı kullanıcı yorumları olabilir. ayrıca her oyun detay sayfasında ana sayfaya yönlendirme etiketleri olacak.

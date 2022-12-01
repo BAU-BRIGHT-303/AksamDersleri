@@ -1,0 +1,12 @@
+-- SQL Login , Security Ýþlemleri
+
+-- Login seviyeleri server side ve database side olarak ikiye ayrýlýr.
+--Genel olarak server üzerinden security -> Logins bölümünden sað týk new login diyerek bir login oluþturabiliyoruz.
+-- User mapping bölü üzerinden hangi databaseler üzerinden kullanýnýn aktif olacaðýný belirtiyoruz.
+-- Ayný alanýn alt bölümünde kullanýcýnýn bu alanda hangi rolü taþýyacaðýný belirtiyoruz. Defult olarak public rolü gelmektedir.
+-- Bu rol sadece veritabaný isimleri görüntüler ve izin verildiði DBlerde tablo isimlerini de görüntüler fakat detay göremez.
+-- En çok kullanýlan roller arasýnda db_datareader, db_datawriter, dbowner olan roller bulunmaktadýr. DB reader sadece tablolarda yer alan datalarý görüntüleyebilir yani select sorgusu yapabilir. 
+-- db_datawriter ise insert,update, delete iþlemleri yapabilmektedir. 
+-- db_owner ve ddladmin rollerinin ortak özellikleri ddl komutlarýnýn kullanýlabiliyor olmasýdýr. Yani yeni bir tablo oluþturma vs.
+-- Bu alanda bu özellikler tanýmlandýktan sonrasýnda detay özellikleri verdiðimiz alan da ilgili DB altýnda bulunan --> security bölümü içindeki users kýsmýdýr. Userlar buradan seçilerek istenen detay izinler de verilebilir. Örneðin bir tablo üzerinden istediðimiz kolonlarý görüntülemesi, insert yapabilmesi gibi özellikleri burada vermekteyiz.
+-- Ýzin vermek için grant, yasaklamak için deny komutunu kullanýyoruz.
