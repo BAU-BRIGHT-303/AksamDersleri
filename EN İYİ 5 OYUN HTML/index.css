@@ -1,0 +1,165 @@
+body
+{ 
+    background-color: black;
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-style: italic;
+    
+
+}
+.HomePage{
+    float: right;
+    text-align: left;
+    color: green;
+    font-size: 25px;
+    font-style: italic;
+
+}
+
+.syf2{
+    margin-left: 680px;
+    font-size: 25px;
+    float: right;
+}
+.detay{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-left: 70px;
+    background-color: black;
+    color: grey;
+    cursor: pointer;
+   
+  
+}
+.detay2{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-right: 70px;
+    float: right;
+    background-color: black;
+    color: grey;
+    cursor: pointer;
+   
+  
+}
+
+
+.GOWR{
+width: 900px;
+margin:auto;
+margin-left: 400px;
+color: white;
+}
+.GOWRjpg{
+float:left;
+padding:0 0 10px 10px;
+}
+.GOWRBaslık{
+
+    margin-left: 25px;
+    font-size: 25px;
+    color: grey;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+ 
+    
+  
+}
+.LOU
+{
+    width: 900px;
+    margin:auto;
+    margin-left: 200px;
+    color: white;
+}
+.LOUjpg
+{
+    float:right;
+    padding:0 0 10px 10px;
+}
+.LOUBaslık{
+   
+    margin-right: 40px;
+    float: right;
+    font-size: 25px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  
+}
+.COD
+{
+    width: 900px;
+    margin:auto;
+    margin-left: 400px;
+    color: white;
+}
+.CODjpg
+{
+    float:left;
+    padding:0 0 10px 10px;
+}
+.CODBaslık
+{
+    
+    margin-left: 25px;
+    font-size: 25px;
+    color: grey;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.TW3
+{
+    width: 900px;
+    margin:auto;
+    margin-left: 400px;
+    color: white;
+}
+.TW3jpg
+{
+    float:left;
+    padding:0 0 10px 10px;
+}
+.TW3Baslık
+{
+    
+    margin-left: 80px;
+    font-size: 25px;
+    color: grey;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.GTA
+{
+    width: 900px;
+    margin:auto;
+    margin-left: 200px;
+    color: white;
+}
+.GTAjpg
+{
+    float:right;
+    padding:0 0 10px 10px;
+}
+.GTABaslık{
+   
+    margin-right: 55px;
+    float: right;
+    font-size: 25px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  
+  
+}
