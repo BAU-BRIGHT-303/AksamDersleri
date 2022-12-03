@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navbar {
+        background-color: blueviolet;
+        color: white;
+        font-size: 30px;
+        border: 2px dashed black;
+      }
+
+      a {
+        color: crimson;
+      }
+
+      .navbar a {
+        color: aquamarine;
+      }
+
+      p {
+        color: cadetblue;
+      }
+
+      span {
+        color: black;
+        font-weight: bold;
+      }
+
+      .main {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div yapısı çalışmamızdaki elementlerimizi gruplamayı ve bu gruplar üzerinden çeşitli özellikleri oluşturmayı ve sayfada farklı alanlar aynı özellikleri ifade edebilmeyi sağlar. kodun okunabilirliğini arttırır. Ve içerisine yazacağımız mantıklı isimlendirmelerle arama motorlarında bulunurluğu arrtırır. bir div çatısı altında kod bloklarımızı yazarak o çatının altındaki tüm elementlere istediğimiz özellikleri aktarabiliriz. böylece tek seferde çoklu işlemler yapabiliriz. divlere de diğer tüm elementlere olduğu gibi stil özellikleri aktarabiliyoruz ve bu stilleri tek bir yerde toplayabilmek için class yapısını kullanıyoruz. class özetle bir elemente bir sınıf atamaktır ve bu sınıfa ait olan css ya da js kodları üzerinden yazdığımız tüm işlevler o sınıfa ait olan tüm elemanlara otomatik olarak aktarılmaktadır. class oluştururken yazım şekli <element class="class_ismi" şeklindedir. Daha sonra bu classa özellik eklemek için style bölümü üzerinden class adı başına nokta koyularak yazılır ve süslü parantezler içerisindeki stilleri body içerisinde o classın adını taşıyan tüm elementlere miras gönderir. Böylece bir class oluşturarak o classa ait olan tüm özellikleri sayfamızın istediğimiz yerinde çağırabiliriz. id ifadesi ise genellikle sadece belli başlı alanlara operasyon yapabilmek için kullanılmaktadır. yine bir özellik gibi kullanmaktayız ve <element id="id_degeri"> şeklinde atamasını yapmaktayız. idyi çağırmak için nokta yerine diyez işaretini # kullanıyoruz.  -->
+
+    <div class="navbar">
+      <ul style="list-style-type: none">
+        <li>
+          <a href="#gow" style="text-decoration: none">1) God of War</a>
+        </li>
+        <li>
+          <a href="#sh" style="text-decoration: none">2) Silent Hill</a>
+        </li>
+        <li>
+          <a href="#re" style="text-decoration: none">3) Resident Evil</a>
+        </li>
+      </ul>
+    </div>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <span>
+        Nostrum eveniet perferendis distinctio explicabo amet non at
+        deserunt</span
+      >, a repellendus voluptatem expedita dicta ducimus repellat voluptate illo
+      necessitatibus eos quas, consectetur incidunt cupiditate corporis sunt
+      asperiores. Provident repellat voluptates quod temporibus. Voluptates quas
+      amet error accusamus a dolore neque. Aliquam eius nostrum voluptates aut
+      modi necessitatibus illum adipisci laborum sed, hic ea perspiciatis maxime
+      dolore aspernatur eos, commodi, non impedit enim! Perspiciatis inventore
+      eius repellendus cumque, officiis minima deserunt eos, quas quod unde
+      similique, ullam mollitia autem nihil? Autem, veniam? Ipsa suscipit fugiat
+      fugit, reprehenderit cupiditate labore quis repellendus voluptatibus
+      blanditiis.
+    </p>
+    <center>
+      <iframe
+        width="683"
+        height="384"
+        src="https://www.youtube.com/embed/rkQDDdwSH6c"
+        title="Sakladığın Bir Şeyler Var"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </center>
+
+    <div class="main kutu selam">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint optio,
+        ratione voluptatem nisi consequatur alias voluptatum, illum eveniet fuga
+        nulla natus veniam id maxime praesentium incidunt saepe dolorum harum
+        est doloribus totam! Accusamus molestias maxime numquam eligendi
+        repudiandae ullam sed voluptatum tempora quod cupiditate repellendus
+        aliquid, fugiat nam quos nobis.
+      </p>
+    </div>
+
+    <div class="section"></div>
+
+    <div class="navbar">
+      <h1>saşdjsald</h1>
+      <h2>asldkjdlaş</h2>
+    </div>
+  </body>
+</html>

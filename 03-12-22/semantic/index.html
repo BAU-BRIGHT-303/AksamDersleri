@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantikler</title>
+    <style>
+      body {
+        background-color: #6d67e4;
+      }
+      header {
+        background-color: brown;
+        color: white;
+      }
+
+      main {
+        background-color: blue;
+        color: white;
+      }
+
+      header a {
+        text-decoration: none;
+        color: white;
+      }
+
+      #ilkalan {
+        background-color: springgreen;
+        color: purple;
+        font-weight: bold;
+      }
+
+      .kutu {
+        border: 3px dotted crimson;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- tıpkı divler gibi çalışırlar. html 5 ile gelmişlerdir. divlerde class olarak kullandığımız header, footer, aside, article, section, nav gibi isimlendirmeleri doğrudan bir element olarak kullanıyoruz-->
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <h2>Lorem ipsum dolor sit amet.</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum commodi
+        praesentium aliquam. Quisquam nisi recusandae veritatis expedita alias
+        labore repellendus magnam aspernatur, iusto quae maxime. Tempore
+        accusamus doloribus, dignissimos sapiente porro dolores culpa magnam eum
+        at illo asperiores quibusdam facere maxime nihil omnis, est veritatis
+        cum blanditiis corporis minus tempora.
+      </p>
+    </main>
+    <section class="kutu" id="ilkalan">
+      <h2>News</h2>
+      <ul>
+        <li>Makale 1</li>
+        <li>Makale 2</li>
+        <li>Makale 3</li>
+      </ul>
+    </section>
+
+    <section class="kutu" id="ikincialan">
+      <h2>News</h2>
+      <ul>
+        <li>Makale 1</li>
+        <li>Makale 2</li>
+        <li>Makale 3</li>
+      </ul>
+    </section>
+
+    <section class="kutu" id="üçüncüalan">
+      <h2>News</h2>
+      <ul>
+        <li>Makale 1</li>
+        <li>Makale 2</li>
+        <li>Makale 3</li>
+      </ul>
+    </section>
+  </body>
+</html>
