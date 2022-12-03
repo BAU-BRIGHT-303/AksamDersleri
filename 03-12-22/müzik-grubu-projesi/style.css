@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: blueviolet;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  background-color: springgreen;
+  border-bottom: 3px dashed white;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main {
+  height: 100px;
+  border-bottom: 2px dashed black;
+  background-color: darkgrey;
+}
+
+.main a {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+.kutu {
+  height: 780px;
+  border-bottom: 5px dashed orange;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+}
+
+.kutu a {
+  padding: 5px;
+  border: 2px solid black;
+  background-color: purple;
+  color: orange;
+}
+
+.kutu img {
+  height: 300px;
+}
+
+.grup1 {
+  background-color: brown;
+}
+
+.grup2 {
+  background-color: rgb(76, 135, 130);
+}
+
+.grup3 {
+  background-color: rgb(202, 103, 172);
+}
+
+.footer {
+  height: 150px;
+  background-color: white;
+}
