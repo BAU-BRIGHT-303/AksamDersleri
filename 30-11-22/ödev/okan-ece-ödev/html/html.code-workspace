@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/AksamDersleri-main (1)/AksamDersleri-main/01-12-22/html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html"
+	}
+}
