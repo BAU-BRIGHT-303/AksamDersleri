@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablolar</title>
+    <style>
+      #airfry {
+        background-image: url("https://m.media-amazon.com/images/I/31qteQfOyXL._AC_SY1000_.jpg");
+        background-size: 300px;
+        background-position: top;
+        background-repeat: no-repeat;
+        height: 200px;
+      }
+
+      table,
+      td,
+      th {
+        height: 200px;
+        border: 2px solid black;
+      }
+      table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+        background: url("https://static.vecteezy.com/system/resources/previews/001/984/880/original/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg");
+        text-align: center;
+      }
+
+      #basliklar th {
+        height: 100px;
+      }
+
+      #ilkfoto {
+        background: url("https://media-exp1.licdn.com/dms/image/C4D03AQFlvYKYU5PfXA/profile-displayphoto-shrink_800_800/0/1662852842876?e=2147483647&v=beta&t=p4d44Fe7rhpDZACAR7ZJFL1tTXHreiePY36ytUjWOhE");
+        background-position: center;
+        background-size: 200px;
+        background-repeat: no-repeat;
+      }
+      #ikincifoto {
+        background: url("https://static.wixstatic.com/media/d11edf_19c7ea180b3a4b1d8d85dad714bff21c~mv2.jpg/v1/crop/x_0,y_232,w_1536,h_1533/fill/w_220,h_220,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Selkan%20LARLAR.jpg");
+        background-position: center;
+        background-size: 200px;
+        background-repeat: no-repeat;
+      }
+      #ucuncufoto {
+        background: url("https://media-exp1.licdn.com/dms/image/C4D03AQEB15AbyD8Sug/profile-displayphoto-shrink_800_800/0/1519303987740?e=2147483647&v=beta&t=qH3_IWvsFCLiS7QeKBlnZjpqLTFxBN6IJCbP0qHBcUQ");
+        background-position: center;
+        background-size: 200px;
+        background-repeat: no-repeat;
+      }
+      #dorduncufoto {
+        background: url("https://ozeldersilan.com/Contents/user_images/358463e4-67f1-486e-9622-c3c3f85db323_3523.jpg");
+        background-position: center;
+        background-size: 200px;
+        background-repeat: no-repeat;
+      }
+
+      #basliklar th {
+        background-color: white;
+        transition: ease-out 0.8s;
+      }
+
+      #basliklar th:hover {
+        /* background: url("https://static.vecteezy.com/system/resources/previews/001/984/880/original/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg"); */
+        background-color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <!--table genel kapsamda thead ve tbody olarak ikiye ayrılır ve başlık ile alakalı kısımları thead içerisine, dataları ise tbody içerisine ekleriz. Burada thead ve tbody zorunlu değildir. Fakat tablonun okunabilirliği açısından kullanımı daha doğru olacaktır. Her zaman önce satırı belirleriz ve bu tr içerisinde datalarımızı td etiketiyle yanyana ekleriz. Thead bölümünde eklediğimiz sütun sayısı kadar tbody üzerinde data eklememiz doğrudur. Aksi halde tablo taşacak ya da eksik gözükecektir.-->
+    <!-- <table
+      border="1"
+      cellspacing="10"
+      cellpadding="20px"
+      width="100%"
+      style="
+        background-color: springgreen;
+        color: black;
+        text-align: center;
+        border-collapse: collapse;
+        border-color: blueviolet;
+      "
+    >
+      <caption>
+        Ürün Tablosu
+      </caption>
+      <thead>
+        <tr>
+          <th>Ürün ID</th>
+          <th>Ürün Adı</th>
+          <th>Ürün Fiyat</th>
+          <th>Ürün Foto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Iphone 14</td>
+          <td>30.900 TL</td>
+          <td>"htttps://...."</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Air Fry</td>
+          <td>10000</td>
+          <td id="airfry">htttpdsad</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">X Max - 180000</td>
+          <td rowspan="2">
+            <img
+              src="https://www.turuncumotor.com/wp-content/uploads/2020/10/motorlar16.jpg"
+              alt=""
+              width="150px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Makarna</td>
+          <td>10 TL</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="5" style="height: 100px">EĞİTMENLER</th>
+        </tr>
+        <tr id="basliklar">
+          <th><a href="">Eğitmen Adı</a></th>
+          <th><a href="">Eğitmen Soyadı</a></th>
+          <th><a href="">Eğitmen Eğitimleri</a></th>
+          <th><a href="">Eğitmen Yaşı</a></th>
+          <th><a href="">Eğitmen Foto</a></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Barbaros</td>
+          <td>Ciga</td>
+          <td rowspan="2">HTML,CSS,JS, c#,.NET, MS SQL, Mongo DB</td>
+          <td>30</td>
+          <td id="ilkfoto"></td>
+        </tr>
+        <tr>
+          <td>Selkan</td>
+          <td>Larlar</td>
+
+          <td>40</td>
+          <td id="ikincifoto"></td>
+        </tr>
+        <tr>
+          <td>Çağatay</td>
+          <td>Yıldız</td>
+          <td rowspan="2">React JS, Node JS</td>
+          <td>35</td>
+          <td id="ucuncufoto"></td>
+        </tr>
+        <tr>
+          <td>Engin Niyazi</td>
+          <td>Ergül</td>
+
+          <td>40</td>
+          <td id="dorduncufoto"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
