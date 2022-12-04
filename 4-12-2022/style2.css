@@ -1,0 +1,47 @@
+body {
+  margin: auto;
+  width: 80%;
+  background-color: rgb(81, 174, 211);
+  font-family: "Montserrat", sans-serif;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.orta {
+  margin-top: 100px;
+}
+.table {
+  margin: auto;
+}
+.table td {
+  height: 100px;
+}
+.hakkimizda a {
+  text-decoration: none;
+  color: black;
+}
+.ekip a {
+  text-decoration: none;
+  color: black;
+}
+.sol1 {
+  margin-top: 100px;
+}
+.sol2 {
+  margin-top: 200px;
+}
+.img1 {
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 500px;
+}
+.img2 {
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 150px;
+}
+.aciklama {
+  margin: auto;
+  text-align: center;
+}
