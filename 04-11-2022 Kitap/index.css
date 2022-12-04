@@ -1,0 +1,75 @@
+body {
+  background-color: #f4ead5;
+}
+table {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNTNxNuBuD-FnwQ78ipRlMKQk4zlQKNbLkgw&usqp=CAU); */
+  background-repeat: repeat;
+  background-position: 1px;
+  display: flex;
+  height: 100vh;
+}
+#navbar {
+  background-color: #ce7777;
+}
+table th {
+  margin: auto;
+  height: 100px;
+  font-family: "Lora", serif;
+  text-decoration: none;
+  font-size: 25px;
+}
+.img:hover {
+  width: 250px;
+  height: 400px;
+}
+
+table th a:hover {
+  background-color: #e8c4c4;
+  color: white;
+}
+#kitaplar {
+  height: 100px;
+  width: auto;
+  text-align: center;
+  font-family: 18px;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+}
+#kitaplar a {
+  text-decoration: none;
+}
+
+#ekip {
+  height: 100px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+#ekip a {
+  text-decoration: none;
+}
+#reklam {
+  color: white;
+  opacity: 90%;
+}
+.reklam:hover {
+  width: 300px;
+  height: 500px;
+}
+.reklam {
+  transition: all ease-out 0.3s;
+  opacity: 70%;
+}
+.img {
+  transition: all ease-out 0.7s;
+}
+
+table td {
+  margin: auto;
+}
+#main {
+  width: 900px;
+}
