@@ -30,7 +30,7 @@ body {
   color: white;
   font-size: x-large;
   background-repeat: no-repeat;
-  /* padding-left: 450px; */
+  padding-left: 450px;
   text-align: left;
 }
 .fazla {
@@ -104,11 +104,10 @@ body {
   height: 350px;
   font-size: xx-large;
 }
-.icon {
-  margin-left: 1100px;
-}
 .icon2 {
-  margin-left: 1400px;
+  list-style-type: none;
+  text-align: right;
+  margin-right: 25px;
 }
 .icons {
   margin-right: 5px;
@@ -118,7 +117,7 @@ body {
 footer {
   background-color: #311255;
   color: white;
-  height: 100px;
+  height: 200px;
 }
 .footerUst {
   width: 100%;
@@ -128,4 +127,9 @@ footer {
   border-collapse: collapse;
   color: white;
   background-color: #6325aa;
+}
+.list {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 0px;
 }
