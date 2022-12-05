@@ -1,0 +1,166 @@
+#font1 {
+    font-family:wfont_d93270_6706752b2dbf4e9cb45e74d90e05b78a,wf_6706752b2dbf4e9cb45e74d90,orig_town_80_text_light;
+}
+
+#font2 {
+    font-family:wfont_d93270_0e76ca1784de455dbf3d4205b35aaf77,wf_0e76ca1784de455dbf3d4205b,orig_town_80_text_medium;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+#anasayfafoto {
+    width: 100%;
+    background-color: #9437FF;
+}
+
+#anasayfafoto img {
+    height: 650px;
+}
+
+#girisyap
+{
+    vertical-align: auto;
+    text-align: center;
+    color:#FFF6FF;
+    font-weight: hold;
+}
+
+#layout {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+#navbar {
+    background-color: #9437FF;
+    height: 100px;
+    width: 70%;
+}
+
+
+#navbar a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: #FFF6FF;
+    font-weight: hold;
+    padding: 5px 30px;
+    transition: all ease-in 0,5s;   
+}
+
+#navbar a:hover {
+    background-color: #B779FF;
+    color: #fffdff;
+}
+
+#main1 {
+    background-color: #FAFAFA;
+    height: 100px;
+    text-align: center;
+    vertical-align: left;
+    font-size: 40px;
+}
+
+#main2 {
+    background-color: #C99BFF;
+    height: 200px;
+    text-align:left;
+    vertical-align: middle;
+}
+
+#main2 span {
+    padding-left: 5px;
+}
+
+#main2 p {
+    padding-left: 100px;
+}
+
+#main2 img {
+    width: 100%;
+}
+
+#main2 a {
+    margin-left: 100px;
+    background-color: #9437FF;
+    color: white;
+    font-weight: hold;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#renkbolumu {
+    height: 400px;
+    width: 100%;
+}
+
+#renkbolumu p {
+    font-size: 30px;
+    font-family: wfont_d93270_0e76ca1784de455dbf3d4205b35aaf77,wf_0e76ca1784de455dbf3d4205b,orig_town_80_text_medium;
+    font-weight: hold;
+    color: rgb(32, 72, 18);
+}
+
+#ucretsiz a {
+    background-color: #6325aa;
+    color: white;
+    font-weight: hold;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#iletisim {
+    background-color: #6325aa;
+    height: 400px;
+    vertical-align: top;
+    padding-top: 50px;
+}
+
+#iletisim ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+#iletisim li {
+    color: #B8ADFA;
+}
+
+#iletisim b {
+    font-family: wfont_d93270_0e76ca1784de455dbf3d4205b35aaf77,wf_0e76ca1784de455dbf3d4205b,orig_town_80_text_medium;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+#iletisim a {
+    text-decoration: none;
+}
+
+#iletisim li:hover {
+    color: #fffdff;
+}
+
+#footer {
+    background-color: #9437FF;
+    height: 100px;
+    vertical-align: top;
+    padding-top: 100px;
+}
+
+#foot {
+    padding-top: 42px;
+    color: #FFFFFF;
+    font-family: wfont_d93270_0e76ca1784de455dbf3d4205b35aaf77,wf_0e76ca1784de455dbf3d4205b,orig_town_80_text_medium;
+    font-size: 17px;
+}
+
+
+
+
+
+
