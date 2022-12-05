@@ -1,0 +1,186 @@
+body {
+  background-color: #9437ff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 200px;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.navbar a:hover {
+  background-color: #6325aa;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.syf1 {
+  background-position: center;
+  background-image: url(./veribilimi_programi_manset.jpg);
+  width: 1500px;
+  height: 900px;
+  font-size: 40px;
+  font-style: bold;
+  color: white;
+  padding-left: 100px;
+  border-collapse: collapse;
+  background-repeat: no-repeat;
+}
+
+.fazla {
+  padding: 5px;
+  background-color: #6325aa;
+  color: white;
+  border-collapse: collapse;
+}
+
+.fazla:hover {
+  background-color: rgb(40, 11, 73);
+}
+
+.basvuru:hover {
+  background-color: #6325aa;
+}
+
+.basvuru {
+  padding: 4px;
+  border: solid 1px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.fotoalti {
+  background-color: white;
+  height: 400px;
+  width: 100%;
+  font-size: xx-large;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.syf3,
+.syf3_3 {
+  font-size: 25px;
+  color: white;
+  background-color: #c99bff;
+  text-align: center;
+  width: 100%;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+.syf3_2 {
+  font-size: 25px;
+  color: white;
+  background-color: #6325aa;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.syf3_3 {
+  font-size: 25px;
+  color: white;
+  background-color: #311255;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.k {
+  border: 0px solid;
+  text-decoration: none;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.k:hover {
+  background-color: #9437ff;
+}
+.sontable {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  background-color: #6325aa;
+  margin: 0px;
+}
+.sontable td {
+  padding: 5px;
+}
+
+.icon {
+  margin-left: 800px;
+}
+.icon2 {
+  margin-left: 1100px;
+}
+.icons {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+.icon_ {
+  margin-right: 0;
+  margin-left: 1300px;
+}
+.icon_2 {
+  margin-left: 1227px;
+}
+footer {
+  background-color: #311255;
+  color: white;
+}
+.rklm {
+  width: 100%;
+  height: 300px;
+  border-collapse: collapse;
+  margin: auto;
+  padding: auto;
+}
+.deneyim {
+  background-color: #00a2ff;
+}
+.pratik {
+  background-color: #61d836;
+}
+.web {
+  background-color: #f8ba00;
+}
+.destek {
+  background-color: #ff644e;
+}
+.fotoalti1_1 {
+  background-color: #fafafa;
+  width: 100%;
+  height: 400px;
+  font-size: xx-large;
+}
+.fotoalti2 {
+  background-color: #fafafa;
+  width: 100%;
+  height: 350px;
+  font-size: xx-large;
+}
+.ishayati {
+  margin-top: 100px;
+}
+.adres {
+  padding: 0 100px 0 100px !important;
+}
