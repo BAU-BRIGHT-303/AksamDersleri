@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <br />
+    <table id="giris">
+      <tr id="tablo1">
+        <td>
+          <a href="">
+            <img
+              src="https://pbs.twimg.com/profile_images/1435604557896331275/v8COSMf8_400x400.jpg"
+              alt=""
+              width="150px"
+          /></a>
+        </td>
+        <td><a href="" style="width: 20px">KAMPÜS 365</a></td>
+        <td><a href="">Dev Kampüs</a></td>
+        <td><a href="">Ekstra Kampüs</a></td>
+        <td><a href="">İletişim</a></td>
+        <td><a href="">Kurumsal</a></td>
+        <td><a href="">Giriş Yap</a></td>
+      </tr>
+
+      <tr>
+        <th></th>
+        <th colspan="6" rowspan="6">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+            width="850px"
+          />
+        </th>
+      </tr>
+
+      <td>
+        <table>
+          <tr id="tablo2">
+            <h4 style="color: rgb(219, 188, 255)">Dev Kampüs İle</h4>
+            <h3 style="color: rgb(219, 188, 255)">Veri Bilinci</h3>
+            <h3 style="color: rgb(219, 188, 255)">Geliştirme Programı</h3>
+
+            <td>
+              <a href="" style="color: rgb(219, 188, 255); text-align: center"
+                >DAHA FAZLASI</a
+              >
+            </td>
+
+            <td>
+              <a href="" style="color: rgb(219, 188, 255); text-align: center"
+                >BAŞVURU YAPIN</a
+              >
+            </td>
+          </tr>
+        </table>
+      </td>
+    </table>
+
+    <table id="tablo3">
+      <center>
+        <br />
+        <br />
+        <br />
+        <p style="font-size: 45px; color: rgb(56, 58, 60); margin: 0px">
+          Dijital Eğitimin Mimarı Kampüs365
+        </p>
+        <h1
+          style="font-size: 45px; color: rgb(56, 58, 60); margin: 0px 0px 50px"
+        >
+          Neden kariyerinizin bir parçası olmalı?
+        </h1>
+
+        <img src="./fotolar/Ekran Alıntısı.PNG" alt="" />
+
+        <p style="font-size: 20px; color: rgb(56, 58, 60); margin: 0px">
+          Profesyonel gelişim ve kariyer yolunda ihtiyaç duyacağınız tüm
+          eğitimlere Kampüs365 sayesinde ulaşabilirsiniz.
+        </p>
+      </center>
+    </table>
+
+    <table id="tablo4">
+      <tr>
+        <td style="background-color: rgb(201, 155, 255); width: 100%">
+          <img
+            src="https://static.wixstatic.com/media/d93270_a407a742f2ee41b7bda4bb375c7366bd~mv2.jpg/v1/crop/x_0,y_0,w_1456,h_1080/fill/w_578,h_428,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Gelisim_kamp%C3%BCs%C3%BC_manset_c_edited.jpg"
+            alt=""
+          />
+        </td>
+        <td style="background-color: rgb(147, 56, 255)">
+          <img
+            src="https://static.wixstatic.com/media/d93270_4b80303e66fc4860970d7b15d7a9faba~mv2.jpg/v1/fill/w_640,h_428,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/kampus_365_bireysel_manset_v2.jpg"
+            alt=""
+          />
+        </td>
+      </tr>
+      <tr>
+        <th style="background-color: rgb(147, 56, 255)">
+          <img
+            src="https://static.wixstatic.com/media/d93270_a407a742f2ee41b7bda4bb375c7366bd~mv2.jpg/v1/crop/x_0,y_0,w_1456,h_1080/fill/w_578,h_428,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Gelisim_kamp%C3%BCs%C3%BC_manset_c_edited.jpg"
+            alt=""
+          />
+        </th>
+        <th style="background-color: rgb(99, 37, 170)">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRavYpKUAxuoQeSItsaP0zHWj1UAIGdMgIDXRjSmzM1LqPhN_Hql0Wn0a-Nb9o1SJ0ug8&usqp=CAU"
+            alt=""
+          />
+        </th>
+      </tr>
+
+      <tr>
+        <th style="background-color: rgb(49, 18, 85)">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSttN1UDdJ2cKvEqRf8W-xSdfKnmYzuFFgXPQ&usqp=CAU"
+            alt=""
+          />
+        </th>
+        <th style="background-color: rgb(147, 56, 255)">
+          <img
+            src="https://static.wixstatic.com/media/d93270_eab367b8a49344f2a9f2ce0b8ba5311c~mv2.jpg/v1/crop/x_197,y_0,w_1423,h_1080/fill/w_566,h_428,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Ekstra_Kamp%C3%BCs_manset_c.jpg"
+            alt=""
+          />
+        </th>
+      </tr>
+    </table>
+
+    <table id="tablo5">
+      <center>
+        <br />
+        <br />
+        <br />
+        <p style="font-size: 45px; color: rgb(56, 58, 60); margin: 0px">
+          Eğitimlerimizi detaylı bir şekilde inceleyin,
+        </p>
+        <h1 style="font-size: 45px; color: rgb(56, 58, 60); margin: 0px">
+          birlikte yeni kariyer yolculuğunuzu oluşturalım.
+        </h1>
+        <br />
+        <br />
+        <br />
+        <img src="./fotolar/Ekran Alıntısı.PNG" alt="" />
+
+        <p style="font-size: 20px; color: rgb(56, 58, 60); margin: 0px">
+          Çalışanların, yeni mezunların, üniversite öğrencilerinin kariyer
+          yolculuklarına eğitimlerimiz ile destek oluyoruz.
+        </p>
+        <p style="font-size: 20px; color: rgb(56, 58, 60); margin: 0px">
+          Siz de konusunda uzman, alanında tanınmış, başarılarıyla bilinen
+          profesyoneller ve çözümler ile kariyer yolunuzu oluşturun.
+        </p>
+      </center>
+    </table>
+
+    <table id="tablo6">
+      <tr>
+        <td style="background-color: rgb(0, 162, 255); width: 300px">
+          <h3 style="margin: 0px; color: rgb(0, 54, 85)">20+ Yıllık</h3>
+          <h3 style="margin: 0px; color: rgb(0, 54, 85)">Deneyim</h3>
+        </td>
+        <td style="background-color: rgb(97, 216, 54)">
+          <h3 style="margin: 0px; color: rgb(0, 54, 85)">Kariyere Dönük</h3>
+          <h3 style="margin: 0px; color: rgb(0, 54, 85)">Pratik Eğitimler</h3>
+        </td>
+        <td style="background-color: rgb(255, 100, 78)">
+          <h3>Sürekli Destek</h3>
+          <h3>Kesintisiz Eğitim</h3>
+        </td>
+        <td style="background-color: rgb(248, 186, 0)">
+          <h3>Webden, Wepten</h3>
+          <h3>Tabletten Tasarım</h3>
+        </td>
+      </tr>
+    </table>
+
+    <table id="tablo7">
+      <center>
+        <br />
+        <br />
+        <p style="font-size: 35px; color: rgb(56, 58, 60); margin: 0px">
+          2 milyondan fazla öğrencinin kullandığı,
+        </p>
+        <p
+          style="font-size: 35px; color: rgb(56, 58, 60); margin: 0px 0px 100px"
+        >
+          100'den fazla eğitim kurumunun tercihi
+        </p>
+        <br />
+
+        <img
+          src="https://static.wixstatic.com/media/2f2da9_35392dad114442de8b66c2962d666ca8~mv2.png"
+          alt=""
+          width="300px"
+          margin="30px 0 px 30 px"
+        />
+      </center>
+    </table>
+
+    <table id="tablo8">
+      <center>
+        <td>
+          <h4
+            style="
+              font-size: 30px;
+              color: rgb(219, 188, 255);
+              margin: 0px;
+              font-family: 'Open Sans', sans-serif;
+              font-family: 'Zen Dots', cursive; ;
+            "
+          >
+            İş Hayatına Hazırlayan
+          </h4>
+          <h3
+            style="
+              font-size: 40px;
+              color: white;
+              margin: 0px;
+              font-family: 'Zen Dots', cursive;
+            "
+          >
+            İş Dünyası Eğitim Paketi
+          </h3>
+          <h3
+            style="
+              font-size: 40px;
+              color: white;
+              margin: 0px;
+              font-family: 'Zen Dots', cursive;
+            "
+          >
+            Kısa Süreliğine ÜCRETSİZ
+          </h3>
+          <p
+            style="
+              font-size: 20px;
+              color: rgb(219, 188, 255);
+              margin: 50px;
+              font-family: 'Zen Dots', cursive;
+            "
+          >
+            Türkiye’nin en büyük kurumsal eğitim platformu Enocta işbirliğiyle
+            oluşturulan İş Dünyası Eğitim Paketi en çok tercih edilen
+            eğitimlerden derlendi.
+          </p>
+          <br />
+          <a href="">KAYIT OLUN</a>
+        </td>
+      </center>
+    </table>
+
+    <table id="tablo9">
+      <tr>
+        <td style="text-align: left">
+          <a href=""
+            ><img
+              src="https://static.wixstatic.com/media/2f2da9_35392dad114442de8b66c2962d666ca8~mv2.png"
+              alt=""
+              width="150px"
+          /></a>
+        </td>
+        <td><a href="">BİREYSEL</a></td>
+        <td><a href="">KURUMSAL</a></td>
+        <td><a href="">KAMPÜS 365</a></td>
+      </tr>
+
+      <tr>
+        <th style="text-align: left; color: rgb(219, 188, 255); margin: 0px">
+          Adres:
+        </th>
+        <th><a href="">Dev Kampüs</a></th>
+        <th><a href="">Üniversite</a></th>
+        <th><a href="">Bireysel İletişim</a></th>
+      </tr>
+
+      <tr>
+        <th style="text-align: left; color: rgb(219, 188, 255); margin: 0px">
+          Smart Plaza B Blok Rüzgarlıbahçe Mh. Kavak Sk. No:31/1
+        </th>
+        <th><a href="">Ekstra Kampüs</a></th>
+        <th><a href="">K12</a></th>
+        <th><a href="">Kurumsal İletişim</a></th>
+      </tr>
+      <tr>
+        <th style="text-align: left; color: rgb(219, 188, 255)">Eposta:</th>
+        <th><a href="">Tüm Eğitimler</a></th>
+        <th><a href="">Anaokulu</a></th>
+        <th><a href="">Hakkımızda</a></th>
+      </tr>
+
+      <tr>
+        <th style="text-align: left; color: rgb(219, 188, 255)">
+          iletisim@kampus365.com
+        </th>
+        <th><a href=""></a></th>
+        <th><a href="">Özel Eğitim / Kurs</a></th>
+        <th><a href="">Haberler</a></th>
+      </tr>
+
+      <tr>
+        <th style="text-align: left; color: rgb(219, 188, 255)">Telefon:</th>
+        <th><a href=""></a></th>
+        <th><a href="">Tüm Ürünler</a></th>
+        <th><a href="">Destek</a></th>
+      </tr>
+
+      <tr>
+        <th style="text-align: left; color: rgb(219, 188, 255)">
+          +90 (216) 445 07 25
+        </th>
+        <th><a href=""></a></th>
+        <th><a href=""></a></th>
+        <th><a href="">KVKK</a></th>
+      </tr>
+
+      <tr>
+        <th></th>
+        <th><a href=""></a></th>
+        <th><a href=""></a></th>
+        <th><a href="">İletişim Onay Metni</a></th>
+      </tr>
+
+      <tr>
+        <th></th>
+        <th><a href=""></a></th>
+        <th><a href=""></a></th>
+        <th><a href="">Kullanım Koşulları</a></th>
+      </tr>
+    </table>
+
+    <table id="tablo10"></table>
+  </body>
+</html>

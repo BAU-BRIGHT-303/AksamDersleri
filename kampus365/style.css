@@ -1,0 +1,135 @@
+#giris {
+  background-color: rgb(147, 56, 255);
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Zen Dots", cursive;
+}
+#tablo1 {
+  background-color: rgb(147, 56, 255);
+  height: 10px;
+}
+#tablo1 a {
+  text-decoration: none;
+  color: rgb(219, 188, 255);
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all ease-in 0.3s;
+  font-family: "Zen Dots", cursive;
+}
+#tablo1 a:hover {
+  background-color: rgb(99, 37, 170);
+  color: white;
+}
+
+#tablo2 {
+  background-color: rgb(147, 56, 255);
+  height: 500px;
+  width: 100%;
+}
+#tablo2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all ease-in 0.3s;
+}
+
+#tablo2 a:hover {
+  background-color: rgb(99, 37, 170);
+  color: white;
+}
+
+#tablo3 {
+  height: 100px;
+  background-color: rgb(250, 250, 250);
+  font-family: "Zen Dots", cursive;
+}
+
+#tablo3 p {
+  font-weight: bolder;
+  font-family: "Zen Dots", cursive;
+}
+
+#tablo4 {
+  background-color: rgb(147, 56, 255);
+  height: 1200px;
+  background-color: rgb(147, 56, 255);
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#tablo5 {
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Zen Dots", cursive;
+}
+
+#tablo6 {
+  background-color: rgb(147, 56, 255);
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  height: 350px;
+}
+
+#tablo6 h3 {
+  margin: 0px;
+  color: rgb(85, 33, 26);
+  font-size: 30px;
+}
+
+#tablo7 {
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+}
+
+#tablo7 h5 {
+  font-size: 50px;
+  color: rgb(56, 58, 60);
+}
+
+#tablo8 {
+  background-color: rgb(147, 56, 255);
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+
+#tablo8 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: all ease-in 0.3s;
+  background-color: rgb(79, 29, 135);
+}
+
+#tablo8 a:hover {
+  background-color: rgb(99, 37, 170);
+  color: white;
+}
+
+#tablo9 {
+  background-color: rgb(99, 37, 170);
+  border-collapse: collapse;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+#tablo9 a {
+  color: rgb(219, 188, 255);
+  text-decoration: none;
+  padding: 10px 30px;
+  font-family: "Zen Dots", cursive;
+}
+
+#tablo10 {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(49, 18, 85);
+}
