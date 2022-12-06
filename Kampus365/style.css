@@ -1,0 +1,119 @@
+#layout {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#navbar {
+  background-color: #9437ff;
+  height: 50px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 35px;
+  transition: all ease-in 0.5s;
+}
+#navbar a:hover {
+  background-color: #6425ac;
+  color: #ffffff;
+}
+
+#solManset {
+  border-color: #9437ff;
+  border-collapse: collapse;
+  color: white;
+  background-color: #c99bff;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+#solManset a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 35px;
+  transition: all ease-in 0.5s;
+}
+#solManset a:hover {
+  background-color: #9437ff;
+  color: white;
+}
+
+#sagManset {
+  border-color: #9437ff;
+  border-collapse: collapse;
+  color: white;
+  background-color: #6325aa;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+#sagManset a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 35px;
+  transition: all ease-in 0.5s;
+}
+#sagManset a:hover {
+  background-color: #9437ff;
+  color: white;
+}
+
+#sol2Manset {
+  border-color: #9437ff;
+  border-collapse: collapse;
+  color: white;
+  background-color: #311255;
+  width: 100%;
+  text-align: center;
+  font-size: xx-large;
+  font-style: italic;
+}
+#sol2Manset a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 35px;
+  transition: all ease-in 0.5s;
+}
+#sol2Manset a:hover {
+  background-color: #9437ff;
+  color: white;
+}
+
+#birinci {
+  border-collapse: collapse;
+  width: 520px;
+  background-color: #00a2ff;
+  height: 500px;
+}
+
+#ikinci {
+  border-collapse: collapse;
+  width: 520px;
+  background-color: #61d836;
+  height: 500px;
+}
+#ucuncu {
+  border-collapse: collapse;
+  width: 520px;
+  background-color: #ff644e;
+  height: 500px;
+}
+#dorduncu {
+  border-collapse: collapse;
+  width: 520px;
+  background-color: #f8ba00;
+  height: 500px;
+}
+
+#arkaplan {
+  background-color: #fafafa;
+}
