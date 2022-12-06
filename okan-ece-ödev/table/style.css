@@ -1,0 +1,87 @@
+#kampus{
+   
+    background-color:rgb(148,55,255) ;
+     
+     color:white;
+  
+     
+
+
+
+
+}
+
+#kampus #center a {
+
+text-decoration: none;
+transition: all ease-in 0.3s;
+font-weight: bold;
+color: white;
+
+}
+#container #garga a {
+
+    background-color: rgb(99,37,170); 
+   
+    font-style: italic; 
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+    
+
+
+    }
+
+    #container #garga{
+
+        background-color: rgb(99,37,170); 
+        text-decoration: none;
+        transition: all ease-in 0.3s;
+       
+      
+       
+
+    }
+    #container{
+         font-size:30px ;
+
+        
+    }
+
+    #container #ab {
+        text-align:center; background-color:
+         white; color: rgb(12, 7, 7);
+        
+         font-size:50px;
+
+
+
+    }
+    #container #ac{
+        text-align:center;
+         background-color: rgb(148,55,255);
+    color: white; font-weight:  500;  ;
+     font-size:20px;
+
+
+    }
+
+
+#kampus #ak{
+    text-align:center ;
+
+}
+
+#kampus #ak a{
+    text-decoration: none;
+transition: all ease-in 0.3s;
+font-weight: bold;
+color: white;
+    
+
+}
+
+#down #up{
+    background-color: rgb(201,155,255); font-size: 20px; text-align: center; color: white;
+}

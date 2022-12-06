@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/AksamDersleri-main (2)/AksamDersleri-main/04-12-22/table-layout"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "table"
+	}
+}
