@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width="device-width", initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+        table genel kapsamda thead ve tbody olarak ikiye ayrılı ve vaşlık ile alakalı kısımları thead içerisine, dataları ise tbody içerisine ekleriz. Burada thead ve tbody 
+        zorunlu değildir. Fakat tablonun okunabilirliği açısından kullanımı daha doğru olacaktır. Her zaman önce satırı belirleriz ve bu tr içerisinde datalarımızı td etiketiyle
+        yanyana ekleriz. Thead bölümünde eklediğimiz sütun sayısı kadar tbody üzerinde data eklememiz doğrudur. Aksi halde tablo taşacak ya da eksik gözükecektir. 
+    -->
+    <table
+      border="1"
+      cellspacing="10px"
+      cellpadding="20px"
+      width="100%"
+      style="
+        background-color: rgb(70, 88, 104);
+        color: white;
+        border-collapse: collapse;
+        border-color: aquamarine;
+      "
+    >
+      <caption>
+        Urun Tablosu
+      </caption>
+      <thead>
+        <tr>
+          <th>Urun Id</th>
+          <th>Urun Adı</th>
+          <th>Urun Fıyat</th>
+          <th>Urun Foto</th>
+        </tr>
+      </thead>
+      <tbody style="text-align: center">
+        <tr>
+          <td>1</td>
+          <td>Iphone 14</td>
+          <td>30.900</td>
+          <td>http://</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>MackBook</td>
+          <td>40.00</td>
+          <td>http://</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Example</td>
+          <td>30.900</td>
+          <td>http://</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Example 2</td>
+          <td>30.900</td>
+          <td>http://</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td colspan="2">Lorem ipsum dolor sit amet.</td>
+          <td rowspan="2">30.900</td>
+        </tr>
+        <tr>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum dolor.</td>
+        </tr>
+        <tr>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem, ipsum dolor.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  margin: 0%;
+  background-color: aliceblue;
+}
+table {
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-collapse: collapse;
+}
+thead {
+  border: none;
+  background: linear-gradient(#608287, #2b5258);
+  text-align: center;
+}
+tr {
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#tbody1 {
+  text-align: center;
+  background: linear-gradient(#70a07f, #326541);
+  height: 900px;
+  margin: auto;
+}
+#content {
+  background: #2b5258;
+  height: 300px;
+  align-items: center;
+}
+img {
+  height: 200px;
+}
