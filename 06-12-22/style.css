@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(148, 55, 255);
+}
+
+#navbar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  /* padding: 10px 15px; */
+  transition: all ease-out 0.3s;
+}
+
+#logo {
+  width: 20%;
+  background: url("./img/k\ 365.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  cursor: pointer;
+}
+#logo:hover {
+  background-color: rgb(148, 55, 255) !important;
+}
+
+/* #navbar a:hover {
+  background-color: rgb(100, 37, 172);
+} */
+#navbar td {
+  padding: 10px 0;
+  transition: all ease 0.3s;
+}
+#navbar td:hover {
+  background-color: rgb(100, 37, 172);
+}
+
+#navbar a i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+#header {
+  height: 640px;
+  /*arkaplan eklemek istiyorsak background propunu kullanabiliriz tekrar etmemesi için ve bulunduğu pozisyonu belirlemek için de alttaki komutları veriyoruz.*/
+  background: url("https://static.wixstatic.com/media/d11edf_a0089cc1719145298f4d8afc325be04a~mv2.png/v1/fill/w_958,h_639,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/G%C3%B6rsel---1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#header h1 {
+  /*satırlar arası yükseklik için line height*/
+  line-height: 50px;
+  color: white;
+}
+
+#header p {
+  /* üstten boşluk vermek için margin-top */
+  margin-top: 30px;
+  line-height: 30px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+#header td {
+  /*Düşey eksende ortalamak için vertical align*/
+  vertical-align: middle;
+}
+
+#header span {
+  /*spanler için oluşturudğumuz font kalınlığı */
+  font-weight: 300;
+}
+
+#dahafazlasi {
+  padding: 12px 30px;
+  background-color: rgb(99, 38, 171);
+  transition: all ease 0.3s;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+#dahafazlasi:hover {
+  background-color: rgb(69, 19, 125);
+}
+
+#basvuru {
+  padding: 10px 30px;
+  background-color: rgba(100, 38, 171, 0);
+  border: 2px solid white;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: all ease 0.02s;
+}
+
+#basvuru:hover {
+  padding: 12px 30px;
+  border: 0px solid white;
+  background-color: rgb(99, 38, 171);
+}
+
+.content {
+  padding: 150px 0 0 0;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+}
+
+.content span {
+  font-weight: 300;
+}
+
+.content h1 {
+  color: black;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.content i {
+  color: rgb(99, 38, 171);
+}
