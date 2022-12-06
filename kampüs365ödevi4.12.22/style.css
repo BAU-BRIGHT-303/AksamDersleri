@@ -1,0 +1,14 @@
+#layout {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  background-color: #9438ff;
+  text-decoration-color: white;
+}
+
+#navbar a {
+  text-decoration-color: white;
+  text-align: center;
+}
