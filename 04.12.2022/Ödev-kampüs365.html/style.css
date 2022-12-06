@@ -1,0 +1,92 @@
+#body {
+  background-color: rgb(148, 55, 255);
+}
+#layout {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+#navbar {
+  background-color: rgb(148, 55, 255);
+  height: 80px;
+  font-family: "Times New Roman";
+  font-size: 16px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 30px;
+  transition: all ease-in 0.3s;
+}
+
+#td1 a:hover {
+  background-color: rgb(99, 37, 170);
+}
+#td2 a:hover {
+  background-color: rgb(99, 37, 170);
+}
+#td3 a:hover {
+  background-color: rgb(99, 37, 170);
+}
+#td4 a:hover {
+  background-color: rgb(99, 37, 170);
+}
+#td5 a:hover {
+  color: rgb(96, 81, 112);
+}
+
+#bolum3 {
+  background-color: white;
+  width: 100%;
+  height: 150px;
+}
+#bolum4 {
+  width: 100%;
+  height: 275px;
+}
+#dörtbir {
+  background-color: rgb(201, 155, 255);
+  padding: 50px 100px;
+}
+#dörtbirbutton a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 5px 28px;
+  background-color: rgb(120, 51, 199);
+}
+
+#dörtbirbutton a:hover {
+  background-color: rgb(75, 28, 129);
+}
+#dörtiki img {
+  width: 100%;
+}
+#bolum5 {
+  width: 100%;
+  height: 250px;
+}
+#footer {
+  background-color: rgb(24, 14, 36);
+  width: 100%;
+  height: 250px;
+}
+
+#footer1 a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  width: 100%;
+}
+#tsss a {
+  color: white;
+  text-decoration: none;
+}
+
+#tsss a:hover {
+  color: rgb(34, 19, 52);
+}
