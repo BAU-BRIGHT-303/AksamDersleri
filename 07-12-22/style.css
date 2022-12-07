@@ -1,0 +1,101 @@
+/* css başlangıcında bir yıldız ifadesi eklenerek genellikle aşağıdaki gibi bir kod bloğu kullanılır. Amaç default olarak genel margin yahut padding özelliğini devre dışı bırakmasıdır. */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Box model dediğimiz yapı ise mevcut bir elementin çevresindeki katmanların kutu modeli halinde gösterilmesidir. En iç çeperde elementin kendisi bulunur. Bir dış çeperde padding bir dış çeperde border en dış çeperde ise margin özelliklerini tanımlayabiliyoruz. */
+
+.kutu {
+  background-color: red;
+  height: 500px;
+  width: 150px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background-color: navy;
+  height: 50px;
+  width: 500px;
+  display: inline;
+}
+
+.yenibuton {
+  display: inline-block;
+  background-color: blueviolet;
+  color: orange;
+  width: 150px;
+  height: 50px;
+  vertical-align: top;
+  margin-right: 50px;
+}
+
+/*Display ayarlarında temel amaç elementin nasıl gösterileceğini belirtmektir. Bu kapsamda istersek elementi hiç göstermeyebiliriz. Bazı elementler default olarak block olarak çalışır, bazı elementler ise default olarak inline olarak çalışır. kendilerine göre kullanım farklılıkları avantajları ve dezavantajları vardır. Örneğin block elemanların avantajı genişlik ve yükseklik verilebilir yapılarda olmasıdır. Fakat bununla beraber bir eksi olarak tüm alanı kapladığı için hemen yanına bir element sığdırmak istersek beceremeyiz. Inline elementler ise yan yana hizalanabilir elementlerdir fakat eksi özelliği ise genişlik ve yükseklik almamaları. Sadece içerikleri kadar alan kaplamalarıdır. Tam olarak bu noktada ihtiyacımıza yetişen bir display ayarımız bulunmaktadır. Bu ayarın ismi inline-block'tur. Bu sayede hem yanyana elementleri dizebilir hale geliyoruz hem de genişlik ve yüksekliği rahatça verebiliyor oluyoruz. */
+
+/*
+Block seviyei bazı elementler
+h,
+div,
+p,
+li,
+address,
+aside,
+article,
+hr,
+form,
+main,
+nav,
+table,
+ul,
+header
+*/
+
+/* inline elementler
+a,
+span,
+bütün yazı formatlama elementleri
+img,
+td,
+button,
+iframe,
+i,
+select,
+label,
+input
+*/
+
+.resimkutusu {
+  background-color: springgreen;
+  width: 80%;
+}
+
+img {
+  margin: 30px 50px;
+  display: inline;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.resimkutusu i {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  img {
+    display: block;
+    width: 150px;
+  }
+
+  .resimkutusu i {
+    display: block;
+    font-size: 100px;
+  }
+}
