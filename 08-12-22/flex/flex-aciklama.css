@@ -1,0 +1,64 @@
+/*
+---------------Flex komutları---------------------
+
+Flex yapımız elementlerimiz içerisinde hizalama yapmak adına elementlere esneklik kazandıran bir css yapısıdır. Çok tercih edilmektedir.
+ÖZellikleri şu şekilde sınıflandırabiliriz.
+
+A- Kapsayıcılar için geçerli olan flex özellikleri (wrapper)
+
+1- display: flex;
+
+Bu komut ile flexi başlatıyoruz ve alt elementlerinde flex komutlarımız geçerli oluyor.
+
+2- flex-direction: column | column-reverse | row | row reverse
+
+Flex konteynırımızın içindeki elementlerin yatay düzlemde mi yoksa düşey düzlemde mi olduğuna karar vereceğimiz property'dir. Default olarak gelen ayar row'dur. Reverse'ler eklendiğinde simetrik olarak elementlerin bulunduğu düzlemdeki ters görüntülerini alır. Simetri gibi düşünebiliriz. Burada en önemli husus şudur; flex direction row'dan columna ya da tam tersi şekilde bir dönüşüm geçirdiğinde yatay ve dikey eksenler değiştiği için align-items artık düşeyde değil yatayda, justify-content ise artık yatayda değil düşeyde hizalandırma sağlar.
+
+3- flex-wrap özelliği.
+wrap | no-wrap | wrap-reverse
+
+Bu da sayfanın düşey eksende sonuna gelindiğinde alt satıra geçmesini ve bu hizadan devam etmesini sağlayan kod bloğudur. Default olarak flex komutumuz içerisinde bulunan tüm elementleri o alana sığdırmaya çalışır.
+
+4- flex-flow
+flex-direction ve flex-wrap özelliğine vereceğimiz değerleri birleştirip tek satırda yazmamızı sağlayan özelliktir. Örn; flex-flow: column wrap
+
+5- justify-content özelliği
+Bu özellik de yatay eksende elementlerimizin bulunacağı noktayı ifade eder.
+flex-start: öğeyi başlangıç noktasına dayar,
+flex-end: öğeyi bitiş noktasına dayar,
+center: öğeyi ortalar,
+space-between: ilk öğeyi flex starta, son öğeyi flex-ende yapıştırır ve aralardakileri de eşit aralıklarla yerleştirir.
+space-around: ilk ve son öğenin sayfanın başlangıç ve bitiş noktalarıyla olan uzakları eşit olur fakat bu uzaklık diğer ögeler ile arasındaki uzaklık ile eşit değildir. 
+space-evenly: burada tüm boşluklar eşit olur.
+
+6- align-items: elementlerin dikey eksendeki hizlarını belirlediğimiz yerdir.
+
+flex-start | flex-end | center | baseline | stretch
+
+7- align-content: elementlerin dikey eksendeki hizlarını belirlediğimiz yerdir. Fakat bu hizalandırmayı yaparken öğeleri birbirlerine yakınlaştırarak sıkıştırır ve grup halinde hizalama yapar.
+
+flex-start | flex-end | center |  stretch | space-between | space-evenly
+
+B- Elementlere ait özellikler
+
+1- order: öğelerin bir sayı doğrusundaki gibi sıralanmalarını sağlar. ve her öğe hiç order belirtilmediyse default olarak order: 0 olarak kabul edilir. Numaralandırma yapılarak her bir elemanın bulunacağı hiza değiştirilebilir. 
+
+2- flex-grow: öğelerin birbirlerine oranla büyüklüklerini otomatik olarak ayarlayan komut. verilecek katsayılara göre responsive olarak öğelerin genişlikleri ayarlanır.
+
+örneğin; a{
+ flex-grow: 1
+}
+
+3- flex-shrink bu da growun tam tersi çalışır. Yani aynı oranlarda ögeleri küçültür.
+
+4- flex-basis: yine aynı şekilde birbirlerine olan oranları zerinden büyüklük ayarlaması yapılır. Varsayılan değeri auto'dur. Eğer ki bu değer 0 olarak verilirse sadece içerisinde barınan eleman kadar bir genişliğe sahip olur.  Bununla berber bir öğeye 40% verirseniz diğerleri de otmatik olarak kalan yüzde 60'a sığacak şekilde büyür ya da küçülür. 
+
+5- flex özelliği sırayla flex-grow flex shrink ve flex basis gibi özelliklerin tek sferde yazılmasını sağlar;
+örneğin ; 
+flex: 1 1 auto
+
+6- align-self: align-items ile aynı niteliği taşır. Tek fark alt elemanlarda kullanılıyor olmasıdır. 
+
+
+
+*/
