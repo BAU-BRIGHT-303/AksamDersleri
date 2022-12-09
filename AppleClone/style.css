@@ -3,37 +3,76 @@
   padding: 0px;
   font-family: "Inter", sans-serif;
 }
-/* @media all and (max-width: 800px) {
-  .iphone {
-    order: 0;
-  }
-  .airpods {
-    order: 1;
-  }
-
-  .hediye {
-    order: 2;
-  }
+@media screen and (max-width: 1300px) {
   .phonepad {
-    order: 3;
+    display: flex;
+    flex-direction: column;
   }
+  .watchTv {
+    display: flex;
+    flex-direction: column;
+  }
+  .padWatch {
+    display: flex;
+    flex-direction: column;
+  }
+  .phone {
+    margin: 10px 10px;
 
+    background-color: black;
+  }
+  .pad {
+    margin: 10px 10px;
+    width: 100%;
+    background-color: #fbfbfb;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/ipad.jpg);
+  }
   .watch {
-    order: 5;
+    margin: 10px 10px;
+    width: 100%;
+    background-color: black;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./assets/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
   }
   .tv {
-    order: 6;
+    margin: 10px 10px;
+    width: 100%;
+    background-color: black;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./assets/promo_tv4k__d33vaocbii82_large.jpg);
   }
   .pro {
-    order: 7;
+    margin: 10px 10px;
+    width: 100%;
+    background-color: black;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/promo_ipadpro__ch217v9v7no2_small.jpg);
   }
   .series {
-    order: 8;
+    margin-left: 10px 10px;
+    width: 100%;
+    background-color: black;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./assets/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
   }
-  .footer {
-    order: 9;
-  }
-} */
+}
+
 .temizle {
   clear: both;
 }
@@ -148,7 +187,6 @@ body {
   background-position: center;
   background-size: contain;
   margin-bottom: 10px;
-  display: inline-flexbox;
 }
 .phone h1 {
   color: #f5f5f7;
