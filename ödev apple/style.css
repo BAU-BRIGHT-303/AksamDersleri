@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Roboto:wght@100;300;400&display=swap");
+
+.header {
+  background-color: black;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+}
+.header li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header li a {
+  color: white;
+}
+.iPhone14 {
+  background: url(https://www.apple.com/tr/home/built_includes/heroes/iphone-14/images/hero_iphone14__fjmsqstr1ceq_medium_2x.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.iPhone-yazı h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-family: Roboto;
+  font-size: 60px;
+}
+.iPhone-yazı h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.iPhone-yazı h3,
+h4 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(0, 101, 204);
+}
+.iPhone-yazı h3:hover {
+  text-decoration: underline;
+}
+.iPhone-yazı h4:hover {
+  text-decoration: underline;
+}
+
+.AirPods {
+  background: url(https://www.apple.com/v/home/aw/images/heroes/airpods-holiday-2022/hero_airpods_holiday__gf6dktxz06eu_mediumshort_2x.jpg);
+  height: 800px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.AirPods h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Roboto;
+  font-size: 60px;
+}
+.AirPods h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: lighter;
+}
+.AirPods h3 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(0, 101, 204);
+}
+.AirPods h3:hover {
+  text-decoration: underline;
+}
+.AirPods img {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  width: 50px;
+}
+
+.iPad-left {
+  background: url(https://www.apple.com/v/home/aw/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_medium_2x.jpg);
+  height: 700px;
+  background-size: 50%;
+  background-position: left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  flex-basis: 100%;
+}
+.iPad-right {
+  background: url(https://www.apple.com/v/home/aw/images/promos/ipad/promo_ipad__fioegapg12qi_medium_2x.jpg);
+  height: 700px;
+  background-size: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  flex-basis: 100%;
+}
+iPad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.iPad h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Roboto;
+  font-size: 60px;
+}
+.iPad h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: lighter;
+}
