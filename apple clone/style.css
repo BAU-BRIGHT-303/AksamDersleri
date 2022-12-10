@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  background-color: rgb(52, 50, 50);
+  color: lightgray;
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+}
+
+.navbar ul {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px 50px;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin-left: 60px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: lightgray;
+}
+main {
+  padding-top: 40px;
+}
+#banner1 {
+  background-image: url(./image/anasayfa.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.header > * {
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+.header h2 {
+  font-size: 26px;
+  font-weight: lighter;
+}
+.header a {
+  margin-block-start: 5px;
+  margin: 15px;
+  text-decoration: none;
+  color: rgb(88, 171, 234);
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+#banner2 {
+  background-image: url(./image/siyahsaat.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  color: white;
+}
+
+.kategori {
+  display: flex;
+}
+
+.kategori .kutu {
+  text-align: center;
+  height: 80vh;
+  width: 50%;
+  margin: 5px;
+  background-size: contain;
+  padding-top: 20px;
+}
+
+#kutu1 {
+  color: white;
+  background-image: url(./image/telefon.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#kutu2 {
+  color: black;
+  background-image: url(./image/tablet.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#kutu3 {
+  background-image: url(./image/saat.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#kutu4 {
+  background-image: url(./image/kumanda.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.kategori .kutu a {
+  font-size: 10pt;
+  padding-top: 20px;
+  text-decoration: none;
+  color: rgb(88, 171, 234);
+  background-size: cover;
+  margin: 15px;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline !important;
+  background-position: 80% 55%;
+}
+
+footer {
+  background-color: rgb(233, 228, 228);
+  width: 100%;
+  height: 150px;
+}
+
+.footer .container {
+  width: 80px;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+footer .container > * {
+  font-size: 10pt;
+  color: rgb(157, 155, 155);
+  text-align: center;
+}
+.container ul li {
+  color: rgb(156, 154, 154);
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+}
