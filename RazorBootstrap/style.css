@@ -1,0 +1,322 @@
+* {
+  font-family: "Maven Pro", sans-serif;
+}
+body {
+  background-color: #222222;
+}
+@media only screen and (max-width: 1024px) {
+  .ilkB {
+    height: 700px;
+    background-size: 300%;
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .ilkB1 {
+    height: 700px;
+    background-size: 300%;
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .ilkB2 {
+    height: 700px;
+    background-size: 300%;
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  border-bottom: 1px solid #44d62c;
+  overflow: hidden;
+}
+.navbar img {
+  width: 35px;
+  padding-top: 10px;
+}
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 50px 0px 10px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #868686;
+  font-size: 16px;
+  font-weight: 400;
+}
+.navbar a:hover {
+  color: white;
+}
+.ad {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 45px;
+  background-color: #555555;
+  font-size: 14px;
+}
+.ad p {
+  margin-top: 10px;
+  font-size: small;
+}
+.ilkB {
+  background-image: url(./assets/holiday-gift-guide-2022-homepage-1920x700-desktop.jpg);
+  width: 100%;
+  height: 700px;
+  margin-bottom: 15px;
+  background-position: center;
+}
+.ilkB h1 {
+  padding-top: 60px;
+  font-size: 56px;
+}
+.ilkB h2 {
+  font-size: 28px;
+}
+.ilkB h3 {
+  font-size: 21px;
+}
+.ilkB a {
+  text-decoration: none;
+  color: white;
+}
+.ilkB1 {
+  background-image: url(./assets/razer-blade14-mercury-2022-homepage-desktop.jpg);
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  margin-bottom: 15px;
+}
+.ilkB1 h1 {
+  padding-top: 60px;
+  font-size: 56px;
+}
+.ilkB1 h2 {
+  font-size: 28px;
+}
+.ilkB1 h3 {
+  font-size: 21px;
+}
+.ilkB1 a {
+  text-decoration: none;
+  color: white;
+}
+.ilkB2 {
+  background-image: url(./assets/razer-kraken-kitty-v2-pro--homepage-desktop.jpg);
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  margin-bottom: 15px;
+}
+.ilkB2 h1 {
+  padding-top: 60px;
+  font-size: 56px;
+}
+.ilkB2 h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+.ilkB2 h3 {
+  font-size: 21px;
+}
+.ilkB2 a {
+  text-decoration: none;
+  color: white;
+}
+.row1 {
+  background-image: url(./assets/razer-gold-and-silver-4th-anniversary-desktop.jpg);
+  background-position: center;
+  width: 755px;
+  height: 570px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.row1 h1 {
+  padding-top: 60px;
+  font-size: 40px;
+}
+.row1 h2 {
+  font-size: 21px;
+  font-weight: 300;
+}
+.row1 h3 {
+  font-size: 17px;
+}
+.row1 a {
+  text-decoration: none;
+  color: white;
+}
+.row2 {
+  background-image: url(./assets/deathstalkerprotkl-950x580-desktop.jpg);
+  background-position: center;
+  width: 755px;
+  height: 570px;
+  margin-bottom: 15px;
+  /* margin-right: 19px; */
+}
+.row2 h1 {
+  padding-top: 60px;
+  font-size: 40px;
+}
+.row2 h2 {
+  font-size: 21px;
+  font-weight: 300;
+}
+.row2 h3 {
+  font-size: 17px;
+}
+.row2 a {
+  text-decoration: none;
+  color: white;
+}
+.row3 {
+  background-image: url(./assets/razer-naga-v2-pro-950x580-desktop.jpg);
+  background-position: center;
+  width: 755px;
+  height: 570px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.row3 h1 {
+  padding-top: 60px;
+  font-size: 40px;
+}
+.row3 h2 {
+  font-size: 21px;
+  font-weight: 300;
+}
+.row3 h3 {
+  font-size: 17px;
+}
+.row3 a {
+  text-decoration: none;
+  color: white;
+}
+.row4 {
+  background-image: url(./assets/rzrstoreny-b-950x580-desktop.jpg);
+  background-position: center;
+  width: 755px;
+  height: 570px;
+  margin-bottom: 15px;
+  /* margin-right: 19px; */
+}
+.row4 h1 {
+  padding-top: 60px;
+  font-size: 40px;
+}
+.row4 h2 {
+  font-size: 21px;
+  font-weight: 300;
+}
+.row4 h3 {
+  font-size: 17px;
+}
+.row4 a {
+  text-decoration: none;
+  color: white;
+}
+.row5 {
+  background-image: url(./assets/razer-edge-b-950x580-desktop.jpg);
+  background-position: center;
+  width: 755px;
+  height: 570px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.row5 h1 {
+  padding-top: 60px;
+  font-size: 40px;
+}
+.row5 h2 {
+  font-size: 21px;
+  font-weight: 300;
+}
+.row5 h3 {
+  font-size: 17px;
+}
+.row5 a {
+  text-decoration: none;
+  color: white;
+}
+.row6 {
+  background-image: url(./assets/razer-enki-pro-koenigsegg-williams-esports-950x580-desktop.jpg);
+  background-position: center;
+  width: 755px;
+  height: 570px;
+  margin-bottom: 15px;
+  /* margin-right: 19px; */
+}
+.row6 h1 {
+  padding-top: 60px;
+  font-size: 40px;
+}
+.row6 h2 {
+  font-size: 21px;
+  font-weight: 300;
+}
+.row6 h3 {
+  font-size: 17px;
+}
+.row6 a {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: #111111;
+}
+.aboutUs {
+  /* text-align: center; */
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  /* height: 1000px; */
+}
+.aboutUs a {
+  color: #8a8a8a;
+  text-decoration: none;
+  font-size: 12px;
+}
+.aboutUs ul {
+  line-height: 18px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 79px;
+}
+.aboutUs a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.aboutUs li {
+  list-style-type: none;
+  font-size: 12px;
+  margin: 5px;
+}
+.sosyal {
+  display: flex;
+  justify-content: end;
+}
+.copy {
+  background-color: #111111;
+  padding-bottom: 20px;
+}
+.copy a {
+  font-size: 12px;
+  display: inline;
+}
+.hr {
+  border-top: 2px solid #8c8b8b;
+}
+.ulke {
+  display: inline;
+  text-align: end;
+  padding-bottom: 20px;
+  background-color: #111111;
+}
