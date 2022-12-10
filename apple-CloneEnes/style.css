@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  background-color: white;
+  display: block;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 460;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+i {
+  color: #d6d6d6;
+  padding: 16px;
+}
+
+.navbar {
+  background-color: #323233;
+  height: 44px;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0.7;
+  overflow: hidden;
+}
+
+#ilka {
+  padding-left: 460px;
+}
+#sona {
+  padding-right: 460px;
+}
+
+.navbar a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #d6d6d6;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+
+.navbar a:hover {
+  color: #f5f5f7;
+}
+
+.iphone14 {
+  background-image: url(./assets/img/hero_iphone14__fjmsqstr1ceq_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.iphone14 a {
+  padding-top: 10px;
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.iphone14 a:hover {
+  text-decoration: underline;
+}
+
+.yazi1 {
+  padding-top: 57px;
+}
+
+.yazi1 h1 {
+  text-align: center;
+  font-size: 55px;
+}
+
+.yazi1 p {
+  padding-top: -15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.airpods {
+  background-image: url(./assets/img/hero_airpods_holiday__gf6dktxz06eu_largeshort.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.airpods a {
+  padding-top: 10px;
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.airpods a:hover {
+  text-decoration: underline;
+}
+
+.hediye {
+  background-image: url(./assets/img/hero_startframe__dbi4flqyio2u_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.hediye a {
+  padding-top: 10px;
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.hediye a:hover {
+  text-decoration: underline;
+}
+
+.yazi2 {
+  padding-top: 475px;
+}
+
+.yazi2 h1 {
+  text-align: center;
+  font-size: 55px;
+  color: #f5f5f7;
+}
+
+.yazi2 p {
+  padding-top: -15px;
+  text-align: center;
+  font-size: 25px;
+  color: #f5f5f7;
+}
+
+.solfotograf {
+  background-image: url(./assets/img/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 575px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.sagfotograf {
+  background-image: url(./assets/img/promo_ipad__fioegapg12qi_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 575px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.yazi3 {
+  padding-top: 50px;
+}
+
+.yazi3 h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #f5f5f7;
+  font-weight: bold;
+}
+
+.yazi3 p {
+  padding-top: -15px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f5f5f7;
+  padding-bottom: 10px;
+}
+
+.yazi3 a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.yazi3 a:hover {
+  text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+}
+
+.satir2solfotograf {
+  background-image: url(./assets/img/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 575px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.satir2sagfotograf {
+  background-image: url(./assets/img/promo_tv4k__d33vaocbii82_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 575px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.satir3solfotograf {
+  background-image: url(./assets/img/promo_ipadpro_order__upw04aj7i2qe_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 575px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.satir3sagfotograf {
+  background-image: url(./assets/img/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 575px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.boslukver {
+  margin-top: 10px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-evenly;
+  height: 375px;
+  padding-left: 460px;
+  padding-right: 460px;
+  margin: auto;
+  background-color: #f5f5f7;
+}
+
+.menu ul {
+  padding-top: 10px;
+  list-style-type: none;
+  padding-right: 57px;
+  width: 175px;
+}
+
+.menu li {
+  width: 195px;
+}
+
+.menu li {
+  padding-top: 8px;
+}
+
+.menu ul,
+li {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  color: #767679;
+  font-size: 13px;
+}
+
+.menu b {
+  color: #4c4c4e;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #f5f5f7;
+  height: 100px;
+  padding-left: 370px;
+  padding-right: 460px;
+  margin: auto;
+}
+
+.footer span {
+  color: #06c;
+}
+
+.footer p {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  color: #767679;
+  font-size: 13px;
+}
+
+.footer hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#id p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    display: block;
+  }
+}
