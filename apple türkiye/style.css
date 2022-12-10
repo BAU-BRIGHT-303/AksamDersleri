@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: rgb(50, 50, 51);
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  position: fixed;
+}
+
+.navbar a {
+  width: 40%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+  padding: 20px;
+  font-weight: 100px;
+  font-size: 13px;
+}
+
+.navbar2 {
+  margin: 0;
+  background-color: rgb(251, 251, 253);
+}
+
+.navbar2 h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 80px 0 0 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar2 h4 {
+  padding: 0;
+  color: rgb(29, 29, 31);
+  font-size: 30px;
+  width: 50%;
+  font-weight: bold;
+}
+
+.navbar2 a {
+  text-decoration: none;
+
+  color: rgb(16, 111, 207);
+  font-size: 20px;
+  width: 20%;
+  font-weight: 900;
+}
+
+#numara1 {
+  padding: 150px 50px 100px 0;
+  color: rgb(16, 111, 207);
+}
+
+.navbar3 {
+  background-color: black;
+  text-decoration: none;
+}
+
+.navbar3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar3 h1 {
+  padding: 50px 0 5px 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navbar3 h4 {
+  color: rgb(183, 29, 34);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 5px 0;
+}
+
+.navbar3 h3 {
+  font-size: 30px;
+  font-weight: 50px;
+  padding: 5px 0 10px 0;
+}
+
+#numara3 {
+  color: rgb(41, 151, 255);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 100px 20px 50px 0;
+}
+
+#numara4 {
+  padding: 100px 20px 50px 0;
+  color: rgb(41, 151, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar4 {
+  margin-top: 10px;
+  background-color: rgb(3, 1, 41);
+  height: 580px;
+}
+
+.navbar4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar4 h1 {
+  padding: 0px 0 5px 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navbar4 h4 {
+  padding: 0px 0 5px 0;
+  font-size: 25px;
+  font-weight: 20px;
+}
+
+#numara6 {
+  padding: 100px 20px 50px 0;
+  color: rgb(41, 151, 255);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar5 {
+  margin: 10px 5px 10px 10px;
+  background-color: black;
+  width: 49%;
+  float: left;
+}
+
+.navbar5 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar5 h1 {
+  padding: 40px 0 5px 0;
+}
+
+.navbar5 h4 {
+  padding: 0 0 10px 0;
+}
+
+#numara7 {
+  font-weight: bold;
+  color: rgb(41, 151, 255);
+  padding: 20px 25px 20px 0;
+}
+
+#numara8 {
+  font-weight: bold;
+  color: rgb(41, 151, 255);
+  padding: 20px 0 20px 10px;
+}
+
+.temizle {
+  clear: both;
+}
+
+.navbar6 {
+  margin: 10px 10px 10px 5px;
+  background-color: rgb(251, 251, 251);
+  width: 48.5%;
+  float: right;
+}
+
+.navbar6 a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar6 h1 {
+  padding: 40px 0 5px 0;
+}
+
+.navbar6 h4 {
+  padding: 0 0 10px 0;
+}
+
+.navbar7 {
+  margin: 10px 5px 10px 10px;
+  background-color: rgb(251, 251, 251);
+  width: 49%;
+  float: left;
+}
+
+.navbar7 a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar7 h1 {
+  padding: 40px 0 5px 0;
+  font-weight: bold;
+}
+
+.navbar7 h4 {
+  padding: 0 0 10px 0;
+}
+
+#numara9 {
+  color: rgb(3, 103, 204);
+  font-weight: bold;
+}
+
+#numara10 {
+  color: rgb(3, 103, 204);
+  font-weight: bold;
+}
+
+.navbar8 {
+  margin: 10px 5px 10px 10px;
+  background-color: rgb(245, 245, 247);
+  width: 48.5%;
+  float: right;
+}
+
+.navbar8 a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar8 h1 {
+  padding: 40px 0 5px 0;
+  font-weight: bold;
+}
+
+.navbar8 h4 {
+  padding: 0 0 10px 0;
+}
+
+#numara11 {
+  color: rgb(3, 103, 204);
+  font-weight: bold;
+}
+
+#numara12 {
+  color: rgb(3, 103, 204);
+  font-weight: bold;
+}
