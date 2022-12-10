@@ -140,6 +140,7 @@
   background-color: black;
   width: 49%;
   float: left;
+  height: 550px;
 }
 
 .navbar5 a {
@@ -176,6 +177,7 @@
   background-color: rgb(251, 251, 251);
   width: 48.5%;
   float: right;
+  height: 550px;
 }
 
 .navbar6 a {
