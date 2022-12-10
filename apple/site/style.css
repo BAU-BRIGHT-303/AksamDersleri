@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 44px;
+  z-index: 300;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.container nav {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 8px;
+  height: 100%;
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  list-style: none;
+}
+
+nav .menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  opacity: 0.8;
+  transition: opacity 400ms;
+}
+
+nav .menu li a:hover {
+  opacity: 1;
+}
+.logo {
+  background: url(/foto/clipart2412829.png);
+  display: block;
+  background-position: center;
+  height: 44px;
+  background-size: 18px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+.arama {
+  background: url(/foto/[CITYPNG.COM]White\ Search\ Icon\ Button\ PNG\ IMG\ -\ 512x512.png);
+  display: block;
+  background-position: center;
+  height: 44px;
+  background-size: 18px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+.canta {
+  background: url(foto/favpng_shopping-icon-shopping-bag-icon-bag-icon.png);
+  display: block;
+  background-position: center;
+  height: 44px;
+  background-size: 18px;
+  width: 25px;
+  background-repeat: no-repeat;
+}
+
+.photo {
+  background: url(https://www.apple.com/tr/home/built_includes/heroes/iphone-14/images/hero_iphone14__fjmsqstr1ceq_medium.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.link {
+  text-align: center;
+  padding-top: 7rem;
+  font-size: 20px;
+  margin: 0px 20px;
+}
+.foto2 {
+  background: url(./foto/hero_airpods_holiday__gf6dktxz06eu_largetall.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.foto2 .logo2 nav ul {
+  background: url(./foto/hero_logo_airpods_holiday__p3uu2b278j2a_largetall.png);
+
+  display: block;
+  background-position: center;
+  height: 44px;
+  background-size: 18px;
+  width: 25px;
+  background-repeat: no-repeat;
+}
