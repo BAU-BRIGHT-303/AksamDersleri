@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; */
+  font-family: "SF Pro Text", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 40px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin-top: 10px;
+  margin-right: 35px;
+}
+
+.navbar a {
+  color: #c1c1c1;
+  font-size: 12px;
+}
+
+.navbar a:hover {
+  color: #ececec;
+}
+
+.navbar #logo {
+  font-size: 15px;
+}
+
+.navbar i {
+  position: relative;
+  top: -1px;
+}
+
+.main {
+  height: 580px;
+  background-image: url("https://www.apple.com/tr/home/built_includes/heroes/iphone-14/images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+  background-size: 200%;
+  background-position: 50% 5px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.main-yazilar {
+  padding-top: 4%;
+}
+
+.main-yazilar h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.main-yazilar h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.main-yazilar a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #06c;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.main-yazilar i {
+  font-size: 10px;
+  padding: 7px;
+}
+
+.main-2 {
+  height: 570px;
+  background-image: url("https://www.apple.com/v/home/aw/images/heroes/airpods-holiday-2022/hero_airpods_holiday__gf6dktxz06eu_largeshort.jpg");
+  background-size: 200%;
+  background-position: 50% 5px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.main-2 h3 {
+  margin-bottom: 15px;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+#animate-area {
+  height: 600px;
+  background-image: url("https://www.apple.com/v/home/aw/images/heroes/holiday-2022/hero_endframe__8xosbwdvpaqe_large.jpg");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 10s linear infinite alternate;
+  text-align: center;
+}
+
+#animate-area .main-yazilar {
+  color: white;
+  padding-top: 30%;
+}
+
+#animate-area .main-yazilar h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.wrapper {
+  padding: 5px;
+}
+
+.ilksatir,
+.ikincisatir,
+.ucuncusatir {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sol1,
+.sag1,
+.sol2,
+.sag2,
+.sol3,
+.sag3 {
+  height: 575px;
+
+  background-color: crimson;
+  flex: 1;
+  margin: 5px;
+}
+
+.sol1 {
+  background: url("https://www.apple.com/v/home/aw/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sag1 {
+  background: url("https://www.apple.com/v/home/aw/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*Media Ayarı*/
+
+/*Media Ayarı*/
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    height: 60px;
+  }
+
+  .navbar li {
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+
+  .main {
+    height: 600px;
+    background-image: url("https://www.apple.com/tr/home/built_includes/heroes/iphone-14/images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+    background-size: 300%;
+    background-position: 50% 50px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 430px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar ul li {
+    border-bottom: 2px solid white;
+  }
+
+  .main {
+    height: 600px;
+    background-image: url("https://www.apple.com/tr/home/built_includes/heroes/iphone-14/images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+    background-size: 400%;
+    background-position: 50% 70px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .main-2 {
+    height: 570px;
+    background-image: url("https://www.apple.com/v/home/aw/images/heroes/airpods-holiday-2022/hero_airpods_holiday__gf6dktxz06eu_largeshort.jpg");
+    background-size: cover;
+    background-position: 50% 5px;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .ilksatir,
+  .ikincisatir,
+  .ucuncusatir {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 700px;
+  }
+}

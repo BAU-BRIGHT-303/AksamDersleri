@@ -1,0 +1,11 @@
+.konteynir {
+  border: 2px solid black;
+  background-color: crimson;
+  height: 500px;
+}
+
+.konteynir2 {
+  border: 2px solid black;
+  background-color: rgb(23, 86, 53);
+  height: 150px;
+}
