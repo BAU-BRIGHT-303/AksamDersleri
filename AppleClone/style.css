@@ -67,7 +67,7 @@
     background-color: black;
     height: 600px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url(./assets/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
   }
@@ -348,12 +348,12 @@ body {
 
 .series {
   margin-right: 10px;
-  background-image: url(./assets/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+  background-image: url(./promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
   height: 600px;
   width: 48%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   margin-bottom: 10px;
 }
 .series h1 {
