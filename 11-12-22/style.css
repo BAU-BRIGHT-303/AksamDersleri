@@ -8,6 +8,12 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+.ust-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
 .bg-dark {
   background-color: #5f7161 !important;
 }
@@ -28,12 +34,13 @@ body {
 }
 
 .main-div {
-  height: 500px;
+  height: 700px;
   background: linear-gradient(rgba(66, 66, 66, 0.614), rgba(103, 66, 51, 0.5)),
     url("https://img.freepik.com/free-photo/top-view-tasty-coffee-with-coffee-beans_1220-388.jpg?w=826&t=st=1670745126~exp=1670745726~hmac=cf941b248319796f2b68f00c37e2258341862c71cc209830c303479b9ebf8187");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  background-attachment: fixed;
 }
 
 .main-yazilar {
