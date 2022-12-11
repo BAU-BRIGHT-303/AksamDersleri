@@ -1,0 +1,66 @@
+.container .navbar-brand {
+  color: black !important;
+}
+.sabit {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.bg-dark {
+  background: #f3f9fbb3 !important;
+}
+.active {
+  color: blueviolet !important;
+  font-weight: bold;
+}
+.nav-link {
+  color: rgb(64, 63, 63);
+}
+.header {
+  height: 680px;
+  background: url("https://static.wixstatic.com/media/ea71bb_a5799cd36d6b48f3953cd21464288e19~mv2_d_9491_3840_s_4_2.jpg/v1/fill/w_1359,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_a5799cd36d6b48f3953cd21464288e19~mv2_d_9491_3840_s_4_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  animation: gradient 5s ease infinite;
+  width: 100%;
+}
+
+.header-yazilar {
+  padding-top: 10%;
+}
+.line {
+  height: 1px;
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+.header-yazilar h1 {
+  font-size: 150px;
+  font-weight: bold;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.header-yazilar h3 {
+  font-size: 20px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  margin-top: 25px;
+}
+.sag {
+  background: url(https://static.wixstatic.com/media/ea71bb_078dd807775644e886b84f9df61bdc3e~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_665,h_664,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ea71bb_078dd807775644e886b84f9df61bdc3e~mv2_d_5760_3840_s_4_2.jpg);
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
