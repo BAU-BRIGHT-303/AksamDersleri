@@ -15,7 +15,7 @@ body {
 }
 
 .bg-dark {
-  background-color: #5f7161 !important;
+  background: #5f7161b3 !important;
 }
 
 .nav-link {
@@ -41,10 +41,25 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
 .main-yazilar {
-  padding-top: 10%;
+  padding-top: 15%;
 }
 
 .main-yazilar h1 {
@@ -93,7 +108,8 @@ body {
 .about-section {
   padding-top: 20px;
   text-align: center;
-  background-color: #6d8b74;
+  background: url("https://img.freepik.com/free-photo/coffee-beans-levitate-white-background_485709-33.jpg?w=826&t=st=1670762436~exp=1670763036~hmac=020ec0ea1fa4d5a76b11e8e8e1046fdab5afdffb07c18468252ec3e18bb6bf18");
+  background-attachment: fixed;
 }
 
 .about-section .row {
