@@ -96,3 +96,21 @@ body {
 .about-section .sol img {
   height: 100px;
 }
+
+.footer-wrapper ul {
+  list-style-type: none;
+}
+
+.footer-wrapper img {
+  height: 75px;
+}
+
+.footer-wrapper a {
+  text-decoration: none;
+  color: #5f7161;
+  font-weight: bold;
+}
+.footer-wrapper i {
+  font-size: 20px;
+  color: #5f7161;
+}
