@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.bg-dark {
+  background-color: #5f7161 !important;
+}
+
+.nav-link {
+  color: #d0c9c0 !important;
+}
+
+.nav-link:hover {
+  color: #efead8 !important;
+}
+
+.active {
+  font-weight: bold;
+  font-style: italic;
+  color: #efead8 !important;
+  border-bottom: 2px solid #efead8;
+}
+
+.main-div {
+  height: 500px;
+  background: linear-gradient(rgba(66, 66, 66, 0.614), rgba(103, 66, 51, 0.5)),
+    url("https://img.freepik.com/free-photo/top-view-tasty-coffee-with-coffee-beans_1220-388.jpg?w=826&t=st=1670745126~exp=1670745726~hmac=cf941b248319796f2b68f00c37e2258341862c71cc209830c303479b9ebf8187");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.main-yazilar {
+  padding-top: 10%;
+}
+
+.main-yazilar h1 {
+  font-size: 70px;
+  color: #efead8;
+  font-family: "Playfair Display", serif;
+}
+
+.line {
+  height: 5px;
+  background-color: #6d8b74;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.main-yazilar h3 {
+  font-size: 40px;
+  color: #efead8;
+  font-family: "Playfair Display", serif;
+}
+
+.card {
+  background-color: #efead8;
+  color: #5f7161;
+  border-radius: 5%;
+  transition: all ease 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.15), 0 10px 50px rgba(0, 0, 0, 0.15);
+  transform: scale(1.05);
+}
+.card .btn-primary {
+  background-color: #5f7161 !important;
+  color: #efead8 !important;
+  border: 1px solid #5f7161;
+}
+
+.card .btn-primary:hover {
+  background-color: #efead8 !important;
+  color: #5f7161 !important;
+  border: 1px solid #5f7161;
+}
+
+.about-section {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #6d8b74;
+}
+
+.about-section .row {
+  margin-bottom: 40px;
+}
+
+.about-section .sol img {
+  height: 100px;
+}
