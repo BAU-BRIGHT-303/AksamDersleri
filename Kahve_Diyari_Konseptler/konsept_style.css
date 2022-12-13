@@ -1,0 +1,156 @@
+/* BU CSS DOSYASI KONSEPTLER CSS DOSYASIDIR. 
+SONRADAN OLUŞTURULAN CLASSLARIN TAMAMI KONSEPTLER 
+SAYFASINA AİT OLUP BAŞLARINDA "KONSEPT YAZMAKTADIR!!!!!" */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* KONSEEPTLER ÇUBUĞU BAŞLANGIÇ */
+
+.konsept_cubuk {
+  height: 200px;
+  background-color: #09514d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.konsept_ubuk .mt-5 {
+  padding-top: 25px;
+}
+.konsept_cubuk h1 {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 50px;
+}
+.konsept_cizgi {
+  color: white;
+  text-transform: none;
+  text-decoration-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.konsept_cizgi:hover {
+  color: white;
+}
+
+/* KONSEPTLER ÇUBUĞU BİTİŞ */
+
+/* KONSEPTLER TABLOSU BAŞLANGIÇ */
+.konsept_genel_card {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.konsept_genel_card a {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.konsept_kesif {
+  height: 800px;
+}
+.konsept_kesif h1 {
+  color: #09514d;
+}
+.konsept_card_1 {
+  border-radius: 3%;
+  background-color: #09514d !important;
+  background: linear-gradient(rgba(15, 71, 68, 0.85), rgba(15, 71, 68, 0.85)),
+    url("./assets/yaninda-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  margin: auto;
+  height: 550px;
+  width: 400px;
+}
+.konsept_card_1:hover {
+  background-size: 120%;
+  background-position: center;
+  transition: all ease 1s;
+}
+.konsept_card_2 {
+  border-radius: 3%;
+  background: linear-gradient(
+      rgba(204, 132, 52, 0.85),
+      rgba(204, 132, 52, 0.85)
+    ),
+    url("./assets/kafe-2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  height: 550px;
+  width: 400px;
+}
+.konsept_card_2:hover {
+  background-size: 120%;
+  background-position: center;
+  transition: all ease 1s;
+}
+.konsept_card_3 {
+  border-radius: 3%;
+  background: linear-gradient(rgba(15, 71, 68, 0.85), rgba(15, 71, 68, 0.85)),
+    url("./assets/konteyner-3.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  height: 550px;
+  width: 400px;
+}
+.konsept_card_3:hover {
+  background-position: center;
+  background-size: 120%;
+  transition: all ease 1s;
+}
+.konsept_genel_card p,
+a,
+h2 {
+  padding-left: 20px;
+  font-family: "Fredoka One", cursive;
+  font-weight: bolder;
+}
+.konsept_genel_card p {
+  margin-bottom: 0px !important;
+  font-size: x-large;
+}
+.konsept_genel_card h2 {
+  font-size: 40px;
+}
+.konsept_card_1 .mt-5 {
+  padding-top: 150px !important;
+}
+.konsept_card_2 .mt-5 {
+  padding-top: 150px !important;
+}
+.konsept_card_3 .mt-5 {
+  padding-top: 150px !important;
+}
+/* RESPONSIVE BAŞLANGIÇ */
+@media only screen and (max-width: 1000px) {
+  .konsept_card_1 {
+    width: 100%;
+    height: 700px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  .konsept_card_2 {
+    width: 100%;
+    height: 700px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  .konsept_card_3 {
+    width: 100%;
+    height: 700px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+}
+/* RESPONSIVE BİTİŞ */
+
+/* KONSEPTLER TABLOSU BİTİŞ */
