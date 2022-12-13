@@ -1,0 +1,34 @@
+.sliderlar img {
+  width: 100%;
+  height: auto;
+  margin-top: 35px;
+}
+
+.ucuncusira {
+  background-color: #dd8c33;
+  width: 100%;
+  height: 250px;
+  margin-top: 175px;
+}
+
+.ucuncusira-sol {
+  padding-top: 50px;
+  font-family: Vag, serif;
+  font-size: 40px;
+  /* font-weight: bold; */
+  color: white;
+}
+
+@font-face {
+  font-family: Vag;
+  src: url(./fonts/VAGRoundedBT.ttf);
+}
+.ucuncusira-orta {
+  padding-top: 40px;
+}
+.ucuncusira-sag img {
+  width: 100%;
+  position: relative;
+  top: -50px;
+  right: -35px;
+}
