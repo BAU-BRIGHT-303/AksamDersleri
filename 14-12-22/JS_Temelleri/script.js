@@ -49,3 +49,18 @@ const
 //Kullanıcının veri girişi yapacağı basit bir kutucuk gösterimi sağlamak için prompt özelliği kullanılmaktadır.
 // var isim = prompt("İsminiz Nedir?");
 // console.log(isim);
+
+//Değişken atamaları yaparken başlarında kullanmış olduğumuz tip yani (var,let,const) arasında belli başlı farklar bulunmaktadır. const dediğimiz yapı sabit değişkenler için kullanılıyor olup değişken oluşturma aşamasında değeri atanır ve bu değer bir daha değiştirilemez. var ve let ile alakalı konu ise şöyledir. İkisini de kullanarak değişken ataması yapılabilir. Ve bu değişkenlerin değerleri alt satırlarda değiştirilebilir. Fakat var ile ataması yapılan bir değişken alt satırlarda var kullanılarak tekrardan yeni bir değer alabilirken, let ön ekiyle ataması yapılan bir değişkende aynı durum geçerli değildir.
+
+var nesne1 = "Bardak";
+nesne1 = "Su";
+
+var nesne1 = "Sürahi";
+console.log(nesne1);
+
+let nesne2 = "Süt";
+console.log(nesne2);
+nesne2 = "kahve";
+console.log(nesne2);
+//Tanımlamada gördüğümüz üzere let ikinci defa aynı scope içerisinde kullanılarak yeniden bi değişkene ön ek olamaz!!!!!!
+// let nesne2 = "Kupa"
