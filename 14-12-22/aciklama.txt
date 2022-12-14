@@ -1,0 +1,23 @@
+SCSS --> SASS
+Syntactically Awesome Style Sheet
+Geliştirilmiş genişletilmiş css
+Doğrudan browserlar üzerinden okunması mümkün değildir dolayısıyla css dosyasına arkaplanda çevrilme işlemi gerçeklşetirilir. 
+Kurulumu için farklı seçenekler vardır.
+Biz node aracılığıyla kuracağız.
+Neler yapılabiliyor???
+Değişkenler aracılığıyla çoğu özelliği çağırabiliyoruz.
+İç içe kullanım özelliği mevcut. (nested)
+Partial kullanımı.
+Kalıtım özelliği mevcut.
+kurulum yaparacağımız alanda terminal açıp npm init -y diyip package.json kurulumuyla başlıyoruz.
+sonra da npm install node-sass diyerek sass paketimizi kuruyoruz.
+sonra da projemizde başlangıç scriptimizi yazacağız.
+node modülleri kurulduktan sonra package.json dosyamızdaki scriptimize şu kısmı yazıyoruz.
+"scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+
+sonra bir scss klasörü oluşturuyoruz. İçerisine bir adet main.scss dosyası oluşturuyoruz. ana klasöre bir adet de dist isminde klasör oluşturuyoruz. bunun içine de css adında bir klasör koyuyoruz.
+sonra da npm run sass diyerek terminalde çalışır halde bırakıyoruz.
+bu süreçten sonra main.scss içinde yazdığımız tüm özellikler otomatik olarak css'e çevriliyor olacak.
+
