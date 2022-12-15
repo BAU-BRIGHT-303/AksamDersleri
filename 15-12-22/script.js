@@ -174,4 +174,141 @@ console.log(baslangic);
 baslangic[0] = "x";
 console.log(baslangic);
 
-//DİZİLER
+//String Metotları
+
+var name = "Gökhan Cingöz";
+console.log(name.length);
+
+// içeriğin uzunluğunu ölçmek için kullandığımız metottur.
+
+//metnin içerisinde belirtilmiş olan harf ya da kelimenin başladığı index numarasını veriyor.
+console.log(name.indexOf("kh"));
+
+//birbirini tekrar eden ögelerin sonuncunun index numarasını verir.
+console.log(name.lastIndexOf("ö"));
+
+//aynı işlemi yapan başka bir metot
+//indexOf metodu gibi çalışmaktadır..
+console.log(name.search("an"));
+
+// başlangıç ve bitiş index numaralarına göre belirtilen kısımdan parça almaya yarayan metot.
+
+console.log(name.slice(3, 8));
+
+//yine slice metodu ile aynı işlevde başka bir metot
+
+console.log(name.substring(5, 12));
+
+var message = "html,css,javascript,react";
+
+//string içerisinde geçen ifadeleri değiştirmek için kullandığımız metot replace metodudur.
+console.log(message.replace("css", "scss"));
+
+console.log(name.toUpperCase());
+console.log(name.toLowerCase());
+
+var cumle = "Web ve Mobil";
+var cumle2 = "Programlama";
+
+var cumle3 = cumle.concat(" ", cumle2);
+
+console.log(cumle3);
+
+//Split metodu ile elimizdeki string ifademizi bir dizi haline çevirebilmekteyiz. Burada parantez içerisinde yazmış olduğumuz ifade her ne ise ondan yola çıkarak her elemanı ayıracak ve bir dizi haline getirecektir.
+var arrayFirst = cumle3.split(" ");
+
+console.log(arrayFirst[0]);
+
+//Diziler (Arrays)
+
+let cars = ["BMW", "MERCEDES", "RENAULT", "PEUGEOT"];
+console.log(cars);
+
+console.log(cars[2]);
+
+//nested array
+let array1 = [
+  [1, 3, 5, 7],
+  ["Barbaros", "Tuba", "Sezer"],
+  ["Sadri", "Gökhan", ["Renault", "Doblo", "TOGG"]],
+];
+
+console.log(array1[1][1]);
+
+console.log(array1[2][2][2]);
+
+let array3 = [
+  [
+    ["Onur", "Yiğit", "Serhat", "Enes"],
+    [25, 25, 29, 24],
+    [67, 59, 47, 58],
+  ],
+  [
+    ["Sivas", "Kangal"],
+    ["İzmir", "Bomba"],
+    ["Çorum", "Leblebi"],
+    ["Kars", "Peynir"],
+  ],
+];
+
+console.log(array3[1][2][1]);
+
+//Dizi Metotları
+
+// Diziye eleman ekleme metodu
+
+var dizi = ["Barbaros", "TUğBA", "Akşin"];
+console.log(dizi);
+
+dizi.push("Seyfi");
+console.log(dizi);
+
+//Son elemanı silme komutu
+dizi.pop();
+console.log(dizi);
+
+//İlk elemanı silme komutu
+dizi.shift();
+console.log(dizi);
+
+dizi.push("Burak");
+console.log(dizi);
+
+//İlk elemanı add edeceğimiz komut
+dizi.unshift("Mesut Komser");
+console.log(dizi);
+
+//sıralama için sort komutunu kullanıyoruz
+
+dizi.sort();
+console.log(dizi);
+
+//tersine çevirmek için kullanacağımız komut
+
+dizi.reverse();
+console.log(dizi);
+
+delete dizi[0];
+console.log(dizi);
+dizi[0] = "Barbaros";
+console.log(dizi);
+
+// Array Concatination
+var dizi1 = ["Elma", "Armut", "Pasta"];
+var dizi2 = ["Araba", "Muz", "Toka"];
+
+const newDizi = dizi1.concat(dizi2);
+
+console.log(newDizi);
+
+//Splice metodu
+//Birden çok parametre alır ve aldığı parametrelere göre değişik özellikler gösteren bir metottur.
+
+var dizi3 = ["HP", "LOTR", "Avengers", "Batman"];
+
+//burada kullandığımız parametreler şöyle çalışmaktadır. İlk parametre operasyona başlayacağımız index numarasını ister, ikinci parametre kaç adet eleman silmek istediğimizi ister, buradan sonra yazacağımız paramtreler bu operasyon sonrasında eklemek istediğimiz elemanları bahsetmiş olduğumuz indexten itibaren ekleyerek gider.
+dizi3.splice(2, 0, "Godfather");
+console.log(dizi3);
+
+dizi3.splice(2, 1);
+console.log(dizi3);
