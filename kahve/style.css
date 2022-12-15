@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+}
+
+
+
+
+
+.kahvedi{
+    width: 87%;
+    
+   margin: auto;
+}
+.dada{
+    width: 10%;
+    margin: auto;
+    height: 70%;
+
+}
+.line {
+    height: 1px;
+    background-color:black;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+
+ 
+  .top {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 235, 235) !important;
+    height: 50px;
+  }
+  
+  .left a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+  }
+  
+  .mid {
+    width: 650px;
+  }
+  
+  .mid p {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .right {
+    width: 230px;
+  }
+  
+  .right a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+  
+  .right i {
+    font-size: 17px;
+  }
+  
+  .mid2 li {
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .mid2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .mid2 a:hover {
+    color: orangered;
+  }
+  
+  .right2 {
+    width: 100px;
+    margin-right: 0;
+    padding: 0;
+  }
+  
+  .right2 a {
+    color: black;
+    font-style: unset;
+  }
+
