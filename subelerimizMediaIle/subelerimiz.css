@@ -1,0 +1,459 @@
+@font-face {
+  font-family: Vag;
+  src: url(./font/Vag.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: VagRounded;
+  src: url(./font/VAGRoundedBT.ttf);
+}
+
+html.index,
+body.index {
+  height: 100%;
+  position: relative;
+}
+html {
+  line-height: normal;
+}
+.responsive-img {
+  vertical-align: bottom;
+}
+a {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+}
+body {
+  color: var(--black-color);
+  font-size: var(--font-size);
+  font-family: "Vag", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vag;
+}
+
+.container1 {
+  z-index: -2;
+  background: #06514d;
+  height: 215px;
+}
+.content {
+  background: #06514d;
+}
+
+.content ul {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 25px;
+  list-style-type: none;
+}
+.content ul li {
+  display: inline;
+}
+.content a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.content a:hover {
+  color: white;
+}
+.text {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 500px;
+  z-index: 2;
+}
+
+.text::after {
+  font-size: 120px;
+  font-family: "VagRounded", sans-serif;
+  position: absolute;
+  z-index: -1;
+  content: "KAHVEDİYARI";
+  -webkit-text-stroke: 1px #05423f;
+  -webkit-text-fill-color: #06514d;
+}
+@media screen and (max-width: 1200px) {
+  .container1 {
+    height: 180px;
+  }
+  .content ul {
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .content a {
+    font-size: 16px;
+  }
+  .text {
+    font-size: 34px;
+    margin-left: 390px;
+  }
+  .text::after {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container1 {
+    height: 150px;
+  }
+  .content ul {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .content a {
+    font-size: 14px;
+  }
+  .text {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 300px;
+  }
+  .text::after {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container1 {
+    height: 120px;
+  }
+  .content ul {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .content a {
+    font-size: 12px;
+  }
+  .text {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 180px;
+  }
+  .text::after {
+    font-size: 50px;
+  }
+}
+
+.subeler {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 70px;
+}
+
+.icerik {
+  margin-bottom: 60px;
+  font-size: 22px;
+  position: relative;
+  font-weight: 500;
+}
+
+.icerik .yazi {
+  max-width: 790px;
+  margin: 0;
+  float: left;
+  color: #000000;
+  line-height: 30px;
+}
+
+.icerik .konseptler {
+  display: inline-block;
+  overflow: hidden;
+  float: right;
+  padding: 20px 40px;
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #d98833;
+  cursor: pointer;
+}
+
+.icerik .konseptler img {
+  margin-right: 15px;
+}
+
+.subelerlist {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.subelerlist ul li {
+  list-style: none;
+  width: 240px !important;
+  overflow: hidden;
+  margin: 0px;
+  padding: 30px 20px;
+  list-style: none;
+  top: 90px !important;
+  border-radius: 10px;
+  background-color: #e3e2df;
+  display: inline-block;
+}
+
+.subelerlist > li {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 25px 0px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #06514d;
+  display: list-item;
+  width: 100%;
+}
+
+.subelerlist > li .section {
+  width: 50%;
+  display: inline-block;
+  padding: 0px 50px;
+  vertical-align: top;
+  color: #ffffff;
+  position: relative;
+}
+
+.subelerlist > li .icon {
+  max-width: 95px;
+  display: inline-block;
+  overflow: hidden;
+  float: right;
+}
+.subelerlist > li .links {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 50px;
+  font-family: "VAGRoundedBT", sans-serif;
+}
+
+.subelerlist > li .links {
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 50px;
+  font-family: "VAGRoundedBT", sans-serif;
+}
+.subelerlist > li .fancybox-menu {
+  margin-right: 25px;
+}
+.subelerlist > li .links img {
+  margin-right: 10px;
+}
+.subelerlist > li .links strong {
+  display: inline-block;
+}
+.subelerlist > li .links i {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.subelerlist > li .icon {
+  max-width: 95px;
+  display: inline-block;
+  overflow: hidden;
+  float: right;
+}
+
+.subelerlist > li .title {
+  display: inline-block;
+  padding-top: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "VAGRoundedBT", sans-serif;
+}
+.subelerlist > li .address {
+  max-width: 270px;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.subelerlist img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 15px;
+}
+
+.subelerlist > li .altalta2 {
+  background-color: #d98833 !important;
+}
+
+.cizgi {
+  width: 1px;
+  height: calc(100% - 50px);
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  z-index: 0;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  content: "";
+}
+
+@media (max-width: 1199.98px) {
+  .container {
+    height: 170px;
+  }
+
+  .icerik {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .icerik .yazi,
+  .icerik .konseptler {
+    max-width: inherit;
+    float: none;
+  }
+  .icerik .konseptler {
+    margin-top: 20px;
+  }
+
+  .title {
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 5px;
+  }
+
+  .address {
+    padding-top: 50px;
+  }
+
+  .subelerlist {
+    margin-bottom: 40px;
+    text-align: center;
+    width: auto;
+  }
+  .subelerlist .summary,
+  .subelerlist .concepts-btn {
+    max-width: inherit;
+    float: none;
+  }
+  .subelerlist .concepts-btn {
+    margin-top: 20px;
+  }
+  .subelerlist > li {
+    width: 750px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 12.5px 0px;
+    vertical-align: top;
+  }
+  .subelerlist > li::before {
+    display: none;
+  }
+  .subelerlist > li .section {
+    width: auto;
+    display: block;
+    padding: 12.5px 25px;
+  }
+  .subelerlist > li .title {
+    padding-top: 0;
+  }
+  .gallery-slider .owl-nav {
+    display: none;
+  }
+  .gallery-slider .owl-dots {
+    display: block;
+  }
+}
+
+@media (max-width: 850.98px) {
+  ::-webkit-scrollbar {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .body {
+    overflow: hidden;
+  }
+
+  .container {
+    height: 170px;
+  }
+
+  .icerik {
+    padding-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .icerik .yazi,
+  .icerik .konseptler {
+    max-width: inherit;
+    float: none;
+  }
+  .icerik .konseptler {
+    margin-top: 20px;
+  }
+
+  .subelerlist {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: auto;
+  }
+  .subelerlist .summary,
+  .subelerlist .concepts-btn {
+    max-width: inherit;
+    float: none;
+  }
+  .subelerlist .concepts-btn {
+    margin-top: 20px;
+  }
+  .subelerlist > li {
+    width: 470px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 12.5px 0px;
+    vertical-align: top;
+  }
+  .subelerlist > li::before {
+    display: none;
+  }
+  .subelerlist > li .section {
+    width: auto;
+    display: block;
+    padding: 12.5px 25px;
+  }
+  .subelerlist > li .title {
+    padding-top: 0;
+  }
+  .gallery-slider .owl-nav {
+    display: none;
+  }
+  .gallery-slider .owl-dots {
+    display: block;
+  }
+
+  .cizgi {
+    display: none;
+  }
+}
