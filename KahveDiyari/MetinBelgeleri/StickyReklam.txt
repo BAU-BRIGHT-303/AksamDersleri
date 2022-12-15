@@ -1,0 +1,27 @@
+    <!--YANSTICKY-->
+    <div class="yanReklam">
+      <a href="https://google.com.tr" target="_blank">
+        <img src="https://www.kahvediyari.com.tr/images/online-tr.svg" alt="" />
+      </a>
+    </div>
+    <!--YANSTICKY-->
+
+
+
+-----------------------------------------------
+
+.container-area {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.yanReklam {
+  width: 70px;
+  position: fixed;
+  z-index: 100;
+  top: 30%;
+  right: 2px;
+  background: #eee;
+  overflow: hidden;
+}

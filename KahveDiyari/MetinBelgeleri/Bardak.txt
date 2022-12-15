@@ -1,0 +1,59 @@
+    <!--BARDAK-->
+    <div class="konseptfoto w-100">
+      <div class="konsept-container">
+        <div class="konseptyazilar">
+          <h1>
+            Sen Nereye
+            <br />
+            Ben Oraya!
+          </h1>
+          <h5>Kahve Diyarı’nın Yeni “Yanında” Konseptinde Yerinizi Alın.</h5>
+          <h6>Kazanmaya Hemen Başlayın!</h6>
+        </div>
+      </div>
+    </div>
+    <!--BARDAK-->
+
+
+
+---------------------------------------------------
+
+.konseptfoto {
+  background-image: url(./konsept\ kahve\ resmi.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 390px;
+}
+
+.konsept-container {
+  margin-top: 5px;
+  padding-top: 9%;
+  padding-left: 5%;
+  color: #00524d;
+}
+
+.konsept-container h1 {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.konsept-container h5 {
+  font-weight: normal;
+}
+.konsept-container h6 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1200px) {
+  .konseptyazilar {
+    display: none;
+  }
+
+  .konseptfoto {
+    /* display: none; */
+    background-image: url(./bottom-mobile-tr.jpg);
+    height: 300px;
+    background-position: center;
+  }
+}

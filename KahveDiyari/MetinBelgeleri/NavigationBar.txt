@@ -1,0 +1,128 @@
+    <!--NAVBAR-->
+
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container-fluid">
+        <a
+          class="navbar-item"
+          href="https:/google.com.tr"
+          style="text-decoration: none; color: #21575f"
+          ><img
+            src="https://www.kahvediyari.com.tr/images/kahve-diyari.svg"
+            alt=""
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse renk navbar-collapse justify-content-xxl-between"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item menu">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="text-decoration: none; color: #21575f"
+                >Kurumsal</a
+              >
+            </li>
+
+            <li class="nav-item menu">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                style="text-decoration: none; color: #21575f"
+                >Şubelerimiz</a
+              >
+            </li>
+
+            <li class="nav-item menu">
+              <a
+                class="nav-link"
+                href="#"
+                style="text-decoration: none; color: #21575f"
+                >Franchise</a
+              >
+            </li>
+
+            <li class="nav-item menu">
+              <a
+                class="nav-link"
+                href="./konsept.html"
+                style="text-decoration: none; color: #21575f"
+                >Konseptler</a
+              >
+            </li>
+
+            <li class="nav-item menu">
+              <a
+                href="#"
+                class="nav-link"
+                style="text-decoration: none; color: #21575f"
+                >İletişim</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="text-decoration: none; color: #21575f; font-size: 25px"
+              >
+                <strong><i class="fa-solid fa-bars"></i> MENÜ</strong></a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" style="text-decoration: none; color: #21575f"
+                ><img
+                  src="https://www.kahvediyari.com.tr/images/444.svg"
+                  alt=""
+              /></a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                style="text-decoration: none; color: #21575f; font-size: 25px"
+              >
+                <strong> TR-EN </strong></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--NAVBAR-->
+
+
+------------------------------------------------------------------------------------------------------
+
+
+.navbar-nav {
+  font-size: 18px;
+}
+
+.navbar-nav li {
+  margin-right: 15px;
+}
+.nav-item a:hover {
+  color: #de8f33 !important;
+}
+.navbar {
+  height: 170px;
+}
+.menu {
+  padding-top: 7px;
+}

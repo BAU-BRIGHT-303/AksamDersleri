@@ -1,0 +1,55 @@
+  <!--FORM-->
+    <div class="container form col-xl-7 col-md-12">
+      <div class="row">
+        <div class="col-xl-6 col-md-12 formcontent">
+          <div class="contenthead mt-5 ms-5"><h1 class="content1">Bir sorununuz mu var?</h1></div>
+          <div class="contentmessage ms-5 mt-1"><p class="message">İletişim Formu</p></div>
+          <form action="">
+            <div class="form-outline m-5">
+              <input
+                type="text"
+                id="form12"
+                class="form-control "
+                placeholder="Adınız & Soyadınız *"
+              />
+              <label class="form-label" for="form12"></label>
+            </div>
+            <div class="form-outline m-5">
+              <input
+                type="email"
+                id="form12"
+                class="form-control"
+                placeholder="Email *"
+              />
+              <label class="form-label" for="form12"></label>
+            </div>
+            <div class="form-outline m-5">
+              <input
+                type="tel"
+                id="form12"
+                class="form-control"
+                placeholder="Telefon Numarası *"
+              />
+              <label class="form-label" for="form12"></label>
+          </form>
+          </div><div class="form-outline m-5">
+              <input
+                type="text"
+                id="form12"
+                class="form-control"
+                placeholder="Mesajınız"
+              />
+              <label class="form-label" for="form12"></label>
+          </form>
+          <div class="altmessage"><p>* Alanlar Mutlaka Doldurulmalıdır.</p></div>
+          <div class="altbutton "><a class="butonalt p-2" href=""><strong>GÖNDER</strong></a></div>
+          </div>
+        </div>
+        <div class="col-md-6 photo">
+            <div class="container mt-5">
+              <img  src="./assets/concept-1.jpg" alt="">
+            </div>
+        </div>
+      
+    </div>
+    <!--FORM-->
