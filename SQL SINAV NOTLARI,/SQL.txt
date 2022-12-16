@@ -1,0 +1,731 @@
+A---------------------- VERİ TİPLERİ ----------------
+--1) METİNSEL İFADELER
+-- char : unicode desteklemez. oluşturma şekli char(n) şeklindedir. 8000 karaktere kadar değer alır.
+-- nchar : unicode destekliyor. 4000 karaktere kadar değer alır.
+
+-- varchar : chardan farklı olarak kapladığı içerik kadar(verinin boyutu kadar) alan kaplamaktadır. Genellikle uzunluğunu tahmin edemediğimiz metinsel ifadelerde bizi kurtarmaktadır. 
+
+-- nvarchar : unicode destekler. 
+
+---------------------------------------
+--2) SAYISAL İFADELER
+
+-- bit:  bir byte büyüklüğünde alan kaplar.  Genellikle mantıksal ifadelerde kullanılmaktadır. Evety / hayır dönen ifadeler için birebirdir. 
+
+-- int : 4 byte büyüklüğünde alandır. 
+
+-- smallint : 2 byte lık alan kaplar. 
+
+-- bigint : 8 bytelık alan kaplar. 
+
+-- tinyint : 1 bytle alan kaplar. 0 ile 255 arasında bir rakama ihtiyacınız varsa ve bellekte gereksiz yer kaplamak istemiyorsanız kullanabilirsiniz.
+
+-- decimal, numeric : bunlar da ondalık ifadelerde kullandığımız veri türleridir. kullanımı decimal(16, 2)
+
+-------------------------------------------
+
+-- DDL Komutları 
+-- CREATE --> oluşturma komutu
+-- database oluşturmak için create database komutu ile başlayıp istediğimiz db adını belirtmiş olduk.
+--CREATE DATABASE ddlDenemeDB
+
+--use komutu ile çalışmak istediğimiz veritabanı adını girerek execute esnasında çalıştırılacak veritabanını bildiriyoruz.
+USE ddlDenemeDB
+
+-- yine ddl komutumuzdan olan create ile yeni bir tablo oluşturuyoruz ve içerisinde ilgili kolon özelliklerini giriyoruz. Burada özellikler boşluklar ile ayrılacak olup detaylandırılabilir. ve her kolon virgül ile ayrılmalıdır.
+CREATE TABLE Calisanlar(
+CalisanID int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+CalisanAd varchar(50) 
+)
+
+-- Yeni bir kolon eklemek için mevcut olan tablo olduğundan dolayı yeni bir tablo oluşturamadığımız için, alter table diyerek tablomuzda bir güncelleme yapmış olduğumuzu belirtiyoruz. sonrasında eklediğimiz komut add oluyor ve bir sütun eklenmiş oluyor.
+ALTER TABLE Calisanlar
+ADD Email varchar(50)
+
+-- Şimdi de diyelim ki email adlı kolonun veri tipini yanlış girdik ve değiştirmek istiyoruz.
+
+ALTER TABLE Calisanlar
+ALTER COLUMN Email int
+
+-- Sonra tamamen vazgeçtik ve kolonu silmek istedik.
+ALTER TABLE Calisanlar
+DROP COLUMN Email
+
+-- Şimdi de bu çalışmadan memnun olmadık ve komple veritabanını silmek istiyoruz.
+
+DROP DATABASE ddlDenemeDB
+----------------------------------------------------------
+
+-- DML --> Data Manipulation Language Ornekler
+
+-- Veri Ekleme ( Veri Girişi vsvs) INSERT
+
+-- Temel syntax aşağıdaki gibidir. Veri eklenecek olan tablo insert komutundan sonra belirtilir ve parantez açılarak veri eklemek istediğimiz sütunlar virgüllerle ayrılır. Akabinde values diyerek yeniden parantez açılır ve yukarıda belirtilen sıraya göre değerler girilir.
+INSERT INTO Egitmenler (EgitmenAdi, Email, Yas)
+VALUES ('Murat Başeren', 'm.baseren@gmail.com', 32)
+
+INSERT INTO Egitmenler (EgitmenAdi, Email, Yas)
+VALUES ('Onur Kulabaş', 'm.baseren@gmail.com', 32)
+
+--Güncelleştirme komutu -> UPDATE
+
+UPDATE Egitmenler
+set EgitmenAdi = 'Mahmut Tuncer' 
+WHERE EgitmenID = 4
+
+-- SİLME komutu DELETE
+-- bu alanda bilmemiz gereken konu çoğu programlama dilinde bir güncelleştirme ya da silme operasyonu gerçekleşeceği zaman mutlaka unique bir veriye erişim gerekmektedir. Biz de yukarıdaki update ve aşağıdaki silme işlemlerinde id kolonlarından faydalanmaktayız..
+DELETE
+FROM Egitmenler
+WHERE EgitmenID = 4
+
+INSERT INTO Ogrenciler (OgrenciAdi, Email)
+VALUES ('Ahmet', 'a.as@gmail.com')
+
+UPDATE Ogrenciler
+SET OgrenciAdi = 'Mehmet Çakar', Email = 'm.cakar@gmail.com'
+WHERE OgrenciID = 4
+
+DELETE 
+FROM 
+Ogrenciler 
+WHERE 
+OgrenciID
+=
+4
+
+-------------------------------------------------
+
+
+use NORTHWND 
+-- bu use kullanımı ile çalışmak istediğimiz veritabanını seçiyoruz.
+
+-- T-SQL --> Transact SQL Dili -- Temel Sorgular
+
+--SELECT ifadesi
+-- Bu ifade okunmak istenen veriyi kullanıcıya sunmaktadır. Veri bir tabloda ise o tabloya giden yolu yazarız. 
+-- Fakat aşağıdaki örnekte sadece okutmak istediğimiz datayı manuel şekilde girmiş olduk. 
+SELECT 'Barbaros'
+PRINT 'Barbaros' -- message box olarak istenen veriyi gösterme. 
+
+-- Çoklu kolonlarda datalarımızı göstermek için virgüller ile ayırmaktayız.
+
+SELECT 3,5,2
+
+-- Dosya yolu girerek sorgulama ( Yani ilgili tabloya gidip ilgili verileri çekmek )
+
+-- Tabloya gidip tüm dataları çekmek için * ifadesi kullanılır fakat bu ifade tüm satır ve tüm sütunlarda gezeceği için performası kötü etkileyecek bir komuttur. Bu sebeple bizim daha spesifik bir sorgu yapmamız uygundur.
+SELECT * FROM Employees
+
+-- Istediğimiz sütundan istediğimiz dataları çektik.
+SELECT CategoryName
+FROM Categories
+
+-- Sanal sütun adı ( alias ) atamak.
+-- Örneğin burada sorgumuzun sonucunun boş bir kolonda durmasındansa hayali bir sütun adı vererek komut sonucunun daa derli toplu gözükmesini sağlamış olduk.
+SELECT 30 AS Sayi
+-- boşluklu ifadelerde köşeli parantez kullanımı gerekmektedir.
+SELECT FirstName AS [İlk İsmi]
+FROM Employees
+
+
+-- KOŞUL İFADELERİ (WHERE)
+
+SELECT * FROM Employees
+
+SELECT * 
+FROM Employees
+WHERE City = 'London'
+
+-- İspanyada yaşayan müşterilerin şirket adı adresi şehri ve kontakt kişisini gösteren bir komut yazalım.
+SELECT CompanyName, Address, City, ContactName
+FROM Customers
+WHERE Country = 'Spain'
+
+-- Portekizde olmayan müşterileri gösterelim
+select *
+from Customers 
+where Country != 'Portugal'
+
+-- ülkesi almanya ya da ispanya olan müşterileri listeleyelim.
+select * from Customers
+WHERE Country = 'Germany' OR 
+Country = 'Spain' 
+-- faxını bilmediğimiz müşterileri listeleyelim.
+SELECT *
+FROM Customers
+WHERE Fax IS NULL
+-- 
+SELECT * FROM Products
+
+-- baş harfi s ile başlayan ürünleri listeleyelim
+SELECT ProductName
+FROM Products
+WHERE ProductName LIKE 's%'
+-- adı a ile başlayan personellerin ad soyad ve doğum tarihini listeleyelim
+SELECT FirstName, LastName, BirthDate
+FROM Employees
+WHERE FirstName LIKE 'a%'
+-- ismi içerisinde restaurant geçen müşterilerin listesini çekelim.
+select *
+from Customers
+where CompanyName like '%restaurant%'
+
+-- müşterilerimizi ülkelerine göre sıralayalım
+select  Country, CompanyName
+from Customers
+order by Country
+
+-- ürünleri pahalıdan aza sıralayalım.
+SELECT ProductName, UnitPrice
+FROM Products
+order by UnitPrice DESC
+
+SELECT * FROM Products
+
+-- Katgorisi 3 olan kaç adet ürün bulunmaktadır?
+select * from products
+where CategoryID = '3'
+select count(*) AS [Product Quantity in Category No 3]
+from Products
+WHERE CategoryID = '3'
+-- en pahalı 3 ürün
+select top 3 ProductName, UnitPrice
+from Products
+order by UnitPrice desc
+
+-- ürünlerimizin toplam maliyetleri ne kadardır??
+select UnitPrice, Quantity
+from [Order Details]
+select SUM(UnitPrice * Quantity) AS [Toplam Maliyet]
+from [Order Details]
+
+
+---900 adetten fazla satılan ürünler?
+select ProductID, sum(quantity)
+from [Order Details]
+group by ProductID
+HAVING sum(quantity)>900
+
+--- hangi kategoride toplam kaç adet ürün bulunuyor?
+
+select CategoryID, count(CategoryID)
+from Products
+group by CategoryID
+
+
+---hangi siparişte toplam ne kadar kazanılmış?
+
+select OrderID, sum(quantity*unitprice) AS ToplamKazanç
+from [Order Details]
+group by OrderID
+
+--JOIN MESELESİ
+
+SELECT * FROM Employees
+select * from Orders
+
+select * from Employees, Orders
+
+-- JOIN syntaxi
+
+-- select tablo_adi.sutunadi
+-- from tablo_x
+-- (inner join, left join, right join) tablo_y
+--ON tablo_x.sutunadi = tablo_y.sutunadi
+
+--Hangi ürünümüz hangi kategoridedir. Bu sorudaki amacımız ürün listeleri içerisinde kategorilere erişip o kategorinin adını yazmaktır.
+
+SELECT P.ProductName , C.CategoryName
+	FROM Products AS P
+		INNER JOIN Categories AS C 
+			ON C.CategoryID = P.CategoryID
+
+-- Hangi sipariş hangi kargo şirketi ile ne zaman gönderilmektedir???
+
+select S.ShipperID, S.CompanyName, FORMAT(O.ShippedDate, 'd', 'tr-TR')
+from Shippers AS S
+INNER JOIN Orders AS O
+on S.ShipperID = O.ShipVia
+ORDER BY S.ShipperID
+
+-- çalışanlara göre toplam siparisleri gösterelim. Çalışan ad ve soyad birleştirelim
+
+SELECT E.EmployeeID, E.FirstName + ' ' + E.LastName AS AdSoyad, COUNT(*) AS SatisMiktari
+FROM Employees AS E
+INNER JOIN Orders AS O
+ON E.EmployeeID = o.EmployeeID
+GROUP BY E.EmployeeID, E.FirstName + ' ' + E.LastName
+ORDER BY E.EmployeeID
+
+
+-- En çok 3 siparişi alan çalışan ?
+select top 3 e.FirstName + ' ' + e.LastName AS Employee, COUNT(e.EmployeeID) as [Sipariş Miktarı]
+from Employees as e
+inner join Orders AS o on e.EmployeeID = o.EmployeeID
+group by e.FirstName + ' ' + e.LastName
+order by [Sipariş Miktarı] desc
+
+
+
+-- Hangi ürün hangi kategoridedir ve ürünün tedarikçisi kimdir?
+SELECT P.ProductName, C.CategoryName, S.CompanyName
+FROM Products AS p
+INNER JOIN Categories AS C ON C.CategoryID = P.CategoryID
+INNER JOIN Suppliers AS S ON S.SupplierID = P.SupplierID
+ORDER BY P.ProductName
+
+
+
+-------------------------------------------------------------------------------
+
+
+
+-- STORED PROCEDURE --
+
+-- Genellikle rutinleşen işlemlerin kolay bir biçimde önden hazırlanarak gerçekleştirilebilmesine imkan veren kod blokları.
+--İlk kez çalıştırıldıkları zaman derlenirler. Daha sonra çalıştırıldıklarında tekrar derlenme durumları söz konusu değildir. Haliyle performans kazancı sağlanmaktadır.
+-- Kaydedilebilen ve tekrar çağrılabilen sql kod blokları olarak tanımlayabiliriz. 
+-- Tanımlama yapılıp kaydedildikten sonra EXEC keywordu ile çağrılmaktadır.
+
+-- Yine DDL komutlarını prosedür oluştururken kullanabilmekteyiz.
+
+--Söz dizimi
+CREATE PROCEDURE dbo.Selamlama
+AS
+BEGIN
+ SELECT 'SELAMLAR'
+END
+
+--Prosedürü oluşturmuş olduğumuz veritabanı üzerinde programmability klasörü içerisinde sotred procedures içerisinde kaydetmiş olduğumuz ismi ile görüntüleyebilmekteyiz..
+
+--Şimdi prosedürü çağıralım
+EXEC [dbo].[Selamlama]
+
+-- Diyelim ki bu prosedürde bir değişiklik ihtiyacımız var örneğin select komutunu değil de ekrana yazdırma komutunu kullanmak istedik.
+
+ALTER PROCEDURE dbo.Selamlama
+AS
+BEGIN
+ PRINT('SELAMLAR')
+END
+
+EXEC dbo.Selamlama
+
+-- Gayrımenkül yönetim sistemimiz üzerinde isim aratarak daha doğrusu ismi parametre olarak göndererek arama yapan ve bize sonuç dönen bir prosedür yazalım.
+use GayrimenkulYonetim
+
+
+-- bu örnekte gerçekçi bir prosedür örneği tanımladık. Amacımız sorguyu yapacak kişiye dinamik bir aratma yöntemi ile baştan sorguyu yazmakla uğraşmadan sadece bu sorgunun yer aldığı prosedürü çağırarak prosedürde isim aramasını parametre şeklinde girmesini sağlamaktı.
+-- bunun için önce prosedürümüzün imzasının altın parantez içince @ ifadesi kullanarak hayali bir değişken ismi tanımladık. sonra kod bloklarımızın bulunduğu begin ve end arasında sorgu kısmında normalde elle manuel şekilde yapmış olduğumuz string ifade aramasını bu sefer @ ile başlayan değişkenimizi kullanarak yapmış olduk.
+-- Daha sonra exec ile çağırarak prosedür adının sonunda herhangi bir kelime yazarak müşteri tablosunda dinamik bir arama yapmasını sağlamış olduk.
+CREATE PROCEDURE dbo.SearchCustomer
+(
+@CustomerName VARCHAR(50)
+)
+AS
+BEGIN
+SELECT * FROM Musteriler WHERE MusteriAd  LIKE '%' + @CustomerName +'%'
+END
+
+EXEC [dbo].[SearchCustomer] 'yiğit'
+
+-- Northwind veritabanında ürün stok sayısı 45'ten fazla olan ve kategorisi 2 olan ürünleri listelediğimiz bir prosedür yazalım.
+-- Sonra stok sayısını 65'ten fazla olan ve kategorisini 4 olan haliyle güncelleyelim.
+-- sonra da prodesedürü silelim.
+-- Supplier tablosundaki kişilerin ünvanları aratılarak o ünvandaki kontak kişileri listeleyen prosedür. 
+
+ALTER PROCEDURE dbo.StokDurumu
+AS
+BEGIN
+SELECT * FROM Products WHERE UnitsInStock > 45 AND CategoryID = 2
+END
+
+EXEC dbo.StokDurumu
+
+
+ALTER PROCEDURE dbo.StokDurumu
+AS
+BEGIN
+SELECT * FROM Products WHERE UnitsInStock > 65 AND CategoryID = 4
+END
+
+EXEC dbo.StokDurumu
+
+DROP PROCEDURE dbo.StokDurumu
+
+CREATE PROCEDURE dbo.SupplierContact
+(
+@Isim VARCHAR(50)
+)
+AS
+BEGIN
+ SELECT ContactName, ContactTitle From Suppliers WHERE ContactTitle LIKE '%'  + @Isim +'%'
+END
+
+EXEC dbo.SupplierContact 'OWNER'
+--MOLA
+
+--Manuel veri gerişi örneği
+
+CREATE PROCEDURE dbo.VeriGirisManuel
+AS
+BEGIN
+INSERT INTO Personeller (PersonelName, PersonelSurname,Adres)
+VALUES ('Fevzi', 'Kemal', 'Bartın')
+END
+
+exec dbo.VeriGirisManuel
+
+-- Gayrimenkul yönetimi veritabanımıza yeni bir personel girişi yapan prosedürü yazalım (parametreler ile)
+
+ALTER PROCEDURE dbo.PersonelEkle
+(
+@PersonelAdi VARCHAR(50),
+@PersonelSoyadi VARCHAR(50),
+@PersonelCinsiyet int
+)
+AS
+BEGIN
+INSERT INTO Personeller (PersonelName,PersonelSurname,CinsiyetID)
+VALUES (@PersonelAdi,@PersonelSoyadi,@PersonelCinsiyet)
+PRINT ('VERİ GİRİŞİ BAŞARILI')
+--SELECT @PersonelAdi AS PersonelAdi,@PersonelSoyadi AS PersonelSoyAdi ,@PersonelCinsiyet AS PersonelCinsiyet
+select TOP 1 PersonelName,PersonelSurname,CinsiyetID FROM Personeller ORDER BY PersonelID DESC
+END
+
+EXEC dbo.PersonelEkle 'Seren','Serengil',2
+
+--Personel Güncelleme Prosedürü
+
+CREATE PROCEDURE dbo.PersonelGuncelle
+(
+@PersonelID int,
+@YeniAd varchar(50),
+@YeniSoyad varchar(50),
+@YeniAdres varchar(50)
+)
+AS
+BEGIN
+ UPDATE Personeller
+ SET PersonelName = @YeniAd, PersonelSurname = @YeniSoyad, Adres = @YeniAdres
+ WHERE PersonelID = @PersonelID
+ PRINT (@YeniAd + ' kişisi tabloya eklendi')
+END
+
+SELECT * FROM Personeller
+EXEC dbo.PersonelGuncelle 7, 'Hande','Erçel','Zeytinburnu'
+
+
+--Personel Silme Prosedürü 
+
+ALTER PROCEDURE dbo.PersonelSil
+(
+@PersonelID int
+)
+AS
+BEGIN
+ DELETE FROM Personeller WHERE PersonelID = @PersonelID
+ select * from Personeller
+ print (CONVERT(VARCHAR(50),@PersonelID) + ' idsine sahip olan şirket personeli silinmiştir.')
+ 
+END
+
+SELECT * FROM Personeller
+EXEC dbo.PersonelSil 7
+
+
+-- NW veritabanında kullanıcıdan gelen ucuz ya da pahalı parametresine göre en pahalı ya da en ucuz 5 ürünü listeleyen prosedürü yazalım ucuz ya da pahalı dışında bir şey yazarsa da doğru bir ifade girin uyarısı gelsin.
+
+CREATE PROC dbo.PahaliUcuzSirala
+@giris varchar(50)
+as 
+BEGIN
+
+	IF(@giris = 'UCUZ')
+	BEGIN
+	SELECT TOP 5 ProductName, UnitPrice
+	FROM Products
+	ORDER BY UnitPrice ASC
+	END
+
+	ELSE IF(@giris = 'PAHALI')
+	BEGIN 
+	SELECT TOP 5 ProductName, UnitPrice
+	FROM Products
+	ORDER BY UnitPrice DESC
+	END
+
+	ELSE
+	BEGIN
+	PRINT (@giris + ' böyle bir ifade mi var???')
+	END
+
+END
+
+exec dbo.PahaliUcuzSiralaaaa 'ORTA ŞEKER'
+
+
+
+-- NW veritabanında stok adeti belirtilen değerden küçük ve eşit olan aynı zamanda kategori ID'si belirttiniz değer olan ürünleri listeleyen prosedür
+
+CREATE PROC dbo.StokKategori
+(
+@KategoriID int,
+@StokMiktar int
+)
+AS
+
+BEGIN
+
+SELECT ProductName, CategoryID, UnitsInStock
+FROM Products
+WHERE UnitsInStock <= @StokMiktar AND CategoryID = @KategoriID
+
+END
+
+EXEC dbo.StokKategori 1, 30
+
+-- Kullanıcının girdiği ay numarasına göre yani aylara göre satılan ürün isimleri listeleyen prosedürü yazalım.
+
+ALTER PROC dbo.AylaraGoreSatis
+(
+@Ay int
+)
+AS
+BEGIN
+SELECT O.OrderDate AS Tarih, P.ProductName
+FROM [Order Details] as od
+JOIN Orders AS O ON od.OrderID = o.OrderID
+JOIN Products AS P on od.ProductID = p.ProductID
+WHERE MONTH(O.OrderDate) = @Ay
+END
+
+exec dbo.AylaraGoreSatis 4
+
+
+---------------------------------------------------------------------------------
+
+-- SQL VIEWS
+-- DB'de istediğimiz zaman dilimlerinde tabloları istediğimiz sorgu biçimine göre çağırabildiğimiz, çeşitli amaçlarca kullanılan ( örneğin kullanıcı yetkisine göre tabloların istenen kısımlarına erişilmesine imkan sağlamak amacıyla ) sql yapısıdır.
+--compile işlemi sadece bir kere yapılır bunun amacı da sorgunun doğru olup olmadığını kontrol etmek içindir. 
+-- view'larda veri tutulmaz. sadece gösterim sağlar. 
+
+-- oluşturulurken yine ddl komutları kullanılmaktadır. 
+--söz dizimi şu şekildedir;
+--CREATE VIEW viewadı
+--as
+--sorgu
+
+-- tüm siparişleri getiren bir view tanımlayalım.
+use NORTHWND
+
+CREATE VIEW view_SiparisGetir
+AS
+SELECT * FROM 
+[Order Details]
+
+-- ÇAĞIRMAK İÇİN YENİ BİR SORGU YAPARCASINA FROM BÖLÜMÜNE EKLENEBİLMEKTEDİR
+
+SELECT * FROM view_SiparisGetir
+
+--Şimdi bu view tablosunu güncelleyelim. Sipariş Detay tablosundaki ürünlerin isimlerini ve order ıdleri getirelim.
+
+ALTER VIEW view_SiparisGetir
+as
+select od.OrderID, p.ProductName
+from [Order Details] AS OD
+join Products AS P ON od.ProductID = p.ProductID
+
+select * from view_SiparisGetir
+
+-- brezilyalı müşteirleri gösteren bir view yazalım
+
+CREATE VIEW view_BrazillianCustomers
+as
+select CustomerID,CompanyName from Customers WHERE Country = 'Brazil'
+
+select * from view_BrazillianCustomers
+
+-- amerikalı müşterilerin adedini gösteren tablo(view)
+
+CREATE VIEW view_AmerikaliMusterileriGoster
+AS
+SELECT COUNT(*) AS MusteriMiktari, Country
+from Customers
+WHERE Country =  'USA'
+GROUP BY Country
+
+SELECT * FROM view_AmerikaliMusterileriGoster
+---------------------------------------------------------
+-- SQL FUNCTIONS
+
+-- İSTENEN DEĞER TİPLERİNDE DÖNÜŞ SAĞLAYAN SQL KOD BLOKLARI.
+--GERİYE SABİT DEĞER DÖNDÜREBİLİRLER, GERİYE TABLO DÖNDÜREBİLİRLER, GERİYE SORGU DÖNDÜREBİLİRLER.
+
+-- STORED PROSEDÜRLER VE FONKSİYONLAR ARASINDAKİ FARKLAR
+-- FONKSİYONLAR HER ZAMAN BİR DEĞER DÖNDÜRÜRLER ( SAYILAR, STRING IFADELER, TABLOLAR DÖNDÜRMELERİ MÜMKÜNDÜR) FAKAT STORED PROSEDÜRLER GERİ BİR DEĞER DÖNDÜREBİLİR DE DÖNDÜRMEYEBİLİR DE.
+--FONKSİYONLAR STORED PROCEDURELAR TARAFINDAN ÇALIŞTIRILABİLİRLER, FAKAT SP'LER FONKSİYONLAR İÇERİSİNDE ÇAĞIRILAMAZLAR. 
+-- FONKSİYONLAR İÇERİSİNDE CRUD İŞLEMLERİ YAPILMAZ, SADECE SELECT İFADELERİ İÇİN UYGUNDUR. FAKT DAHA ÖNCE GÖRDÜĞÜMÜZ ÖRNEKLERDEKİ GİBİ SP'LERDE TÜM CRUD İŞLEMLERİ YAPILMAKTADIR. 
+-- FONKSİYONLAR İLE DÖNDÜRMÜŞ OLDUĞUMUZ BİR TABLOYU JOİN İFADESİ İÇERİSİNDE KULLANABİLİRİZ FAKAT SPLER İLE DÖNDÜRÜLEN TABLOLARDA BU MÜMKÜN DEĞİLDİR. 
+
+-- TABLO DÖNDÜREN FUNCTION SYNTAXİ
+
+-- CREATE FUNCTION functionname (@param1 datatype, @param2 datatype)
+-- RETURNS TABLE
+-- AS
+--RETURN 
+-- SQL İFADELERİ -- KOD BLOKLARI VS
+
+-- DEĞER DÖNDÜREN FUNCTION SYNTAXI
+--CREATE FUNCTION functionismi (@param_1 datatype, @param2 datatype)
+-- RETURNS returntype
+-- AS
+--BEGIN
+-- SQL IFADELERI KOD BLOKLARI VS
+--END
+
+
+-- örnek olarak ürünler tablosunda stok değeri girilen değere göre bize bir tablo döndüren fonksiyonu yazalım
+CREATE FUNCTION StokUrunFunc (@miktar int)
+RETURNS TABLE
+AS
+RETURN
+SELECT * FROM Products WHERE UnitsInStock <= @miktar
+
+select * from StokUrunFunc(5)
+
+-- kullanıcının girdiği isim ve soy ismi full name haline getiren değer döndüren bir fonksiyon yazalım.
+
+
+CREATE FUNCTION fn_MakeFullName (@name varchar(50), @soyad varchar(50))
+ RETURNS varchar(50)
+ AS
+BEGIN
+ RETURN @name + ' ' + @soyad
+END
+
+select [dbo].[fn_MakeFullName] ('barbaros','ciga') AS TamAd
+
+
+CREATE FUNCTION fn_AralikliFiyatUrun (@fiyat1 int, @fiyat2 int)
+RETURNS TABLE
+AS
+RETURN SELECT * FROM Products WHERE UnitPrice BETWEEN @fiyat1 and @fiyat2
+
+select * from fn_AralikliFiyatUrun(50,260)
+
+
+--TRIGGERLAR
+--Türkçe karşılığı gibi belirli bir olay gerçekleştiğinde tetiklenmesini istediğimiz durumları ya da operasyonları bildirdiğimiz bir yapıdır.
+
+-- triggerlar her düzeyde yapılabiliyor olup genel olarak data katmanında triggerlar kullanılmaktadır. yani dml ölçeğinde kullanmaktayız. 
+-- DML Triggerlar  insert update delete işlemleri gerçekleştiğinde devreye koyduğumuz özellikleri taşırlar. 
+-- Örneğin bir insert işlemi gerçekleştiği zaman ram bellekte geçici olarak bir inserted isminde tablo oluşur ve insert işlemi geçici olarak sorgu bitene kadar burada tutulur.
+-- eğer bir delete işlemi gerçekleştiriliyorsa yine ram bellekte geçici bir deleted tablosu oluşturulur ve silinen data burada silinme işlemi tamamlanana kadar saklanır. 
+-- eğer ki bir update işlemi gerçekleşiyorsa bir updated tablosu oluşmaz. çünkü update işlemi özünde bir delete ve insert işlemi birleşimidir. değiştirilen veri değişmeden önceki hali deleted bölümünde değişim sonrası hali inserted içerisinde update finalize olana kadar tutulur. 
+-- bu arkaplanda tutulan tablolara erişimimiz ve örneğin select sorgusu gibi sorgular yapbilme imkanımız bulunmaktadır. 
+
+-- iki çeşit triggerımız bulunmaktadır.
+-- birincisi olay olayduktan sonra gerçekleşenler ( after trigger )
+-- ikincisi de istenen olay yerine gerçekleşecekler ( instead of trigger)
+
+-- syntax
+-- CREATE TRIGGER --triggeradi
+-- ON table_name
+-- AFTER (INSERT,UPDATE,DELETE)
+-- AS
+-- KOD BLOKLARI
+
+use GayrimenkulYonetim
+CREATE TRIGGER UyariVer
+on Personeller
+AFTER DELETE
+as
+PRINT 'BİR PERSONEL SİLİNMİŞTİR'
+
+select * from Personeller
+
+DELETE
+FROM Personeller
+WHERE PersonelID = 8
+
+--NORTHWIND VERITABANI ÜZERİNDE ÜRÜNLERİN FİYATINI HER BİR INSERT İŞLEMİ SONRASINDA 50 BİRİM ARTTIRAN BİR TRIGGER YAZALIM
+
+CREATE TRIGGER fiyatArttir
+ON Products
+AFTER INSERT
+AS
+UPDATE Products SET UnitPrice += 50
+SELECT ProductName, UnitPrice
+FROM Products
+
+select * from Products
+
+INSERT INTO Products (ProductName)
+values ('Kadayıf')
+
+-- RAM BELLEKTE OLUŞAN GEÇİCİ BİLGİLERİN KULLANILMASI
+
+use GayrimenkulYonetim
+CREATE TABLE KayitTablosu
+(
+KayitID int identity (1,1) primary key,
+KayitDescription varchar(500)
+)
+
+
+-- bu örnekte bir personel silindiği zaman dedvreye girecek olan bir trigger yazılmıştır. Fakat hangi personelin silindiğini bilemediğimiz için kayıt tablomuzda o ismin geçmesini sağlayabilmek adına değişkenler kullandık. ve bu değişkenler vasıtasıyla silinenler(deleted) tablosundan isimlerini işlem tamalanmadan çekmiş ve istediğimiz yere insert etmiş olduk.
+CREATE TRIGGER KayitTrigger
+ON Personeller
+AFTER DELETE
+AS
+DECLARE @CalisanAdi varchar(50), @CalisanSoyadi varchar(50)
+SELECT @CalisanAdi = PersonelName, @CalisanSoyadi = PersonelSurname
+FROM deleted
+INSERT INTO KayitTablosu (KayitDescription) 
+VALUES ('İsmi: ' + @CalisanAdi + ' Soyismi' + @CalisanSoyadi + ' olan kullanici silinmiştir.')
+
+DELETE
+FROM Personeller
+WHERE PersonelID = 10
+
+-- PERSONEL TABLOSUNDA İSİM VE SOYİSMİ GÜNCELLENEN PERSONELİN İSMİNİN ÖNCEKİ VE SONRAKİ HALİNİ KAYIT TABLOSUNA YAZDIRAN KOD BLOĞUNU YAZINIZ.
+
+CREATE TRIGGER IsimGuncelle
+ON Personeller
+AFTER UPDATE
+AS
+DECLARE @EskiAdi varchar(50), @YeniAdi varchar(50)
+SELECT @EskiAdi = PersonelName from deleted
+SELECT @YeniAdi = PersonelName from inserted
+INSERT INTO KayitTablosu (KayitDescription)
+VALUES ('Eski ismi: ' + @EskiAdi + ' olan kişinin yeni adı: ' + @YeniAdi +' olarak güncellenmiştir.')
+PRINT 'guncelleme başarılı'
+
+update Personeller SET PersonelName = 'Enes' WHERE PersonelID = 9
+
+
+
+------------------------------------------------------------------
+
+-- SQL Login , Security İşlemleri
+
+-- Login seviyeleri server side ve database side olarak ikiye ayrılır.
+--Genel olarak server üzerinden security -> Logins bölümünden sağ tık new login diyerek bir login oluşturabiliyoruz.
+-- User mapping bölü üzerinden hangi databaseler üzerinden kullanının aktif olacağını belirtiyoruz.
+-- Aynı alanın alt bölümünde kullanıcının bu alanda hangi rolü taşıyacağını belirtiyoruz. Defult olarak public rolü gelmektedir.
+-- Bu rol sadece veritabanı isimleri görüntüler ve izin verildiği DBlerde tablo isimlerini de görüntüler fakat detay göremez.
+-- En çok kullanılan roller arasında db_datareader, db_datawriter, dbowner olan roller bulunmaktadır. DB reader sadece tablolarda yer alan dataları görüntüleyebilir yani select sorgusu yapabilir. 
+-- db_datawriter ise insert,update, delete işlemleri yapabilmektedir. 
+-- db_owner ve ddladmin rollerinin ortak özellikleri ddl komutlarının kullanılabiliyor olmasıdır. Yani yeni bir tablo oluşturma vs.
+-- Bu alanda bu özellikler tanımlandıktan sonrasında detay özellikleri verdiğimiz alan da ilgili DB altında bulunan --> security bölümü içindeki users kısmıdır. Userlar buradan seçilerek istenen detay izinler de verilebilir. Örneğin bir tablo üzerinden istediğimiz kolonları görüntülemesi, insert yapabilmesi gibi özellikleri burada vermekteyiz.
+-- İzin vermek için grant, yasaklamak için deny komutunu kullanıyoruz.
+
+
+
+
+
+
+
+
