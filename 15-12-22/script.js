@@ -73,7 +73,7 @@ x = 5;
 
 x = "Barbaros";
 
-console.log(x);
+// console.log(x);
 
 // y = x;
 
@@ -83,8 +83,8 @@ console.log(x);
 
 var sayi = 5;
 
-console.log(sayi == "5"); // output --> true döner
-console.log(sayi === "5"); // output --> false döner çünkü burada içindeki türün de kontrolü sağlanmaktadır.
+// console.log(sayi == "5"); // output --> true döner
+// console.log(sayi === "5"); // output --> false döner çünkü burada içindeki türün de kontrolü sağlanmaktadır.
 
 //Değişken ataması yapılırken dikkat edilmesi gereken konular
 
@@ -92,7 +92,7 @@ console.log(sayi === "5"); // output --> false döner çünkü burada içindeki 
 // cse sensitive büyük küçük harf duyarlılığı anlamındadır ve değişken ataması yaparken buna dikkat edilmesi gerekmektedir.
 var cumle = "wissen akademie";
 
-console.log(cumle);
+// console.log(cumle);
 
 // değişken isimlendirmesi yaparken ilk harf olarak rakam kullanmaya müsade etmez;
 
@@ -117,28 +117,28 @@ var x = 20;
 let y = 10;
 
 let z = x + y;
-console.log(20 + 10);
-console.log(x + y);
-console.log(z);
-console.log(x - y);
-console.log(x ** 3);
-console.log(x % 3);
+// console.log(20 + 10);
+// console.log(x + y);
+// console.log(z);
+// console.log(x - y);
+// console.log(x ** 3);
+// console.log(x % 3);
 
 x++; // --> x = x + 1
-console.log(x);
+// console.log(x);
 
-x += 1;
+// x += 1;
 
-console.log(x);
+// console.log(x);
 
 const ondalikliSayi = 1.08;
-console.log(ondalikliSayi);
+// console.log(ondalikliSayi);
 
 var sayi3 = 5;
 
-console.log("Sayımızın değeri: " + ondalikliSayi * sayi3);
+// console.log("Sayımızın değeri: " + ondalikliSayi * sayi3);
 
-console.log(`Sayımızın değeri: ${sayi3} sşldadşdljasd \nalt satıra geç`);
+// console.log(`Sayımızın değeri: ${sayi3} sşldadşdljasd \nalt satıra geç`);
 
 // kaçış ifadeleri
 // \n \t " ' '"
@@ -150,165 +150,242 @@ var ad = "Barbaros";
 let soyad = "Ciga";
 
 var adSoyad = ad + " " + soyad;
-console.log(adSoyad);
+// console.log(adSoyad);
 
 var baslangic = "Selam";
 let devam = " ben Barbaros";
 
 baslangic += devam;
 
-console.log(baslangic);
+// console.log(baslangic);
 
-console.log(baslangic.length);
+// console.log(baslangic.length);
 
-console.log(baslangic[0]);
+// console.log(baslangic[0]);
 
-console.log(baslangic[baslangic.length - 1]);
-console.log(baslangic[17]);
+// console.log(baslangic[baslangic.length - 1]);
+// console.log(baslangic[17]);
 
 //stringler immutable'dır.
 
 baslangic = "falan filan";
-console.log(baslangic);
+// console.log(baslangic);
 
 baslangic[0] = "x";
-console.log(baslangic);
+// console.log(baslangic);
 
 //String Metotları
 
-var name = "Gökhan Cingöz";
-console.log(name.length);
+// var name = "Gökhan Cingöz";
+// console.log(name.length);
 
 // içeriğin uzunluğunu ölçmek için kullandığımız metottur.
 
 //metnin içerisinde belirtilmiş olan harf ya da kelimenin başladığı index numarasını veriyor.
-console.log(name.indexOf("kh"));
+// console.log(name.indexOf("kh"));
 
 //birbirini tekrar eden ögelerin sonuncunun index numarasını verir.
-console.log(name.lastIndexOf("ö"));
+// console.log(name.lastIndexOf("ö"));
 
 //aynı işlemi yapan başka bir metot
 //indexOf metodu gibi çalışmaktadır..
-console.log(name.search("an"));
+// console.log(name.search("an"));
 
 // başlangıç ve bitiş index numaralarına göre belirtilen kısımdan parça almaya yarayan metot.
 
-console.log(name.slice(3, 8));
+// console.log(name.slice(3, 8));
 
 //yine slice metodu ile aynı işlevde başka bir metot
 
-console.log(name.substring(5, 12));
+// console.log(name.substring(5, 12));
 
 var message = "html,css,javascript,react";
 
 //string içerisinde geçen ifadeleri değiştirmek için kullandığımız metot replace metodudur.
-console.log(message.replace("css", "scss"));
+// console.log(message.replace("css", "scss"));
 
-console.log(name.toUpperCase());
-console.log(name.toLowerCase());
+// console.log(name.toUpperCase());
+// console.log(name.toLowerCase());
 
-var cumle = "Web ve Mobil";
-var cumle2 = "Programlama";
+// var cumle = "Web ve Mobil";
+// var cumle2 = "Programlama";
 
-var cumle3 = cumle.concat(" ", cumle2);
+// var cumle3 = cumle.concat(" ", cumle2);
 
-console.log(cumle3);
+// console.log(cumle3);
 
 //Split metodu ile elimizdeki string ifademizi bir dizi haline çevirebilmekteyiz. Burada parantez içerisinde yazmış olduğumuz ifade her ne ise ondan yola çıkarak her elemanı ayıracak ve bir dizi haline getirecektir.
-var arrayFirst = cumle3.split(" ");
+// var arrayFirst = cumle3.split(" ");
 
-console.log(arrayFirst[0]);
+// console.log(arrayFirst[0]);
 
 //Diziler (Arrays)
 
 let cars = ["BMW", "MERCEDES", "RENAULT", "PEUGEOT"];
-console.log(cars);
+// console.log(cars);
 
-console.log(cars[2]);
+// console.log(cars[2]);
 
 //nested array
-let array1 = [
-  [1, 3, 5, 7],
-  ["Barbaros", "Tuba", "Sezer"],
-  ["Sadri", "Gökhan", ["Renault", "Doblo", "TOGG"]],
-];
+// let array1 = [
+//   [1, 3, 5, 7],
+//   ["Barbaros", "Tuba", "Sezer"],
+//   ["Sadri", "Gökhan", ["Renault", "Doblo", "TOGG"]],
+// ];
 
-console.log(array1[1][1]);
+// console.log(array1[1][1]);
 
-console.log(array1[2][2][2]);
+// console.log(array1[2][2][2]);
 
-let array3 = [
-  [
-    ["Onur", "Yiğit", "Serhat", "Enes"],
-    [25, 25, 29, 24],
-    [67, 59, 47, 58],
-  ],
-  [
-    ["Sivas", "Kangal"],
-    ["İzmir", "Bomba"],
-    ["Çorum", "Leblebi"],
-    ["Kars", "Peynir"],
-  ],
-];
+// let array3 = [
+//   [
+//     ["Onur", "Yiğit", "Serhat", "Enes"],
+//     [25, 25, 29, 24],
+//     [67, 59, 47, 58],
+//   ],
+//   [
+//     ["Sivas", "Kangal"],
+//     ["İzmir", "Bomba"],
+//     ["Çorum", "Leblebi"],
+//     ["Kars", "Peynir"],
+//   ],
+// ];
 
-console.log(array3[1][2][1]);
+// console.log(array3[1][2][1]);
 
 //Dizi Metotları
 
 // Diziye eleman ekleme metodu
 
-var dizi = ["Barbaros", "TUğBA", "Akşin"];
-console.log(dizi);
+// var dizi = ["Barbaros", "TUğBA", "Akşin"];
+// console.log(dizi);
 
-dizi.push("Seyfi");
-console.log(dizi);
+// dizi.push("Seyfi");
+// console.log(dizi);
 
 //Son elemanı silme komutu
-dizi.pop();
-console.log(dizi);
+// dizi.pop();
+// console.log(dizi);
 
 //İlk elemanı silme komutu
-dizi.shift();
-console.log(dizi);
+// dizi.shift();
+// console.log(dizi);
 
-dizi.push("Burak");
-console.log(dizi);
+// dizi.push("Burak");
+// console.log(dizi);
 
 //İlk elemanı add edeceğimiz komut
-dizi.unshift("Mesut Komser");
-console.log(dizi);
+// dizi.unshift("Mesut Komser");
+// console.log(dizi);
 
 //sıralama için sort komutunu kullanıyoruz
 
-dizi.sort();
-console.log(dizi);
+// dizi.sort();
+// console.log(dizi);
 
 //tersine çevirmek için kullanacağımız komut
 
-dizi.reverse();
-console.log(dizi);
+// dizi.reverse();
+// console.log(dizi);
 
-delete dizi[0];
-console.log(dizi);
-dizi[0] = "Barbaros";
-console.log(dizi);
+// delete dizi[0];
+// console.log(dizi);
+// dizi[0] = "Barbaros";
+// console.log(dizi);
 
-// Array Concatination
-var dizi1 = ["Elma", "Armut", "Pasta"];
-var dizi2 = ["Araba", "Muz", "Toka"];
+// // Array Concatination
+// var dizi1 = ["Elma", "Armut", "Pasta"];
+// var dizi2 = ["Araba", "Muz", "Toka"];
 
-const newDizi = dizi1.concat(dizi2);
+// const newDizi = dizi1.concat(dizi2);
 
-console.log(newDizi);
+// console.log(newDizi);
 
 //Splice metodu
 //Birden çok parametre alır ve aldığı parametrelere göre değişik özellikler gösteren bir metottur.
 
-var dizi3 = ["HP", "LOTR", "Avengers", "Batman"];
+// var dizi3 = ["HP", "LOTR", "Avengers", "Batman"];
 
 //burada kullandığımız parametreler şöyle çalışmaktadır. İlk parametre operasyona başlayacağımız index numarasını ister, ikinci parametre kaç adet eleman silmek istediğimizi ister, buradan sonra yazacağımız paramtreler bu operasyon sonrasında eklemek istediğimiz elemanları bahsetmiş olduğumuz indexten itibaren ekleyerek gider.
-dizi3.splice(2, 0, "Godfather");
-console.log(dizi3);
+// dizi3.splice(2, 0, "Godfather");
+// console.log(dizi3);
 
-dizi3.splice(2, 1);
-console.log(dizi3);
+// dizi3.splice(2, 1);
+// console.log(dizi3);
+
+//Objects
+
+const calisan = {
+  isim: "Yiğit",
+  soyisim: "Paşa",
+  yas: 25,
+  adres: {
+    sokak: "Kennedy Cd.",
+    mahalle: "Bakırköy",
+    il: "İstanbul",
+    ulke: "Türkiye",
+  },
+  yetenekler: ["Gitar", "Davul", "React", "Dba", "Dedüblüman"],
+};
+
+console.log(calisan);
+
+console.log(calisan.adres.mahalle);
+
+console.log(calisan.yetenekler[2]);
+
+//Destruct Etme
+
+const {
+  isim,
+  yas,
+  adres: { il },
+} = calisan;
+
+console.log(isim);
+console.log(il);
+
+calisan.email = "y.pasa@gmail.com";
+calisan.isim = "Yiğiiit";
+
+console.log(calisan);
+
+const rockBands = [
+  {
+    id: 1,
+    name: "Metallica",
+    genre: "Trash Metal",
+    concertInTurkey: true,
+  },
+  {
+    id: 2,
+    name: "Disturbed",
+    genre: "Nu Metal",
+    concertInTurkey: false,
+  },
+  {
+    id: 3,
+    name: "Iron Maiden",
+    genre: "Trash Metal",
+    concertInTurkey: true,
+  },
+  {
+    id: 4,
+    name: "Blind Guardian",
+    genre: "Power Metal",
+    concertInTurkey: true,
+  },
+  {
+    id: 5,
+    name: "Rammstein",
+    genre: "Heavy Metal",
+    concertInTurkey: false,
+  },
+];
+
+console.log(rockBands);
+
+console.log(rockBands[3].name);
+
+const JSONData = JSON.stringify(rockBands);
+console.log(JSONData);
