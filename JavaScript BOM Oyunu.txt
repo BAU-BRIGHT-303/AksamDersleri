@@ -1,0 +1,30 @@
+var kullaniciGirisi;
+var bomKatSayisi = prompt("Bom kat sayısını giriniz :");
+var kiminSirasi = true;
+for (let index = 1; index < 100; index += 2) {
+  if (index % bomKatSayisi != 0 && kiminSirasi == true) {
+    console.log("Bilgisayarın girişi :" + index);
+  } else if (index % bomKatSayisi == 0 && kiminSirasi == true) {
+    console.log("Bilgisayarın girişi : " + "BOM");
+  }
+  kiminSirasi = false;
+  kullaniciGirisi = prompt("Kullanıcı girişi yapınız :");
+  if (kiminSirasi == false && (index + 1) % bomKatSayisi == 0) {
+    if (kullaniciGirisi == "BOM") {
+      console.log("Kullanıcı girişi : " + "BOM");
+    } else {
+      console.log("Kaybettiniz");
+      break;
+    }
+    kiminSirasi = true;
+  } else if (
+    (kiminSirasi == false &&
+      (kullaniciGirisi == (index + 1) % bomKatSayisi) == 0 &&
+      kullaniciGirisi == index) ||
+    kullaniciGirisi != index + 1
+  ) {
+    console.log("Kaybettiniz");
+    break;
+  } else console.log("Kullanıcı girişi : " + kullaniciGirisi);
+  kiminSirasi = true;
+}
