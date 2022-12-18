@@ -1,0 +1,1 @@
+//Matematik sınıfı fonksiyonları
