@@ -4,7 +4,7 @@ var ul = document.querySelector('#nesneler');
 
 form.addEventListener('submit', kaydet);
 
-// ul.addEventListener('click', silmefunc);
+ul.addEventListener('click', silmefunc);
 
 function kaydet(e) {
   // tarayıcının submit esnasında varsayılan eylemi varsayılan davranışı sayfayı yenilemektir. Fakat sayfayı yenilerken inputlara girmiş olduğumuz veriler de kaybolur. Biz bu verilerin kaybolmasını istemiyoruz. Bu veriler sayfamızda kalsın ve bu verilerle alt kod bloklarında işlemler yapalım istiyoruz. Bu yüzden bizim tarayıcının varsayılan bu davranıştan kaçınmasını istememiz gerekiyor. Bunun için kullandığımız metodun adı e.preventDefault() idir.
@@ -34,4 +34,15 @@ function kaydet(e) {
   console.log(liItem);
 
   ul.appendChild(liItem);
+
+  document.getElementById('nesne').value = '';
+}
+
+function silmefunc(e) {
+  if (e.target.classList.contains('delete') == true) {
+    if (confirm('Emin Miyiz?')) {
+      var liItem = e.target.parentElement;
+      ul.removeChild(liItem);
+    }
+  }
 }
