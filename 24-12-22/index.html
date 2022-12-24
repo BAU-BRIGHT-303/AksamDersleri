@@ -23,7 +23,7 @@
     <div class="container">
       <div id="main" class="card card-body mt-2">
         <h2 id="yazi" class="main-title">Nesneler</h2>
-        <form class="d-flex form-inline">
+        <form class="d-flex form-inline" id="ekle">
           <input
             type="text"
             id="nesne"
@@ -31,10 +31,10 @@
             placeholder="Buraya içerik ekleyiniz"
           />
           <input type="submit" class="btn btn-outline-info me-3" />
-          <a id="buton" class="btn btn-danger">Bana Tıkla</a>
+          <!-- <a id="buton" class="btn btn-danger">Bana Tıkla</a> -->
         </form>
 
-        <div
+        <!-- <div
           id="kutu"
           style="
             background-color: darkgray;
@@ -44,7 +44,7 @@
           "
         >
           <h2>KUTU</h2>
-        </div>
+        </div> -->
         <div id="cikis"></div>
         <!-- <select class="form-select mt-3 w-50">
           <option value="Barbaros">Barbaros</option>
@@ -54,11 +54,21 @@
 
         <h3 class="my-3 main-title">Liste</h3>
         <ul id="nesneler" class="list-group">
-          <li class="list-group-item">Nesne 1</li>
-          <li class="list-group-item">Nesne 2</li>
-          <li class="list-group-item">Nesne 3</li>
-          <li class="list-group-item">Nesne 4</li>
-          <li class="list-group-item">Nesne 5</li>
+          <li class="list-group-item">
+            Nesne 1 <button class="btn btn-danger float-end delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Nesne 2 <button class="btn btn-danger float-end delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Nesne 3 <button class="btn btn-danger float-end delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Nesne 4 <button class="btn btn-danger float-end delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Nesne 5 <button class="btn btn-danger float-end delete">X</button>
+          </li>
         </ul>
       </div>
     </div>
