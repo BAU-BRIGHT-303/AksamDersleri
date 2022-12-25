@@ -45,6 +45,8 @@ var alinti = document.querySelector('#alinti');
 
 buton.addEventListener('click', getQuote);
 
+var x = 75;
+
 function getQuote() {
   var random = Math.floor(Math.random() * siirler.length);
   siiradi.textContent = siirler[random].name;

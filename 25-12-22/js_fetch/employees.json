@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Barbaros",
+    "surname": "CİGA",
+    "email": "barbaros.ciga@gmail.com"
+  },
+  {
+    "id": "2",
+    "name": "Serhat",
+    "surname": "SÖĞÜT",
+    "email": "ssogut@gmail.com"
+  },
+  {
+    "id": "3",
+    "name": "Enes",
+    "surname": "KARAMANOĞLU",
+    "email": "ek@gmail.com"
+  },
+  {
+    "id": "4",
+    "name": "Yiğit",
+    "surname": "PAŞA",
+    "email": "pasha@gmail.com"
+  },
+  {
+    "id": "5",
+    "name": "Akşin",
+    "surname": "DAĞDELEN",
+    "email": "a.dagdelen@gmail.com"
+  },
+  {
+    "id": "6",
+    "name": "Tuba",
+    "surname": "YAZICI",
+    "email": "t.yazici@gmail.com"
+  }
+]
