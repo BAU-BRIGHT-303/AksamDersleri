@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Kura Uygulaması</title>
+  </head>
+  <body class="bg-dark">
+    <div
+      style="height: 100vh"
+      class="d-flex justify-content-around align-items-center text-center"
+    >
+      <div class="sol">
+        <h3 class="text-danger" id="yeridegisecekh3">Yeri Değişecek Kişi</h3>
+        <button class="btn btn-danger my-3" id="yeridegisenbtn">SEÇ</button>
+      </div>
+      <div class="sag">
+        <h3 class="text-danger" id="yerinegecenh3">Yerine Geçen Kişi</h3>
+        <button class="btn btn-danger my-3" id="yerinegecenbtn">SEÇ</button>
+      </div>
+    </div>
+
+    <script>
+      let yeriDegisecekler = [
+        'Serhat',
+        'Enes',
+        'Onur',
+        'Yiğit',
+        'Akşin',
+        'Berat',
+        'Sezer',
+        'Sadri',
+      ];
+      let yerineGecenler = [
+        'Tuba',
+        'Berkay',
+        'Kerem',
+        'Aybüke',
+        'Ezgi',
+        'Okan',
+        'Gökhan',
+        'Barbaros',
+      ];
+
+      let butonYeriDegisecek = document.getElementById('yeridegisenbtn');
+      let butonYerineGecen = document.getElementById('yerinegecenbtn');
+      let h3YeriDegisecek = document.getElementById('yeridegisecekh3');
+      let h3YerineGecen = document.getElementById('yerinegecenh3');
+      butonYeriDegisecek.addEventListener('click', yeriDegisenSec);
+      butonYerineGecen.addEventListener('click', yerineGecenSec);
+
+      function yeriDegisenSec() {
+        let random = Math.floor(Math.random() * yeriDegisecekler.length);
+        // h3YeriDegisecek.innerHTML = '';
+        // h3YeriDegisecek.innerHTML += `${yeriDegisecekler[random]}`;
+        h3YeriDegisecek.textContent = yeriDegisecekler[random];
+        yeriDegisecekler.splice(random, 1);
+        console.log(yeriDegisecekler);
+        butonYeriDegisecek.disabled = true;
+        butonYerineGecen.disabled = false;
+      }
+
+      function yerineGecenSec() {
+        let random = Math.floor(Math.random() * yerineGecenler.length);
+        h3YerineGecen.innerHTML = '';
+        h3YerineGecen.innerHTML += `${yerineGecenler[random]} `;
+        yerineGecenler.splice(random, 1);
+        console.log(yerineGecenler);
+        butonYeriDegisecek.disabled = false;
+        butonYerineGecen.disabled = true;
+      }
+    </script>
+  </body>
+</html>
