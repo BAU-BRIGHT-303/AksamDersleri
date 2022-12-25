@@ -21,7 +21,27 @@
       Çalışan Getir
     </button>
     <button id="apiGetir" class="btn btn-outline-primary m-3">API Getir</button>
-    <div id="cikti"></div>
+
+    <form id="postOlustur" class="my-3 ms-5">
+      <div class="">
+        <input
+          type="text"
+          class="form-control w-50"
+          id="title"
+          placeholder="Metnin Başlığını Giriniz"
+        />
+      </div>
+      <div>
+        <textarea
+          name=""
+          id="body"
+          class="form-control w-50 mt-3"
+          placeholder="Metnin İçeriğini Yazınız"
+        ></textarea>
+      </div>
+      <input type="submit" value="Oluştur" class="btn btn-outline-info mt-3" />
+    </form>
+    <div id="cikti" class="container"></div>
 
     <script src="./script.js"></script>
   </body>
