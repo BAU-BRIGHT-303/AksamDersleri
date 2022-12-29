@@ -8,7 +8,7 @@ function apiGetirFunc() {
     .then((data) => {
       let output = `<h2>Veriler</h2>
       <div class="row">`;
-      data.map(
+      data.data.map(
         (api) =>
           (output += `
         <div class="col-md-3 my-5">
@@ -17,6 +17,8 @@ function apiGetirFunc() {
     <h5 class="card-title">${api.email}</h5>
     <h5 class="card-title">${api.first_name}</h5>
     <h5 class="card-title">${api.last_name}</h5>   
+    <img src="${api.avatar}" alt="" > 
+
   </div>
 </div>
         
