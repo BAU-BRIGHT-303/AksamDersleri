@@ -1,0 +1,41 @@
+#album {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.alan1 li a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.alan1 {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+.album {
+  width: 100%;
+}
+
+.anadiv {
+  width: 100%;
+  height: 50px;
+}
+
+.sezer a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+}
+
+.sezer a:hover {
+  color: crimson;
+}
