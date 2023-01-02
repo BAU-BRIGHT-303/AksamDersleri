@@ -1,0 +1,22 @@
+.alan1 {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.alan1 li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.alan1 a {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  color: black;
+  margin: 20px;
+}
+
+.alan1 a:hover {
+  color: crimson;
+}
