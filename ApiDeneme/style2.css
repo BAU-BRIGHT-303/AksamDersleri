@@ -8,13 +8,18 @@
 }
 h1 {
   font-weight: 900;
+  transition: all ease-in-out 0.3s;
+  border-bottom: 5px solid #dc3545;
+}
+h1:hover {
+  border-bottom: 20px ridge #dc3545;
 }
 .btn {
   transition: all ease-in-out 0.5s;
 }
 .btn:hover {
   border: 1px dashed #dc3545 !important;
-  box-shadow: 5px 5px rgb(255, 193, 7, 0.5) !important;
+  box-shadow: 5px 5px rgba(220, 53, 69, 0.7) !important;
 }
 .card {
   transition: all ease-in-out 0.5s;
