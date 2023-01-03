@@ -9,3 +9,11 @@
 h1 {
   font-weight: 900;
 }
+.btn:hover {
+  border: 1px dashed #dc3545 !important;
+  box-shadow: 5px 5px rgb(255, 193, 7, 0.5) !important;
+}
+.card:hover {
+  /* background-color: #ffc107 !important; */
+  box-shadow: 15px 10px rgb(255, 193, 7, 0.5) !important;
+}

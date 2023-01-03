@@ -12,9 +12,10 @@ function urunGetir() {
         <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0 border border-danger">
           <div class="col-md-4">
-            <img src="${
-              urun.images[Math.floor(Math.random() * urun.images.length)]
-            }" class="img-fluid rounded-start" alt="...">
+            <img style="max-height:280px;min-height:280px; margin-left:15px; margin-bottom:15px"
+             src="${
+               urun.images[Math.floor(Math.random() * urun.images.length)]
+             }" class="img-fluid rounded-start mt-3" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -43,3 +44,12 @@ function urunGetir() {
       }
     });
 }
+
+var title = document.title;
+var newTitle = "Beni burda unuttun dön :( ";
+window.onblur = function () {
+  document.title = newTitle;
+};
+window.onfocus = function () {
+  document.title = title;
+};
