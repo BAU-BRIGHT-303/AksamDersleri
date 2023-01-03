@@ -9,11 +9,18 @@
 h1 {
   font-weight: 900;
 }
+.btn {
+  transition: all ease-in-out 0.5s;
+}
 .btn:hover {
   border: 1px dashed #dc3545 !important;
   box-shadow: 5px 5px rgb(255, 193, 7, 0.5) !important;
 }
+.card {
+  transition: all ease-in-out 0.5s;
+}
 .card:hover {
   /* background-color: #ffc107 !important; */
-  box-shadow: 15px 10px rgb(255, 193, 7, 0.5) !important;
+
+  box-shadow: 15px 10px rgba(220, 53, 69, 0.7) !important;
 }
