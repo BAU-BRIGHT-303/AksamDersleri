@@ -1,6 +1,6 @@
-let tablo = document.getElementById('userTable');
+let tablo = document.getElementById("userTable");
 function getUsers() {
-  fetch('https://reqres.in/api/users')
+  fetch("https://reqres.in/api/users")
     .then((res) => res.json())
     .then((veri) => {
       console.log(veri);
@@ -30,20 +30,20 @@ function getUsers() {
 getUsers();
 
 function refreshTable() {
-  tablo.innerHTML = '';
+  tablo.innerHTML = "";
   getUsers();
 }
 
 function createUser() {
   let veri = {
-    first_name: document.getElementById('name').value || 'There is no data',
-    last_name: document.getElementById('surname').value || 'There is no data',
-    email: document.getElementById('email').value || 'There is no data',
+    first_name: document.getElementById("name").value || "There is no data",
+    last_name: document.getElementById("surname").value || "There is no data",
+    email: document.getElementById("email").value || "There is no data",
   };
-  fetch('https://reqres.in/api/users', {
-    method: 'POST',
+  fetch("https://reqres.in/api/users", {
+    method: "POST",
     headers: {
-      'Content-type': 'application/json; charset=UTF-8',
+      "Content-type": "application/json; charset=UTF-8",
     },
     body: JSON.stringify(veri),
   })
@@ -74,33 +74,33 @@ function updateUser(id) {
   console.log(id);
   let veri = {
     first_name:
-      document.getElementById('first_name_' + id).value || 'Unacceptable Value',
+      document.getElementById("first_name_" + id).value || "Unacceptable Value",
     last_name:
-      document.getElementById('last_name_' + id).value || 'Unacceptable Value',
-    email: document.getElementById('email_' + id).value || 'Unacceptable Value',
+      document.getElementById("last_name_" + id).value || "Unacceptable Value",
+    email: document.getElementById("email_" + id).value || "Unacceptable Value",
   };
   console.log(veri);
 
   fetch(`https://reqres.in/api/users/${id}`, {
-    method: 'PUT',
+    method: "PUT",
     headers: {
-      'Content-type': 'application/json; charset=UTF-8',
+      "Content-type": "application/json; charset=UTF-8",
     },
     body: JSON.stringify(veri),
   })
     .then((response) => response.json())
-    .then((data) => console.log('User Updated Successfully', data))
+    .then((data) => console.log("User Updated Successfully", data))
     .catch((error) => console.log(error));
 }
 
 function deleteUser(id) {
   fetch(`https://reqres.in/api/users/${id}`, {
-    method: 'DELETE',
+    method: "DELETE",
     headers: {
-      'Content-type': 'application/json; charset=UTF-8',
+      "Content-type": "application/json; charset=UTF-8",
     },
   })
     .then((res) => console.log(res))
-    .then((data) => console.log('User Deleted Successfully', data))
+    .then((data) => console.log("User Deleted Successfully", data))
     .catch((err) => console.log(err));
 }
