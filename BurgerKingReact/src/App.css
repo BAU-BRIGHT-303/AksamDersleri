@@ -28,10 +28,12 @@
 }
 .header h1 {
   font-weight: 900;
+  transition: all ease-in-out 0.5s;
 }
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1380px) {
   .header h1 {
     font-size: 70px;
+    transition: all ease-in-out 0.5s;
   }
 }
 .burgerKingBack {
