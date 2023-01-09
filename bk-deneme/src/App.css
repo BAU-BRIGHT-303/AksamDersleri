@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f2e7d4;
+}
+/* NAVBAR BAŞLANGIÇ */
+.burger_logo {
+  font-size: 50px !important;
+  font-family: "Rowdies", cursive !important;
+  color: red;
+}
+.burger_logo:hover {
+  color: #f48038 !important;
+}
+.nav-item a :hover {
+  color: red !important;
+}
+.sepet:hover {
+  color: #f48038 !important;
+}
+.navbar {
+  background-color: #f48038;
+  height: 80px;
+}
+/* NAVBAR BİTİŞ */
+footer section {
+  background-color: #f2e7d4;
+}
+
+.mail {
+  font-size: 14px;
+}
+.btn-outline-danger:hover {
+  background-color: #f48038 !important;
+}
+.btn {
+  color: #f48038 !important;
+}
+.btn:hover {
+  color: white !important;
+}
+
+.col-md-4 {
+  padding-left: 8% !important;
+}
+.card {
+  border: 0px solid;
+  text-align: center;
+}
+.card-body {
+  padding-bottom: 0 !important;
+}
+.list-group-item {
+  background-color: #f2e7d4;
+  padding-top: 0 !important;
+}
+.sepetekle {
+  background-color: #f2e7d4;
+  margin: 0;
+  padding: 0;
+}
+
+.yazi {
+  font-size: 20px;
+  color: #844f40 !important;
+}
+.yazi :hover {
+  background-color: #f48038;
+}
+@media only screen and (max-width: 1280px) {
+  .card {
+    width: 100% !important;
+  }
+}
