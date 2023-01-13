@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Pacifico", cursive; */
+}
+.brandName {
+  font-family: "Pacifico", cursive;
+  font-size: 35px;
+  color: #ffc107 !important;
+  text-shadow: 3px 3px 0px rgba(235, 241, 72, 0.4),
+    7px 7px 0px rgba(255, 255, 49, 0.05);
+}
+.bg-dark {
+  background-color: #252525 !important;
+}
+.nav-link {
+  font-size: large;
+}
+.bi-heart-fill {
+  color: red !important;
+  font-size: large;
+}
+.bi-bag-check {
+  color: white !important;
+  font-size: large;
+}
+.header {
+  background-color: #ffc107;
+  height: 13vh;
+}
+.header h1 {
+  font-weight: 900;
+}
+.burgerKingBack {
+  background: linear-gradient(120deg, #252525, red, #252525, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-position: center;
+  font-size: 10vh;
+}
+.card {
+  height: 50vh;
+}
+.card img {
+  height: 20vh;
+}
+.kalin {
+  font-weight: 900;
+}
+.card-text {
+  width: 50vh;
+}
+.yaziKucuk {
+  font-size: small;
+}
+.copyName a {
+  text-decoration: none;
+  background: linear-gradient(120deg, #252525, red, #252525, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-position: center;
+}
+.sayfa {
+  height: 100vh;
+}
+.col-md-8 img {
+  width: 100%;
+  border-radius: 5%;
+}
+.aciklama {
+  border: 2px solid #252525;
+  padding: 10px;
+  font-weight: 800;
+  line-height: 50px;
+}
+.bg-danger {
+  color: #ffc107 !important;
+}
+.kategori {
+  background: linear-gradient(120deg, #252525, red, #252525, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-position: center;
+  font-size: 10vh;
+}
