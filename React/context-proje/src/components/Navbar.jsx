@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Link } from "react-router-dom";
+import { AppContext } from "../context/GlobalContext";
 
 function Navbar() {
+  const { favorilereEkle, favorilerdenCikar, favoriler } =
+    useContext(AppContext);
   return (
     <div>
       <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             BAU BOOKS
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -22,16 +26,20 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <Link className="nav-link active" aria-current="page" to="/">
                   Kitap Listesi
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Favoriler
-                </a>
+                <Link className="nav-link" to="/favoriler">
+                  Favoriler{" "}
+                  <span className="position-absolute top-10 start-90 translate-middle badge rounded-pill bg-danger">
+                    {favoriler.length}
+                    <span className="visually-hidden">unread messages</span>
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>
