@@ -57,7 +57,7 @@ const datalar = [
       "The Rolling Stones In Mono: Limited Edition Colour Vinyl 16LP Box Set",
     desc: "Vinyl Box Set",
     cost: "£372.99",
-    img: "https://dvfnvgxhycwzf.cloudfront.net/media/SharedImage/image550/.f3Lqv8MY/SharedImage-141378.png?t=4098594cbaa54999389a",
+    img: "https://superdeluxeedition.com/wp-content/uploads/2022/07/mono_cover.jpg",
   },
   {
     id: "8",

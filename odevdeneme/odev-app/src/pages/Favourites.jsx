@@ -1,7 +1,5 @@
-import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 import { AppContext } from "../context/GlobalContext";
 
 function Favourites() {
@@ -9,7 +7,7 @@ function Favourites() {
     useContext(AppContext);
 
   const controlFavourites = (x) => {
-    const choice = favourites.some((a) => a.id == x);
+    const choice = favourites.some((falan) => falan.id == x);
     return choice;
   };
 
@@ -27,25 +25,19 @@ function Favourites() {
               <div key={index} className="col-md-4 my-3 ">
                 <div
                   className="card m-auto shadow-lg p-3 mb-5 bg-body-tertiary rounded"
-                  style={{ width: "22rem", height: "550px" }}
+                  style={{ width: "18rem" }}
                 >
                   <img
                     src={record.img}
                     className="card-img-top m-auto"
                     alt="..."
-                    style={{
-                      height: "300px",
-                      cursor: "pointer",
-                      width: "200px",
-                    }}
-                    onClick={() => navigate(`/plak/${record.id}`)}
+                    onClick={() => navigate(`/recordlist/${record.id}`)}
                   />
                   <div className="card-body">
                     <h6 className="card-title">{record.name}</h6>
-                    <p className="card-text">
-                      Tür: {record.album.slice(0, 50)}...
-                    </p>
-                    <p className="card-text">Yazarlar: {record.desc}</p>
+                    <p className="card-text">{record.album}</p>
+                    <p className="card-text">{record.desc}</p>
+                    <p className="card-text">{record.cost}</p>
                     {controlFavourites(record.id) ? (
                       <button
                         className="btn btn-danger "

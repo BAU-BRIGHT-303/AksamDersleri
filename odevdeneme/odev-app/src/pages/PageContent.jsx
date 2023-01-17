@@ -1,16 +1,12 @@
-import axios from "axios";
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 
 function PageContent() {
   return (
-   
-<div>
-  <Header/>
-</div>
-  
-    
+    <div>
+      <Header />
+    </div>
   );
 }
 
