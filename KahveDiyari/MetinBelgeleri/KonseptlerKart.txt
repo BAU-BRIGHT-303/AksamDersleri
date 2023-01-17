@@ -1,0 +1,358 @@
+<div class="container-fluid konsept_kesif pt-5 p-5">
+      <div class="row">
+        <div class="col-md-12 text-center mt-3 mb-5">
+          <h1>
+            KONSEPTLERIMIZI<br />
+            KESFEDIN!
+          </h1>
+        </div>
+      </div>
+      <div class="container konsept_genel_card">
+        <div class="row">
+          <div class="col-md-3 konsept_card_1">
+            <div class="text-center card1">
+              <img
+                class="pt-5 img-fluid"
+                src="./assets/kafe-2-icon.svg"
+                alt=""
+                style="height: 200px"
+              />
+            </div>
+            <div class="mt-5">
+              <p>Kahve Diyarı</p>
+              <h2>YANINDA</h2>
+              <a class="pt-5" href="#">Keşfet ></a>
+            </div>
+          </div>
+          <div class="col-md-3 konsept_card_2">
+            <div class="text-center">
+              <img
+                class="pt-5"
+                src="./assets/kiosk-4-icon.svg"
+                alt=""
+                style="height: 200px"
+              />
+            </div>
+            <div class="mt-5 ms-0">
+              <p>Kahve Diyarı</p>
+              <h2>KAFE</h2>
+              <a href="#">Keşfet ></a>
+            </div>
+          </div>
+          <div class="col-md-3 konsept_card_3">
+            <div class="text-center img-fluid">
+              <img
+                class="pt-5"
+                src="./assets/kafe-2-icon.svg"
+                alt=""
+                style="height: 200px"
+              />
+            </div>
+            <div class="mt-5 ms-0">
+              <p>Kahve Diyarı</p>
+              <h2>KONTEYNER</h2>
+              <a href="#">Keşfet ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+-----------------------------------------------------------------------
+
+/* BU CSS DOSYASI KONSEPTLER CSS DOSYASIDIR. 
+SONRADAN OLUŞTURULAN CLASSLARIN TAMAMI KONSEPTLER 
+SAYFASINA AİT OLUP BAŞLARINDA "konsept" YAZMAKTADIR!!!!!" */
+@font-face {
+  font-family: "Fredoka One", cursive;
+  src: url(./font/Vag.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: VagRounded;
+  src: url(./font/VAGRoundedBT.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: VagRounded !important ;
+}
+
+/* HEADER (header içeririsnde ki kodlar fix olduğu için başına "konsept" yazılmadı */
+.container1 {
+  z-index: -2;
+  background: #06514d;
+  height: 215px;
+}
+.content {
+  background: #06514d;
+}
+
+.content ul {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 25px;
+  list-style-type: none;
+}
+.content ul li {
+  display: inline;
+}
+.content a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.content a:hover {
+  color: white !;
+}
+.text {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 500px;
+  z-index: 2;
+}
+
+.text:after {
+  font-size: 120px;
+  position: absolute;
+  z-index: -1;
+  content: "KAHVEDİYARI";
+  -webkit-text-stroke: 1px #05423f;
+  -webkit-text-fill-color: #06514d;
+}
+/* HEADER BİTİŞ */
+
+/* KONSEPTLER ÇUBUĞU BAŞLANGIÇ */
+
+/* .konsept_cubuk {
+  height: 200px;
+  background-color: #09514d;
+}
+.konsept_cubuk .mt-5 {
+  padding-top: 25px;
+}
+.konsept_cubuk h1 {
+  color: white;
+  font-size: 50px;
+}
+.konsept_cizgi {
+  color: white;
+  text-transform: none;
+  text-decoration-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.konsept_cizgi:hover {
+  color: white;
+} */
+/* KONSEPTLER ÇUBUĞU BİTİŞ */
+
+/* KONSEPTLER TABLOSU BAŞLANGIÇ */
+.konsept_genel_card {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Fredoka One", cursive;
+}
+
+.konsept_genel_card a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.konsept_kesif h1 {
+  color: #09514d;
+}
+.konsept_card_1 {
+  border-radius: 3%;
+  background-color: #09514d !important;
+  background: linear-gradient(rgba(15, 71, 68, 0.85), rgba(15, 71, 68, 0.85)),
+    url("./assets/yaninda-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+  height: 500px;
+  margin: auto;
+  width: 32%;
+}
+.konsept_card_1:hover {
+  background-size: 200%;
+  background-position: center;
+  transition: all ease 1s;
+}
+.konsept_card_2 {
+  border-radius: 3%;
+  background: linear-gradient(
+      rgba(204, 132, 52, 0.85),
+      rgba(204, 132, 52, 0.85)
+    ),
+    url("./assets/kafe-2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+  margin: auto;
+  height: 500px;
+  width: 32%;
+}
+.konsept_card_2:hover {
+  background-size: 200%;
+  background-position: center;
+  transition: all ease 1s;
+}
+.konsept_card_3 {
+  border-radius: 3%;
+  background: linear-gradient(rgba(15, 71, 68, 0.85), rgba(15, 71, 68, 0.85)),
+    url("./assets/konteyner-3.jpg");
+
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+  margin: auto;
+  height: 500px;
+  width: 32%;
+}
+.konsept_card_3:hover {
+  background-position: center;
+  background-size: 200%;
+  transition: all ease 1s;
+}
+.konsept_genel_card p,
+a,
+h2 {
+  padding-left: 5%;
+  font-weight: bolder;
+}
+.konsept_genel_card p {
+  margin-bottom: 0 !important;
+  font-size: 20px;
+}
+.konsept_genel_card h2 {
+  font-size: 30px;
+}
+.konsept_card_1 .mt-5 {
+  padding-top: 30% !important;
+}
+.konsept_card_2 .mt-5 {
+  padding-top: 30% !important;
+}
+.konsept_card_3 .mt-5 {
+  padding-top: 30% !important;
+}
+/* KONSEPTLER TABLOSU BİTİŞ */
+
+/* RESPONSIVE BAŞLANGIÇ */
+@media only screen and (max-width: 1200px) {
+  /* HEADER MEDIA */
+  .container1 {
+    height: 180px;
+  }
+  .content ul {
+    padding-left: 1%;
+    padding-top: 1%;
+  }
+  .content a {
+    font-size: 16px;
+  }
+  .text {
+    font-size: 34px;
+    margin-left: 40%;
+  }
+  .text:after {
+    font-size: 80px;
+  }
+  /* HEADER MEDIA */
+
+  .konsept_card_1 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    background-position: center;
+  }
+  .konsept_card_2 {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    background-position: center;
+  }
+  .konsept_card_3 {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    background-position: center;
+  }
+  .konsept_card_1 .mt-5 {
+    padding-top: 5% !important;
+  }
+  .konsept_card_2 .mt-5 {
+    padding-top: 5% !important;
+  }
+  .konsept_card_3 .mt-5 {
+    padding-top: 5% !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+  /* HEADER MEDIA */
+  .container1 {
+    height: 180px;
+  }
+  .content ul {
+    padding-left: 1%;
+    padding-top: 1%;
+  }
+  .content a {
+    font-size: 16px;
+  }
+  .text {
+    font-size: 34px;
+    margin-left: 25%;
+  }
+  .text:after {
+    font-size: 80px;
+  }
+  /* HEADER MEDIA */
+
+  .konsept_card_1 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  .konsept_card_2 {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  .konsept_card_3 {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  .konsept_card_1 .mt-5 {
+    padding-top: 10% !important;
+  }
+  .konsept_card_2 .mt-5 {
+    padding-top: 10% !important;
+  }
+  .konsept_card_3 .mt-5 {
+    padding-top: 10% !important;
+  }
+}
+/* RESPONSIVE BİTİŞ */

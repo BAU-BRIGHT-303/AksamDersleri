@@ -1,0 +1,247 @@
+ <!--FOOTER-->
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-md-4 info-area text-start">
+          <div class="row">
+            <div class="headline" style="font-size: 24px; color: white">
+              <strong>BİZİ TAKİP EDİN!</strong>
+            </div>
+          </div>
+          <div class="row social-media">
+            <div>
+              <a href="">
+                <i class="fa-brands fa-facebook-f social-icon"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-twitter social-icon"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-instagram social-icon"></i>
+              </a>
+
+              <a href="">
+                <i class="fa-brands fa-linkedin-in social-icon"></i>
+              </a>
+              <a href="">
+                <i class="fa-brands fa-youtube social-icon"></i>
+              </a>
+            </div>
+            <div class="row"></div>
+          </div>
+          <div class="row adresi">
+            <h6>
+              Çınarlı Mah. Fatih Cad. 1587 Sokak No:2-6 Ater Tower Kat:22,
+              35100, Konak, İzmir
+            </h6>
+          </div>
+          <div class="row telefonno">
+            <p>+90 232 486 60 01</p>
+          </div>
+        </div>
+        <div class="col-md-4 links-area">
+          <div class="row links text-start">
+            <ul>
+              <li>
+                <a href="" style="font-size: 24px">
+                  <strong>KAHVE DİYARI</strong>
+                </a>
+              </li>
+            </ul>
+            <div class="row" style="margin-left: -35px">
+              <div class="col md-6 text-start">
+                <ul>
+                  <li><a href="">Anasayfa</a></li>
+                  <li><a href="">Kurumsal</a></li>
+                  <li><a href="">Şubelerimiz</a></li>
+                  <li><a href="">Franchise</a></li>
+                  <li><a href="">Konseptler</a></li>
+                </ul>
+              </div>
+              <div class="col md-6 text-start">
+                <ul>
+                  <li><a href="">Menüler</a></li>
+                  <li><a href="">Haberler</a></li>
+                  <li><a href="">İletişim</a></li>
+                  <li><a href="">İnsan Kaynakları</a></li>
+                  <li><a href="">Gizlilik ve KVKK Politikası</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="link-btn text-start">
+              <a href="">BAYİ GİRİŞİ</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <h4><strong>MOBİL UYGULAMA</strong></h4>
+          </div>
+          <div class="row app-pic mt-3">
+            <div class="col-md-6 text-end">
+              <a href=""
+                ><img
+                  src="https://www.kahvediyari.com.tr/images/app-store-1.jpg"
+                  alt=""
+              /></a>
+            </div>
+
+            <div class="col-md-6 text-start">
+              <a href=""
+                ><img
+                  src="https://www.kahvediyari.com.tr/images/app-store-2.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <h5 style="color: rgb(217, 136, 51)"><strong>YAKINDA</strong></h5>
+          </div>
+          <div class="row mt-5">
+            <a href=""
+              ><img
+                src="https://www.kahvediyari.com.tr/images/444-footer.svg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div class="en-alt">
+          <p class="en-alt-yazı">
+            &COPY; 2022 Kahve Diyarı. Tüm Hakları Saklıdır!
+          </p>
+          <a href="" class="en-alt-brand">Kahve Diyarı</a>
+        </div>
+      </div>
+      <div style="margin-top: 15px"><p>1078036622246036780650226268748</p></div>
+    </div>
+    <!--FOOTER-->
+
+
+---------------------------------------------------------------------
+
+
+@font-face {
+  font-family: Vag;
+  src: url(./font/Vag.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+
+* {
+  font-family: Vag;
+}
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  background-color: rgb(0, 82, 77);
+  font-family: "Fredoka One", cursive;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 80%;
+}
+
+.footer.info-area {
+  max-width: 340px;
+  overflow: hidden;
+  float: left;
+  vertical-align: top;
+  text-align: left;
+}
+
+.footer.headline {
+  margin-top: 30px;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.social-icon {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  padding: 8px;
+  border-radius: 55%;
+}
+
+.adresi {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.links-area ul li a {
+  color: white;
+}
+
+.links-area ul li a:hover {
+  color: rgb(217, 132, 61);
+}
+
+.link-btn {
+  margin-top: 30px;
+}
+
+.link-btn a {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 60px;
+  background-color: rgb(221, 140, 51);
+}
+
+.en-alt {
+  color: rgb(142, 95, 55);
+  font-size: 15px;
+
+  font-family: "Fredoka One", cursive;
+  display: flex;
+  justify-content: space-around !important;
+  margin-top: 30px;
+}
+
+.en-alt a {
+  text-decoration: none;
+}
+
+.en-alt-brand {
+  color: rgb(6, 81, 77);
+  font-size: 25px;
+  font-family: "VAGRoundedBT", sans-serif;
+  display: flex;
+  font-family: "Fredoka One", cursive;
+  display: inline-block;
+}
+
+.en-alt-brand:hover {
+  color: rgb(6, 81, 77);
+}
+
+.en-alt-yazı {
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+}
+.link-btn a:hover {
+  color: #ffff;
+}

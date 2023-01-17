@@ -1,0 +1,19 @@
+<!--HEADER YEŞİL-->
+    <div class="container-fluid container1 w-100">
+      <div class="content container">
+        <ul>
+          <li><a href=" ">Anasayfa</a></li>
+          <li><a href=" ">- Franchise</a></li>
+        </ul>
+        <h1 class="text-white text">FRANCHİSE</h1>
+      </div>
+    </div>
+    <!--HEADER YEŞİL-->
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+

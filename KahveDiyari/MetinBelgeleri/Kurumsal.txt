@@ -1,0 +1,491 @@
+<!--FORM-->
+    <div class="container-fluid container1 w-100">
+      <div class="content container">
+        <ul>
+          <li><a href=" ">Anasayfa</a></li>
+          <li><a href=" ">- Kurumsal</a></li>
+        </ul>
+        <h1 class="text-white text">KURUMSAL</h1>
+      </div>
+    </div>
+    <div class="container-fluid arkaplan">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="anaYazı text-white">
+            <h1 class="col-lg-6 yazı mt-5"><strong>HAKKIMIZDA</strong></h1>
+            <p class="yazıı">
+              Marka yaşamımıza 2005 yılında İzmir' de ki ilk şubemizin açılışı
+              ile başladık. Bugün 33 ilde 100'den fazla şubeye sahip olmanın
+              haklı gururunu yaşıyoruz.<br />
+              <br />
+              Bu süre zarfında ülkemizin kahve zinciri sektöründeki pazar
+              payımızı %7' ye çıkararak ilk üç marka arasına girmeyi
+              başardık.<br />
+              <br />
+              Bu başarılarımız arasında bizi onurlandıran ve gururlandıran,
+              ulusal ekonomi dergileri aracılığı ile "yılın en güvenilir ve
+              bilinen yerli zincir markası" ödülünü sahip olmanın haklı gururunu
+              yaşıyoruz.
+              <br />
+            </p>
+          </div>
+          <div class="p-5">
+            <img
+              src="https://www.kahvediyari.com.tr/images/about-count-tr.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid hikaye">
+      <h1 class="row justify-content-center mt-2">Hikayemiz</h1>
+      <div class="justify-content-center">
+        <p class="row justify-content-center p-5 hikaye">
+          2005 yılında İzmir’deki açtığımız ilk mağazamızla yakaladığımız büyüme
+          ivmesini, her geçen gün daha da artırarak Türkiye’nin 33’ten fazla
+          şehrine ve 100’den fazla şubesine ulaşmanın haklı gururunu yaşıyoruz.
+          Bu süre zarfında ülkemizin kahve zinciri sektöründeki Pazar payımızı
+          %7’ye çıkararak ilk üç marka arasına girmeyi başardık. Bu
+          başarılarımız arasında bizi onurlandıran ve gururlandıran, ulusal
+          ekonomi dergileri aracılığıyla ‘’Yılın En Güvenilir ve Bilinen Yerli
+          Zincir Markası’’ Ödülüne sahip olmanın haklı gururunu yaşıyoruz.
+          <br />
+
+          Tüm mağazalarımızda kalitemizi garanti altına alıyoruz. Kaliteli ve
+          lezzetli ürün yelpazemiz ve kusursuz servisimizle, Türk kahvesi ve
+          diğer özgün lezzetimizi, Türk ikram geleneği ve konukseverliğini
+          benimseyerek siz müşterilerimize sunmaya devam ediyoruz.
+        </p>
+      </div>
+    </div>
+
+    <div class="container-fluid hikaye">
+      <h1 class="row justify-content-center mt-2">Vizyon</h1>
+      <div class="justify-content-center">
+        <p class="row justify-content-center p-5 hikaye">
+          Kaliteli, Lezzetli farklı ve yenilikçi ürün çeşitleri ile fark
+          yaratan, Türk kahve ve ikram kültürünü yansıtan, %100 yerli marka olan
+          Kahve Diyarı müşterilerin kendilerini özel hissedeceği ve keyifle
+          tüketeceği ortamlarda sunarak, sektörün Türkiye ve Dünya’da en
+          beğenilen ve tercih edilen kahve markası olmak.
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid hikaye">
+      <h1 class="row justify-content-center mt-2">Misyon</h1>
+      <div class="justify-content-center">
+        <p class="row justify-content-center p-5 hikaye">
+          Doğru ürün, Doğru fiyat sloganıyla 100’ün üzerinde yemek grubu 150
+          üzerinde içecek grubu, 30 üzerinde tatlı grubu ve 60 üründen fazla
+          kahve çeşidi ile müşterilerimize geniş bir ürün yelpazesi sunarak
+          tüketicilerin beklentilerini en üst seviyede karşılamak, hedefimiz
+          ülkemize ekonomik ve sosyal katkımızı ulaştırabildiğimiz en ileri
+          noktada yaşatmaktır.
+          <br />
+        </p>
+      </div>
+    </div>
+    <!-- <div class="row bbb justify-content-center container m-auto">
+      <div class="col-md-6">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ad
+          cumque ex minus veniam dicta error corrupti quas nesciunt nam, itaque
+          corporis eum. Veritatis nobis vel quasi error maiores eligendi!
+        </p>
+      </div>
+      <div class="arka col-md-6"></div>
+    </div> -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-5 ilk-kart mb-4 p-3 me-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nisi
+          quidem neque at molestiae corporis eligendi sapiente sunt, omnis
+          tempora inventore officiis ducimus repellendus temporibus beatae
+          perspiciatis harum nemo rerum ea in veniam dolorum. Modi corrupti
+          eligendi, ea voluptas repellat sequi consequuntur pariatur illo iste
+          id commodi quis aspernatur laudantium nesciunt earum cum et quos dicta
+          dolorem ipsum expedita optio perspiciatis harum! Exercitationem fuga
+          et vero facere commodi vitae! Corrupti volu
+        </div>
+        <div class="col-md-5 ikinci-kart mb-4 p-3"></div>
+        <div class="col-md-5 ucuncu-kart mb-4 p-3 me-3"></div>
+        <div class="col-md-5 dorduncu-kart mb-4 p-3">
+          <h1>SEVKİYAT AĞIMIZ</h1>
+          <br />
+          <br />
+          <br />
+          <p>
+            KD portal üzerinde siparişlerini tamamlayan franchiselarımız
+            ürünlerini istedikleri her an sipariş geçebilmekte haftalık organize
+            edilen sevkiyatları ile zahmetsiz bir şekilde ürünlerine
+            ulaşabilmektedir.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid hikaye">
+      <h1 class="row justify-content-center mt-2">
+        Kahve Diyarı Franchise Avantajları
+      </h1>
+      <h3 class="basarı">‘’Kanıtlanmış Başarı’’</h3>
+      <div class="justify-content-center">
+        <p class="row justify-content-center p-3 marka">
+          Markamızın kanıtlanmış bir kazanma modeli bulunmaktadır. Bu modelle
+          birlikte 100’den fazla Franchise’mız bizimle birlikte kazanmaya ve
+          büyümeye devam etmektedir. Zincir markalaşma ve Kahve Pazarının
+          Sektörel olarak büyümesinin devam etmesi bu iş modelinin
+          kazandırdığının en büyük göstergelerinden biridir. Bizlerde Pazar ve
+          pazarlaştırma araştırmalarımızı güncel tutarak Franchise’larımıza
+          çalışan pazarlama önerilerini cirolarını artırmak amacıyla sunuyoruz.
+          <br />
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid hikaye">
+      <h1 class="row justify-content-center mt-2">Maliyet Kontrol</h1>
+      <div class="justify-content-center">
+        <p class="row justify-content-center p-3 marka">
+          Merkez yönetimimizde yer alan departmanımızla franchiselarımızın
+          güncel maliyetleri izlenebilmekte ve karlılıklarının takibi yapılarak
+          özel yönlendirmeler ile yol haritaları çizilebilmektedir.
+          <br />
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid hikaye">
+      <h1 class="row justify-content-center mt-2">Tecrübelerimiz</h1>
+      <div class="justify-content-center">
+        <p class="row justify-content-center p-3 marka">
+          Ekibimiz bugüne kadar 120’den fazla franchise’ın açılışını sağladı. Bu
+          birikimimizle bugün bir Kahve Diyarı şubesinin inşaat ve dekorasyon
+          işlerini 60 iş günü (konsepte göre değişkenlik gösterebilir.)
+          içerisinde tamamlayıp şubeye işletmeye hazır konuma getirebiliyoruz.
+          <br />
+        </p>
+      </div>
+    </div>
+    <div class="container-fluid hikaye">
+      <h1 class="row justify-content-center mt-2">
+        Kurumsal ve Pazarlama Desteği
+      </h1>
+      <div class="justify-content-center">
+        <p class="row justify-content-center p-3 marka">
+          Markamız Franchise açılışından sonra da yanınızda yer almaya devam
+          etmektedir. Merkez ekibimiz franchise’ın ilk açılışından itibaren
+          işletme organizasyonunu yürütür, sistemi tam anlamıyla işler duruma
+          getirdiklerinde size teslim edeler.<br />
+          Kahve Diyarı yönetiminin merkez kreatif reklam ajansı ile yönettiği
+          süreçte franchiseların tasarım işleri, reklam, tanıtım gibi pazarlama
+          süreçlerini hızlı bir şekilde yürütmektedir.
+          <br />
+        </p>
+      </div>
+    </div>
+    <div class="container form col-xl-7 col-md-12">
+      <div class="row">
+        <div class="col-xl-6 col-md-12 formcontent">
+          <div class="contenthead mt-5 ms-5"><h1 class="content1">Bir sorununuz mu var?</h1></div>
+          <div class="contentmessage ms-5 mt-1"><p class="message">İletişim Formu</p></div>
+          <form action="">
+            <div class="form-outline m-5">
+              <input
+                type="text"
+                id="form12"
+                class="form-control "
+                placeholder="Adınız & Soyadınız *"
+              />
+              <label class="form-label" for="form12"></label>
+            </div>
+            <div class="form-outline m-5">
+              <input
+                type="email"
+                id="form12"
+                class="form-control"
+                placeholder="Email *"
+              />
+              <label class="form-label" for="form12"></label>
+            </div>
+            <div class="form-outline m-5">
+              <input
+                type="tel"
+                id="form12"
+                class="form-control"
+                placeholder="Telefon Numarası *"
+              />
+              <label class="form-label" for="form12"></label>
+          </form>
+          </div><div class="form-outline m-5">
+              <input
+                type="text"
+                id="form12"
+                class="form-control"
+                placeholder="Mesajınız"
+              />
+              <label class="form-label" for="form12"></label>
+          </form>
+          <div class="altmessage"><p>* Alanlar Mutlaka Doldurulmalıdır.</p></div>
+          <div class="altbutton "><a class="butonalt p-2" href=""><strong>GÖNDER</strong></a></div>
+          </div>
+        </div>
+        <div class="col-md-6 photo">
+            <div class="container mt-5">
+              <img src="./img/concept-1.jpg" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
+
+<!--FORM-->
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+@font-face {
+  font-family: Vag;
+  src: url(./font/Vag.ttf);
+  font-size: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: VagRounded;
+  src: url(./font/VAGRoundedBT.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vag;
+}
+
+.container1 {
+  z-index: -2;
+  background: #06514d;
+  height: 215px;
+}
+.content {
+  background: #06514d;
+}
+
+.content ul {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 25px;
+  list-style-type: none;
+}
+.content ul li {
+  display: inline;
+}
+.content a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.content a:hover {
+  color: white;
+}
+.text {
+  font-size: 50px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 500px;
+  z-index: 2;
+}
+
+.text::after {
+  font-size: 120px;
+  font-family: "VagRounded", sans-serif;
+  position: absolute;
+  z-index: -1;
+  content: "KAHVEDİYARI";
+  -webkit-text-stroke: 1px #05423f;
+  -webkit-text-fill-color: #06514d;
+}
+.arkaplan {
+  background-color: #d98833 !important;
+  height: 450 px;
+}
+.anaYazı {
+  background-color: #d98833;
+}
+.yazıı {
+  font-size: 20px !important;
+}
+.hikaye {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 170px !important;
+  padding-left: 170px !important;
+}
+.arka {
+  background-image: url(https://www.kahvediyari.com.tr/storage/images/uretim-tesisi.jpg);
+  background-repeat: no-repeat;
+}
+
+.bbb {
+  height: 300px;
+}
+
+.ilk-kart,
+.ikinci-kart,
+.ucuncu-kart,
+.dorduncu-kart {
+  height: 300px;
+  width: auto;
+}
+
+.ilk-kart {
+  background-color: #05423f;
+  color: white;
+}
+
+.ikinci-kart {
+  background-image: url(https://www.kahvediyari.com.tr/storage/images/uretim-tesisi.jpg);
+  background-repeat: no-repeat;
+}
+.ucuncu-kart {
+  background-image: url(https://www.kahvediyari.com.tr/storage/images/sevkiyat.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.dorduncu-kart {
+  padding: 5px !important;
+  color: white;
+  background-color: #d98833;
+  background-repeat: no-repeat;
+}
+.marka {
+  font-size: 15px !important;
+}
+.basarı {
+  color: rgb(221, 140, 51);
+}
+@media screen and (max-width: 1200px) {
+  .container1 {
+    height: 180px;
+  }
+  .content ul {
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  .content a {
+    font-size: 16px;
+  }
+  .text {
+    font-size: 34px;
+    margin-left: 390px;
+  }
+  .text::after {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container1 {
+    height: 150px;
+  }
+  .content ul {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .content a {
+    font-size: 14px;
+  }
+  .text {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 300px;
+  }
+  .text::after {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .container1 {
+    height: 120px;
+  }
+  .content ul {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .content a {
+    font-size: 12px;
+  }
+  .text {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 180px;
+  }
+  .text::after {
+    font-size: 50px;
+  }
+}
+.content1 {
+  font-size: 24px;
+  color: #06514d;
+  font-weight: bolder;
+}
+.message {
+  color: #db8a33;
+  font-weight: 800;
+}
+.row input {
+  background-color: #f0efeb;
+  outline: none !important;
+  border: none;
+  border-radius: 0;
+  border-bottom: black 1px solid;
+}
+.row input:focus {
+  box-shadow: none;
+  outline: none;
+  position: relative;
+  background-color: #f0efeb;
+  border-bottom: black 1px solid;
+}
+.altmessage {
+  color: #db8a33;
+  font-size: 14px;
+}
+
+.form {
+  background: #f0efeb;
+  height: 680px;
+}
+.formcontent {
+  outline: none;
+  border: none;
+}
+.butonalt {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  background-color: #d98833;
+}
+.butonalt:hover {
+  color: white;
+}
+.photo .src {
+  background-image: url(./img/concept-1.jpg);
+}
+
+@media screen and (max-width: 1600px) {
+  .photo img {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .photo img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .photo img {
+    visibility: hidden;
+  }
+}

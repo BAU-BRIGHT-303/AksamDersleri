@@ -1,0 +1,132 @@
+body {
+  background-color: #9437ff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 100px;
+  padding: 5px;
+}
+.navbar a:hover {
+  background-color: #6325aa;
+}
+.kurumsal:hover {
+  color: black;
+  background-color: white;
+}
+.anafoto {
+  padding-top: 100px;
+  background-image: url(./foto1.jpg);
+  background-position: center;
+  width: 1500px;
+  height: 600px;
+  color: white;
+  font-size: x-large;
+  background-repeat: no-repeat;
+  /* padding-left: 450px; */
+  text-align: left;
+}
+.fazla {  
+  padding: 5px;
+  background-color: #6325aa;
+  color: white;
+  font-size: medium;
+}
+.fazla:hover {
+  background-color: rgb(40, 11, 73);
+}
+.basvuru:hover {
+  background-color: #6325aa;
+}
+.basvuru {
+  padding: 4px;
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  font-size: medium;
+}
+.anaALT {
+
+  font-size: small;
+  opacity: 0.5;
+}
+.fotoalti {
+  background-color: #fafafa;
+  font-size: x-large;
+  width: 100%;
+  height: 300px;
+}
+.fotoT {
+  width: 500p;
+  height: 400px;
+}
+.dortlu {
+  padding-left: 100px;
+  width: 1200px;
+  height: 200px;
+  text-align: center;
+}
+.birinci {
+  background-color: #c99bff;
+}
+.ikinci {
+  background-color: #6325aa;
+}
+.ucuncu {
+  background-color: #311255;
+}
+.reklam {
+  width: 100%;
+  height: 300px;
+  border-collapse: collapse;
+}
+.deneyim {
+  background-color: #00a2ff;
+}
+.pratik {
+  background-color: #61d836;
+}
+.web {
+  background-color: #f8ba00;
+}
+.destek {
+  background-color: #ff644e;
+}
+.fotoalti2 {
+  background-color: #fafafa;
+  width: 100%;
+  height: 350px;
+  font-size: xx-large;
+}
+.icon {
+  margin-left: 1100px;
+}
+.icon2 {
+  margin-left: 1400px;
+}
+.icons {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+footer {
+  background-color: #311255;
+  color: white;
+  height: 100px;
+}
+.footerUst {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 90px;
+  border-collapse: collapse;
+  color: white;
+  background-color: #6325aa;
+}
