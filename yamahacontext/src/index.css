@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.racing {
+  background: url(https://www.brussels-moto-store.be/wp-content/uploads/2018/08/2019-Yamaha-YZF600R6-EU-Yamaha_Blue-Static-cover-949x533.jpg);
+}
+
+.naked {
+  background: url(https://ridermagazine.com/wp-content/uploads/2021/06/RSZD_KevinWingPhoto-9544-copy.jpg);
+}
+
+.scooter {
+  background: url(https://cdn2.yamaha-motor.eu/prod/product-assets/2023/XMAX250ASP/2023-Yamaha-XMAX250ASP-EU-Dark_Petrol-Static-011-03.jpg);
+}
+
+.motosikletler {
+  background: url(https://cdn2.yamaha-motor.eu/prod/product-assets/2022/YZF600R6RCOMP/2022-Yamaha-YZF600R6RCOMP-EU-Tech_Black-Action-001-03.jpg);
+}
+
+.sezer {
+  background-color: whitesmoke !important;
+  text-align: left;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(54, 54, 56) !important;
+}
+
+.footer img {
+  margin-top: 15px;
+}
+
+.turkiye a {
+  margin-top: 15px;
+}
+
+.alan1 li a {
+  text-decoration: none;
+  color: white;
+}
+
+.alan1 li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.alan2 a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.alan2 li {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.alan3 a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.alan3 li {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.alan4 a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.alan4 li {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.alan5 a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.alan5 li {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.body1 {
+  margin-top: 10px;
+  width: 100%;
+  height: 1100px;
+  background: url("https://cdn2.yamaha-motor.eu/prod/product-assets/2023/MT07/2023-Yamaha-MT07-EU-Cyan_Storm-Static-001-03.jpg");
+}
+
+.body2 {
+  color: white;
+  text-align: left;
+}
+
+.body2 h1 {
+  margin-top: 350px;
+}
+
+.video {
+  width: 100%;
+}
