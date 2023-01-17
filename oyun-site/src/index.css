@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #243763 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card {
+  border: 0px solid;
+  background-color: #ff6e31;
+  font-family: "Righteous", cursive;
+  color: #00337c;
+}
+.oyun_title {
+  font-size: 30px !important;
+  color: black !important;
+}
+.tarih {
+  background-color: #ff6e31 !important;
+  font-size: 20px;
+}
+.resim {
+  height: 200px !important;
+}
+.navbar {
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  color: #ff6e31 !important;
+  padding: 10px;
+}
+.konsol {
+  font-size: 50px !important;
+}
+.alert {
+  color: #00337c;
+  background-color: #ff6e31;
+  font-size: 25px;
+}
+.yildiz_ekle {
+  font-size: 40px;
+  color: #243763;
+}
+.yildiz_ekle:hover {
+  color: #85586f;
+}
+.yildiz_cikar {
+  font-size: 40px;
+  color: #85586f;
+}
+.yildiz_cikar:hover {
+  color: #243763;
+}
+.navbar_yazi {
+  color: #ff6e31 !important;
+}
+.oyun_baslık {
+  font-family: "Lobster", cursive;
+  font-size: 55px;
+  color: #6f1ab6;
+}
+.oyun_alt_baslık {
+  font-family: "Lobster", cursive;
+  font-size: 55px;
+  background-color: #ff6e31;
+  color: #243763;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 3px;
+}
+.kayak {
+  margin: auto;
+}
+.sepet {
+  background-color: #ff6e31;
+}
+.footer_yazi {
+  color: white !important;
+}
+.icon_1 {
+  color: #ff6e31 !important;
+}
+.icon_2 {
+  color: white !important;
+}
