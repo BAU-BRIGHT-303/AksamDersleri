@@ -12,6 +12,12 @@ function UserPage() {
   const [username, setUserName] = useState("");
   const [img, setImg] = useState("");
 
+  //güncellenecek verileri tutacağımız state'ler.
+  const [newName, setNewName] = useState("");
+  const [newAge, setNewAge] = useState(0);
+  const [newUsername, setNewUsername] = useState("");
+  const [newImg, setNewImg] = useState("");
+
   //post metodu
   const postHandler = () => {
     axios.post("http://localhost:5000/createUser", {
@@ -28,9 +34,49 @@ function UserPage() {
       timer: 1500,
     });
   };
-  const updateHandler = () => {};
-  const deleteHandler = () => {};
+  const updateHandler = (id) => {
+    axios
+      .put("http://localhost:5000/updateUser", {
+        id: id,
+        newName: newName,
+        newAge: newAge,
+        newImg: newImg,
+        newUsername: newUsername,
+      })
+      .then((res) =>
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: `Güncelleme Başarılı`,
+          showConfirmButton: false,
+          timer: 1500,
+        })
+      );
+  };
+  const deleteHandler = (id) => {
+    Swal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        axios.delete(`http://localhost:5000/deleteUser/${id}`);
+        Swal.fire("Deleted!", "Your file has been deleted.", "success");
+      }
+    });
+  };
 
+  const sifirla = (e) => {
+    e.target.value = "";
+  };
+
+  const sifirla2 = (e) => {
+    e.target.value = "";
+  };
   useEffect(() => {
     axios
       .get("http://localhost:5000/getUsers")
@@ -53,29 +99,40 @@ function UserPage() {
                   type="text"
                   placeholder="Güncellenecek İsmi Giriniz"
                   className="form-control border border-dark my-1"
+                  onChange={(e) => setNewName(e.target.value)}
+                  onFocus={sifirla}
                 />
                 <input
                   type="number"
                   placeholder="Güncellenecek Yaşı Giriniz"
                   className="form-control border border-dark my-1"
+                  onChange={(e) => setNewAge(e.target.value)}
+                  onFocus={sifirla}
                 />
                 <input
                   type="text"
                   placeholder="Güncellenecek Resmi Giriniz"
                   className="form-control border border-dark my-1"
+                  onChange={(e) => setNewImg(e.target.value)}
+                  onFocus={sifirla}
                 />
                 <input
                   type="text"
                   placeholder="Güncellenecek UserName Giriniz"
                   className="form-control border border-dark my-1"
+                  onChange={(e) => setNewUsername(e.target.value)}
+                  onFocus={sifirla}
                 />
                 <button
                   className="btn btn-success mx-2"
-                  onClick={updateHandler}
+                  onClick={() => updateHandler(user._id)}
                 >
                   Güncelle
                 </button>
-                <button className="btn btn-danger" onClick={deleteHandler}>
+                <button
+                  className="btn btn-danger"
+                  onClick={() => deleteHandler(user._id)}
+                >
                   Sil
                 </button>
               </div>
@@ -93,6 +150,7 @@ function UserPage() {
                 className="form-control"
                 placeholder="Adınızı Yazınız"
                 onChange={(e) => setName(e.target.value)}
+                defaultValue=""
               />
             </td>
             <td>
@@ -101,6 +159,7 @@ function UserPage() {
                 className="form-control"
                 placeholder="Yaşını Yazınız"
                 onChange={(e) => setAge(e.target.value)}
+                defaultValue=""
               />
             </td>
             <td>
@@ -109,6 +168,7 @@ function UserPage() {
                 className="form-control"
                 placeholder="Kullanıcı Adınızı Yazınız"
                 onChange={(e) => setUserName(e.target.value)}
+                defaultValue=""
               />
             </td>
             <td>
@@ -117,6 +177,7 @@ function UserPage() {
                 className="form-control"
                 placeholder="Fotoğraf Linkini Yapıştırınız"
                 onChange={(e) => setImg(e.target.value)}
+                defaultValue=""
               />
             </td>
           </tr>
