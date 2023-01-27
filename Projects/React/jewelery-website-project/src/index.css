@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar {
+  background-color: #862337;
+  font-weight: bold;
+  height: 70px;
+  font-family: "Sofia Sans", sans-serif;
+}
+.favori-cikar {
+  background-color: #b0b1b2;
+  border-color: #b0b1b2;
+}
+.favori-cikar:hover {
+  background-color: #7c8a91;
+  border-color: #7c8a91;
+}
+.favori-ekle {
+  background-color: #eb6c86;
+}
+.favori-ekle:hover {
+  background-color: #862337;
+  border-color: #862337;
+}
+.slider {
+  padding: 0;
+}
+.anasayfa {
+  background-color: #edf2f6;
+}
+
+.menu {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+}
+.menu-baslik {
+  color: #984554;
+  text-transform: uppercase;
+  margin: auto;
+}
+.header {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: bold;
+  color: #862337;
+  font-size: 24px;
+}
+.menu-img {
+  width: 250px;
+  height: 300px;
+}
+a {
+  text-decoration: none;
+}
+.magaza {
+  width: 100%;
+}
+.yazilar {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sofia Sans", sans-serif;
+}
+.telefon {
+  color: green;
+}
+.magazalar {
+  background-color: #edf2f6;
+}
+span {
+  font-weight: bold;
+}
