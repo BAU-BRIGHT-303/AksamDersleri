@@ -15,6 +15,18 @@ router.get("/getBurgers", (req, res) => {
 
 //put
 
-//post
+//silme metodu (post kullanarak)
+
+router.post("/deleteBurger", async (req, res) => {
+  const burgerid = req.body.burgerid;
+  //  const {burgerid} = req.body --> destruct ederek alma
+
+  try {
+    await burgerModel.findOneAndDelete({ _id: burgerid });
+    res.send("Menü silme başarılı");
+  } catch {
+    res.status(400).json({ message: error });
+  }
+});
 
 module.exports = router;
