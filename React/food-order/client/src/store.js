@@ -1,5 +1,10 @@
 import { applyMiddleware, combineReducers, createStore } from "redux";
-import { getAllBurgersReducer } from "./reducers/burgerReducers";
+import {
+  addBurgersReducer,
+  editBurgerReducer,
+  getAllBurgersReducer,
+  getBurgerByIdReducer,
+} from "./reducers/burgerReducers";
 import { composeWithDevTools } from "redux-devtools-extension";
 import thunk from "redux-thunk";
 import { cartReducer } from "./reducers/cartReducers";
@@ -23,6 +28,9 @@ const finalReducer = combineReducers({
   getUsersOrdersReducer: getUsersOrdersReducer,
   getAllUsersReducer: getAllUsersReducer,
   getAllOrdersReducer: getAllOrdersReducer,
+  addBurgersReducer: addBurgersReducer,
+  editBurgerReducer: editBurgerReducer,
+  getBurgerByIdReducer: getBurgerByIdReducer,
 });
 
 const cartItems = localStorage.getItem("cartItems")
