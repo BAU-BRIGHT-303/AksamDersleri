@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\bin\Debug\net6.0\MyFirstProject.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\bin\Debug\net6.0\MyFirstProject.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\bin\Debug\net6.0\MyFirstProject.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\bin\Debug\net6.0\MyFirstProject.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\bin\Debug\net6.0\MyFirstProject.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\refint\MyFirstProject.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\MyFirstProject.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\MyFirstProject\MyFirstProject\obj\Debug\net6.0\ref\MyFirstProject.dll

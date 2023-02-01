@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\bin\Debug\net6.0\Variables.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\bin\Debug\net6.0\Variables.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\bin\Debug\net6.0\Variables.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\bin\Debug\net6.0\Variables.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\bin\Debug\net6.0\Variables.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\refint\Variables.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\Variables.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\01-02-23\Variables\Variables\obj\Debug\net6.0\ref\Variables.dll
