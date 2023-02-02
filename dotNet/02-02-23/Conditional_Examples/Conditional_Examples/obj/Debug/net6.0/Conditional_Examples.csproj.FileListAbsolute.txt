@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\bin\Debug\net6.0\Conditional_Examples.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\bin\Debug\net6.0\Conditional_Examples.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\bin\Debug\net6.0\Conditional_Examples.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\bin\Debug\net6.0\Conditional_Examples.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\bin\Debug\net6.0\Conditional_Examples.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\refint\Conditional_Examples.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\Conditional_Examples.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Conditional_Examples\Conditional_Examples\obj\Debug\net6.0\ref\Conditional_Examples.dll

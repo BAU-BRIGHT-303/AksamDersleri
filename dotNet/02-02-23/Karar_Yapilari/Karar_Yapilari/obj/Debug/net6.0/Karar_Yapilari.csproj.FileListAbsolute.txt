@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\bin\Debug\net6.0\Karar_Yapilari.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\bin\Debug\net6.0\Karar_Yapilari.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\bin\Debug\net6.0\Karar_Yapilari.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\bin\Debug\net6.0\Karar_Yapilari.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\bin\Debug\net6.0\Karar_Yapilari.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\refint\Karar_Yapilari.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\Karar_Yapilari.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\02-02-23\Karar_Yapilari\Karar_Yapilari\obj\Debug\net6.0\ref\Karar_Yapilari.dll
