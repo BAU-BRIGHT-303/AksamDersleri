@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\bin\Debug\net6.0\Loops_Example.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\bin\Debug\net6.0\Loops_Example.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\bin\Debug\net6.0\Loops_Example.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\bin\Debug\net6.0\Loops_Example.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\bin\Debug\net6.0\Loops_Example.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\refint\Loops_Example.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\Loops_Example.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\14-02-23\Loops_Example\Loops_Example\obj\Debug\net6.0\ref\Loops_Example.dll
