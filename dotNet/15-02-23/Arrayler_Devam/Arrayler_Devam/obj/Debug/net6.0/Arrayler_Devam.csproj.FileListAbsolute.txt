@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\bin\Debug\net6.0\Arrayler_Devam.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\bin\Debug\net6.0\Arrayler_Devam.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\bin\Debug\net6.0\Arrayler_Devam.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\bin\Debug\net6.0\Arrayler_Devam.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\bin\Debug\net6.0\Arrayler_Devam.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\refint\Arrayler_Devam.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\Arrayler_Devam.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\15-02-23\Arrayler_Devam\Arrayler_Devam\obj\Debug\net6.0\ref\Arrayler_Devam.dll
