@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\bin\Debug\net6.0\ArrayListe.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\bin\Debug\net6.0\ArrayListe.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\bin\Debug\net6.0\ArrayListe.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\bin\Debug\net6.0\ArrayListe.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\bin\Debug\net6.0\ArrayListe.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\refint\ArrayListe.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ArrayListe.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\16-02-23\ArrayList\ArrayList\obj\Debug\net6.0\ref\ArrayListe.dll
