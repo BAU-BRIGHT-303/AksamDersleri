@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\bin\Debug\net6.0\Classlar_Yapisi.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\bin\Debug\net6.0\Classlar_Yapisi.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\bin\Debug\net6.0\Classlar_Yapisi.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\bin\Debug\net6.0\Classlar_Yapisi.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\bin\Debug\net6.0\Classlar_Yapisi.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\refint\Classlar_Yapisi.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\Classlar_Yapisi.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\21-02-23\Classlar_Yapisi\Classlar_Yapisi\obj\Debug\net6.0\ref\Classlar_Yapisi.dll
