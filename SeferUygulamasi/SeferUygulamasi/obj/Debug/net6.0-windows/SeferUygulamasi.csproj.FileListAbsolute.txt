@@ -1,0 +1,17 @@
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\bin\Debug\net6.0-windows\SeferUygulamasi.exe
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\bin\Debug\net6.0-windows\SeferUygulamasi.deps.json
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\bin\Debug\net6.0-windows\SeferUygulamasi.runtimeconfig.json
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\bin\Debug\net6.0-windows\SeferUygulamasi.dll
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\bin\Debug\net6.0-windows\SeferUygulamasi.pdb
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.csproj.AssemblyReference.cache
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.Form1.resources
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.csproj.GenerateResource.cache
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.AssemblyInfoInputs.cache
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.AssemblyInfo.cs
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.csproj.CoreCompileInputs.cache
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.dll
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\refint\SeferUygulamasi.dll
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.pdb
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\SeferUygulamasi.genruntimeconfig.cache
+C:\Users\enesk\source\repos\SeferUygulamasi\SeferUygulamasi\obj\Debug\net6.0-windows\ref\SeferUygulamasi.dll
