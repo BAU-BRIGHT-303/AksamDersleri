@@ -1,0 +1,11 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\bin\Debug\Temel_Sql_Baglanti.exe.config
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\bin\Debug\Temel_Sql_Baglanti.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\bin\Debug\Temel_Sql_Baglanti.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.csproj.SuggestedBindingRedirects.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.Form1.resources
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.Properties.Resources.resources
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.csproj.GenerateResource.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Temel_Sql_Baglanti\Temel_Sql_Baglanti\obj\Debug\Temel_Sql_Baglanti.pdb

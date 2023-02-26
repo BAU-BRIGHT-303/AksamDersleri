@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\bin\Debug\net6.0\E_Commerce_Book_Basic_OOP.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\bin\Debug\net6.0\E_Commerce_Book_Basic_OOP.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\bin\Debug\net6.0\E_Commerce_Book_Basic_OOP.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\bin\Debug\net6.0\E_Commerce_Book_Basic_OOP.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\bin\Debug\net6.0\E_Commerce_Book_Basic_OOP.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\refint\E_Commerce_Book_Basic_OOP.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\E_Commerce_Book_Basic_OOP.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\E_Commerce_Book_Basic_OOP\E_Commerce_Book_Basic_OOP\obj\Debug\net6.0\ref\E_Commerce_Book_Basic_OOP.dll

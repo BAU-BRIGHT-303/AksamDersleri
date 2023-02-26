@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\bin\Debug\net6.0\Abstract_Class.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\bin\Debug\net6.0\Abstract_Class.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\bin\Debug\net6.0\Abstract_Class.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\bin\Debug\net6.0\Abstract_Class.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\bin\Debug\net6.0\Abstract_Class.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\refint\Abstract_Class.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\Abstract_Class.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\26-02-03\Abstract_Class\Abstract_Class\obj\Debug\net6.0\ref\Abstract_Class.dll
