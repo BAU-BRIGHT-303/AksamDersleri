@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\bin\Debug\net6.0\Listelere_Giris_Kalıtım.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\bin\Debug\net6.0\Listelere_Giris_Kalıtım.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\bin\Debug\net6.0\Listelere_Giris_Kalıtım.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\bin\Debug\net6.0\Listelere_Giris_Kalıtım.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\bin\Debug\net6.0\Listelere_Giris_Kalıtım.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\refint\Listelere_Giris_Kalıtım.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\Listelere_Giris_Kalıtım.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Listelere_Giris_Kalıtım\Listelere_Giris_Kalıtım\obj\Debug\net6.0\ref\Listelere_Giris_Kalıtım.dll

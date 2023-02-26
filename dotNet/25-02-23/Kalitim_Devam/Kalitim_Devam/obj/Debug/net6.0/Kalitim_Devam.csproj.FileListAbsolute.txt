@@ -1,0 +1,15 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\bin\Debug\net6.0\Kalitim_Devam.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\bin\Debug\net6.0\Kalitim_Devam.deps.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\bin\Debug\net6.0\Kalitim_Devam.runtimeconfig.json
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\bin\Debug\net6.0\Kalitim_Devam.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\bin\Debug\net6.0\Kalitim_Devam.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.AssemblyInfoInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.AssemblyInfo.cs
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\refint\Kalitim_Devam.dll
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\Kalitim_Devam.genruntimeconfig.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\25-02-23\Kalitim_Devam\Kalitim_Devam\obj\Debug\net6.0\ref\Kalitim_Devam.dll
