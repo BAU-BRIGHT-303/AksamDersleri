@@ -1,0 +1,11 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\bin\Debug\NW_VeriCekme.exe.config
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\bin\Debug\NW_VeriCekme.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\bin\Debug\NW_VeriCekme.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.csproj.SuggestedBindingRedirects.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.Form1.resources
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.Properties.Resources.resources
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.csproj.GenerateResource.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\NW_VeriCekme\NW_VeriCekme\obj\Debug\NW_VeriCekme.pdb

@@ -50,5 +50,65 @@ namespace Temel_Sql_Baglanti
 			VeriCek();
 			
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			/*Parametresiz dat ekleme işlemi
+			cmd = new SqlCommand();
+			con.Open();
+			cmd.Connection = con;
+			cmd.CommandText = "INSERT INTO Personeller (PersonelName, PersonelSurname, City) VALUES ('" + txtName.Text + "', '" + txtSurname.Text + "', '" + txtCity.Text + "')";
+			cmd.ExecuteNonQuery();
+			con.Close();
+			VeriCek();
+			*/
+
+			string sorgu = "INSERT INTO Personeller (PersonelName, PersonelSurname,City) VALUES(@p1, @p2, @p3)";
+			cmd = new SqlCommand(sorgu, con);
+			cmd.Connection = con;
+			cmd.Parameters.AddWithValue("@p1", txtName.Text);
+			cmd.Parameters.AddWithValue("@p2", txtSurname.Text);
+			cmd.Parameters.AddWithValue("@p3", txtCity.Text);
+			con.Open();
+			cmd.ExecuteNonQuery();
+			con.Close();
+			VeriCek();
+		}
+
+		private void dataGridView1_CellEnter(object sender, DataGridViewCellEventArgs e)
+		{
+			txtNo.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+			txtName.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+			txtSurname.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+			txtCity.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+		}
+
+		private void btnGuncelle_Click(object sender, EventArgs e)
+		{
+			string sorgu = "UPDATE Personeller SET PersonelName = @p1, PersonelSurname = @p2, City = @p3 WHERE PersonelID = @p4";
+			cmd = new SqlCommand(sorgu, con);
+			cmd.Connection = con;
+			cmd.Parameters.AddWithValue("@p1", txtName.Text);
+			cmd.Parameters.AddWithValue("@p2", txtSurname.Text);
+			cmd.Parameters.AddWithValue("@p3", txtCity.Text);
+			cmd.Parameters.AddWithValue("@p4", txtNo.Text);
+			con.Open();
+			cmd.ExecuteNonQuery();
+			con.Close();
+			VeriCek();
+		}
+
+		private void btnSil_Click(object sender, EventArgs e)
+		{
+			
+			string sorgu = "DELETE FROM Personeller WHERE PersonelID = @p1";
+			cmd = new SqlCommand(sorgu, con);
+			cmd.Connection = con;
+			cmd.Parameters.AddWithValue("@p1", txtNo.Text);
+			con.Open();
+			cmd.ExecuteNonQuery();
+			con.Close();
+			VeriCek();
+		}
 	}
 }

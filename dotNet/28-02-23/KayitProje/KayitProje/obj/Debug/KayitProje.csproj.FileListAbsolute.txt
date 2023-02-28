@@ -1,0 +1,11 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\bin\Debug\KayitProje.exe.config
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\bin\Debug\KayitProje.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\bin\Debug\KayitProje.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.csproj.SuggestedBindingRedirects.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.Form1.resources
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.Properties.Resources.resources
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.csproj.GenerateResource.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\28-02-23\KayitProje\KayitProje\obj\Debug\KayitProje.pdb
