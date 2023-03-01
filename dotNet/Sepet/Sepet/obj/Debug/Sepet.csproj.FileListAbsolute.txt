@@ -1,0 +1,14 @@
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\bin\Debug\Sepet.exe.config
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\bin\Debug\Sepet.exe
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\bin\Debug\Sepet.pdb
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.csproj.AssemblyReference.cache
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.csproj.SuggestedBindingRedirects.cache
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.Form1.resources
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.Form2.resources
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.Form3.resources
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.Form4.resources
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.Properties.Resources.resources
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.csproj.GenerateResource.cache
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.csproj.CoreCompileInputs.cache
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.exe
+C:\Users\ÖĞLE\Desktop\AY\DERS ÇALIŞMALAR NET\010323\Sepet\Sepet\obj\Debug\Sepet.pdb
