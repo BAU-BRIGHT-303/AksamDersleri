@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.Form1.resources
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.Form2.resources
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.Form3.resources
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.Form4.resources
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.Properties.Resources.resources
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\bin\Debug\KazikOdev.exe.config
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\bin\Debug\KazikOdev.exe
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\bin\Debug\KazikOdev.pdb
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.exe
+C:\Users\HP\source\repos\KazikOdev\KazikOdev\obj\Debug\KazikOdev.pdb
