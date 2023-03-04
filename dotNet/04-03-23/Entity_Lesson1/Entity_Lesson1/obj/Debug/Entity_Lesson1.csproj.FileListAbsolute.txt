@@ -1,0 +1,8 @@
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\bin\Debug\Entity_Lesson1.exe.config
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\bin\Debug\Entity_Lesson1.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\bin\Debug\Entity_Lesson1.pdb
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\obj\Debug\Entity_Lesson1.csproj.AssemblyReference.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\obj\Debug\Entity_Lesson1.csproj.SuggestedBindingRedirects.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\obj\Debug\Entity_Lesson1.csproj.CoreCompileInputs.cache
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\obj\Debug\Entity_Lesson1.exe
+C:\Users\SABAH\Desktop\BrightDersleri\dotnetUygulamalar\04-03-23\Entity_Lesson1\Entity_Lesson1\obj\Debug\Entity_Lesson1.pdb
