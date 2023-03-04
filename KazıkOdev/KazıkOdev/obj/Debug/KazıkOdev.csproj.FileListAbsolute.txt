@@ -1,0 +1,14 @@
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\bin\Debug\KazıkOdev.exe.config
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\bin\Debug\KazıkOdev.exe
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\bin\Debug\KazıkOdev.pdb
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.csproj.AssemblyReference.cache
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.csproj.SuggestedBindingRedirects.cache
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.Form1.resources
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.Form2.resources
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.Form3.resources
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.Form4.resources
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.Properties.Resources.resources
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.csproj.GenerateResource.cache
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.csproj.CoreCompileInputs.cache
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.exe
+C:\Users\ÖĞLE\Desktop\dotnetUygulamalar\KazıkOdev\KazıkOdev\obj\Debug\KazıkOdev.pdb
