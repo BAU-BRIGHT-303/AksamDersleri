@@ -1,0 +1,94 @@
+﻿@model List<News.Web.Models.Domain.NewsPost>
+@{
+}
+
+<div class="bg-secondary bg-light opacity-10 py-2">
+    <div class="container text-center">
+        <h1>List All News - Admin Functionality</h1>
+    </div>
+</div>
+@*<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="https://p4.wallpaperbetter.com/wallpaper/1023/67/705/feather-football-goal-ball-wallpaper-preview.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://p4.wallpaperbetter.com/wallpaper/207/766/365/ball-line-basketball-sports-wallpaper-preview.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://p4.wallpaperbetter.com/wallpaper/949/419/581/macro-tennis-balls-wallpaper-preview.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>*@
+
+<div class="container">
+
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="https://p4.wallpaperbetter.com/wallpaper/949/419/581/macro-tennis-balls-wallpaper-preview.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-75" src="https://p4.wallpaperbetter.com/wallpaper/207/766/365/ball-line-basketball-sports-wallpaper-preview.jpg" " alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-75" src="https://p4.wallpaperbetter.com/wallpaper/1023/67/705/feather-football-goal-ball-wallpaper-preview.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+<hr />
+       <h2 class="text-center text-dark mt-3">News</h2>
+<div class="container py-5">
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+       
+        
+  
+                @foreach (var item in Model)
+                {<div class="col-md-4 mb-3">
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="@item.Image" alt="Card image cap">
+                        <div class="card-body">
+                            <h6 class="card-text">@item.Title</h6>
+                            <p class="card-text">@item.Description</p>
+                            <p class="card-text text-muted">@item.Author</p>
+                            <button class="btn btn-dark">SeeMore</button>
+                        </div>
+                    </div>
+                </div>
+                }
+
+        </div>
+
+    }
+    else
+    {
+        <h1>There is no news!</h1>
+    }
+
+</div>

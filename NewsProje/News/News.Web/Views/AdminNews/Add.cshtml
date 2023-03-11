@@ -1,0 +1,36 @@
+﻿@model News.Web.Models.ViewModels.AddNewsRequest
+@{
+}
+<div class="bg-secondary bg-light opacity-10 py-2">
+    <div class="container text-center">
+        <h1>Add News - Admin Functionality</h1>
+
+    </div>
+
+</div>
+
+<div class="container py-5">
+    <form method="post">
+
+
+        <div class="mb-3">
+            <label class="form-label">Title</label>
+            <input type="text" placeholder="Title" class="form-control w-25" id="Title" asp-for="Title" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Image</label>
+            <input type="text" placeholder="Image" class="form-control w-25" id="Image" asp-for="Image" />
+        </div>  
+        <div class="mb-3">
+            <label class="form-label">Author</label>
+            <input type="text" placeholder="Author" class="form-control w-25" id="Author" asp-for="Author" />
+        </div>  
+        <div class="mb-3">
+            <label class="form-label">Description</label>
+            <input type="text" placeholder="Description" class="form-control w-25" id="Description" asp-for="Description" />
+        </div>
+        <div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+    </form>
+</div>
