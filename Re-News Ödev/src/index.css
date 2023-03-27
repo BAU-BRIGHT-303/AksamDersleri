@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: bolder;
+  font-size: 25px !important;
+  background-image: url("https://media.tenor.com/4sL95F-2BjwAAAAM/earth.gif");
+  background-position: left;
+  color: white;
+  background-color: #000000 !important;
+  background-size: 150px !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-shadow: rgba(248, 248, 248, 0.17) 0px -23px 25px 0px inset,
+    rgba(248, 248, 248, 0.15) 0px -36px 30px 0px inset,
+    rgba(248, 248, 248, 0.1) 0px -79px 40px 0px inset,
+    rgba(248, 248, 248, 0.06) 0px 2px 1px, rgba(248, 248, 248, 0.09) 0px 4px 2px,
+    rgba(248, 248, 248, 0.09) 0px 8px 4px,
+    rgba(248, 248, 248, 0.09) 0px 16px 8px,
+    rgba(248, 248, 248, 0.09) 0px 32px 16px;
+}
+.slide-text h2,
+h5 {
+  font-family: "Anton", sans-serif;
+}
+.content h5 {
+  font-family: "Bangers", cursive;
+  font-size: 23px;
+}
+.navbar-brand {
+  color: white !important;
+  font-family: "Alkatra", cursive;
+  text-align: center;
+  padding-left: 10px;
+}
+.txt {
+  color: white !important;
+}
+.slide-place {
+  background-color: #b73514;
+  height: 450px;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px -50px 36px -28px inset;
+  color: white;
+}
+
+/* .img {
+  border: 5px solid black;
+  border-radius: 100px;
+} */
+
+.kullanici {
+  font-size: 20px;
+}
+.sign-up {
+  width: 100%;
+}
+.sign-in {
+  width: 100%;
+}
+.in {
+  /* height: 400px; */
+
+  color: #ddf7e3;
+}
+.up {
+  height: 400px;
+  transition: all ease-in-out 0.5s;
+  color: #ddf7e3;
+}
+.up:hover {
+  border: 0px solid;
+  border-radius: 150px;
+  box-shadow: rgba(18, 71, 22, 0.17) 0px -23px 25px 0px inset,
+    rgba(18, 71, 22, 0.15) 0px -36px 30px 0px inset,
+    rgba(18, 71, 22, 0.1) 0px -79px 40px 0px inset,
+    rgba(18, 71, 22, 0.06) 0px 2px 1px, rgba(18, 71, 22, 0.09) 0px 4px 2px,
+    rgba(18, 71, 22, 0.09) 0px 8px 4px, rgba(18, 71, 22, 0.09) 0px 16px 8px,
+    rgba(18, 71, 22, 0.09) 0px 32px 16px;
+  background-image: url("https://media.wired.com/photos/59272393af95806129f51b88/master/w_2560%2Cc_limit/Password_Feature_art.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.in {
+  height: 400px;
+  color: #ddf7e3;
+  transition: all ease-in 0.5s;
+}
+.in:hover {
+  border-radius: 150px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-image: url("https://cdn.pixabay.com/animation/2022/07/31/05/09/05-09-50-80_512.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-up {
+  color: black;
+  background-color: white;
+}
+.btn-up:hover {
+  color: white;
+  background-color: #04941a;
+}
+.input-group {
+  width: 50%;
+}
+.input-group-prepend {
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.yyy {
+  padding: 10%;
+  background-color: #183a1d;
+}
+.input-group-text {
+  width: 120px;
+  text-align: center !important;
+}
+.sifre-unut {
+  padding-left: 40% !important;
+}
+.spin-load {
+  height: 600px;
+}
+.slide-place {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5338787fe4b081b17a0481b1/1567630806013-AC5DQDT3PSICVVKX7WGB/MLB_16x9_Hero_Grid.gif?format=2500w) !important;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel {
+  opacity: 0.9;
+}
+
+/* //////////////////CARDS CSS////////////////////////// */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 40px 0;
+}
+
+.container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 5px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin-top: 50px;
+}
+.container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0b77b6;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgb(0, 0, 0);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.151);
+  pointer-events: none;
+}
+.container .card .box:hover {
+  transform: translateY(-50px);
+  box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+}
+.container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+.container .card .box .content h5 {
+  color: rgb(0, 0, 0);
+}
+
+.container .card .box .content p {
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  padding: 5px;
+}
+.container .card:hover .box .content h3,
+.container .card:hover .box .content p {
+  color: rgba(255, 255, 255, 1);
+}
+.image-card {
+  padding: 10px;
+}
