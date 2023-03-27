@@ -1,0 +1,37 @@
+﻿@model List<TechSane.Web.Models.Domain.Category>
+
+    <div class="container py-5">
+        @if (Model != null && Model.Any())
+        {
+
+            <table class="table table-primary table-bordered table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Display Name</th>
+                        <th>Operation</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var category in Model)
+                    {
+                        <tr>
+                            <th>@category.Id</th>
+                            <th>@category.Name</th>
+                            <th>@category.DisplayName</th>
+                            <th> <a class="btn btn-light" asp-controller="AdminCategories" asp-action="Edit" asp-route-id="@category.Id">Edit</a></th>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+
+        }
+        else
+        {
+            <h1>There is no spoon :)</h1>
+
+        }
+    </div>

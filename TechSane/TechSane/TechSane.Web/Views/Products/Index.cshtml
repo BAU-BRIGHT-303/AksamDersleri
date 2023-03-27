@@ -1,0 +1,35 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model TechSane.Web.Models.ViewModels.ProductDetalisViewModel
+@inject SignInManager<IdentityUser> signInManager
+@inject UserManager<IdentityUser> userManager
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+
+@if (Model != null)
+{<div class="row">
+        <div class="col-md-12 text-center">
+            <img class="img-fluid rounded-circle shadow-4-strong" style="height:400px" src="@Model.ImageUrl" />
+        </div>
+        <div class="col-md-12 text-center">
+            <h1 class="text-primary mt-5">@Model.Title</h1>
+            <h6 class="text-muted">@Model.Desc</h6>
+            <h6 class="badge bg-secondary me-1">@Model.Manufacturer</h6>
+            @foreach (var item in Model.Categories)
+            {
+                <span class="text-center badge bg-primary">@item.Name</span>
+            }
+        </div>
+        <div class="col-md-12 text-center">
+            <a asp-controller="UnderConstruction" class="btn btn-primary" asp-action="Index">
+                Add to Cart!
+
+            </a>
+        </div>
+    </div>
+}
+else
+{
+    <h1>NO DATA</h1>
+}

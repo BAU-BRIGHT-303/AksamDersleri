@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/TechSane.Web.props" />
+</Project>

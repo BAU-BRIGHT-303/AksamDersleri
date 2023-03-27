@@ -1,0 +1,50 @@
+﻿@model TechSane.Web.Models.ViewModels.HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container text-center">
+    <h1 class="text-dark" style="border-bottom: 2px groove red "><b>TechSane.WEB</b></h1>
+</div>
+<div class="container">
+    <div class="row">
+
+        @if (Model != null && Model.Products.Any())
+        {
+            foreach (var product in Model.Products)
+            {
+                <article class="col-md-4">
+                    <div class="cards-1">
+                        <div class="container">
+                            <div class="card card-blog">
+                                <div class="card-image">
+                                    <a>
+                                        <img class="img" src="@product.ImageUrl">
+                                        <div class="card-caption" style="color: black !important; font-family: 'Montserrat', sans-serif; "> @product.Title </div>
+                                    </a>
+                                    <div class="ripple-cont"></div>
+                                </div>
+                                <div class="table">
+                                    <h6 class="category text-info">
+                                        @foreach (var category in product.Categories)
+                                        {
+                                            <span class="badge bg-primary me-1">@category.Name</span>
+                                        }
+                                    </h6>
+                                    <p class="card-description"> @product.Desc.Substring(0, 60) ...</p>
+                                    <div class="text-end">
+
+                                        <a class="btn btn-primary" asp-controller="Products" asp-action="Index" asp-route-urlHandle="@product.UrlHandle">See More!</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </article>
+            }
+        }
+    </div>
+
+</div>

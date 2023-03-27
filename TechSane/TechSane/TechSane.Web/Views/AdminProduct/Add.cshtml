@@ -1,0 +1,37 @@
+﻿@model TechSane.Web.Models.ViewModels.AddProductRequest
+
+<div class="container py-5">
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">Title</label>
+            <input type="text" class="form-control" id="title" asp-for="Title" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Description</label>
+            <textarea class="form-control" id="desc" asp-for="Desc"></textarea>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Image Url</label>
+            <input type="text" class="form-control" id="imageUrl" asp-for="ImageUrl" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Manufacturer </label>
+            <input type="text" class="form-control" id="Manufacturer" asp-for="Manufacturer" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Url Handle</label>
+            <input type="text" class="form-control" id="urlHandle" asp-for="UrlHandle" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Categories </label>
+            <select class="form-select" asp-items="@Model.Categories" asp-for="SelectedCategories"></select>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-dark w-100">Save</button>
+        </div>
+
+    </form>
+</div>
+
+
+

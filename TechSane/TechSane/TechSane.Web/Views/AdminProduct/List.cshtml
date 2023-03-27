@@ -1,0 +1,43 @@
+﻿@model List<TechSane.Web.Models.Domain.Product>
+@{
+}
+
+<div class="container py-5">
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-primary table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Manufacturer</th>
+                    <th>Category</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.Id</td>
+                        <td>@product.Title</td>
+                        <td>@product.Manufacturer</td>
+                        <td>
+                            @foreach (var category in product.Categories)
+                            {
+                                <span class="badge bg-primary text-white me-1">@category.Name</span>
+                            }
+                        </td>
+                        <td> <a class="btn btn-light " asp-controller="AdminProduct" asp-action="Edit" asp-route-id="@product.Id">Edit</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h1 class="text-center">There is no data to be listed.</h1>
+    }
+
+</div>
