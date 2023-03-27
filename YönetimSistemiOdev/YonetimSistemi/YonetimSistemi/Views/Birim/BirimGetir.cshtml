@@ -1,0 +1,19 @@
+﻿@model YonetimSistemi.Models.Birim
+@{
+    ViewData["Title"] = "BirimGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+@using (Html.BeginForm("BirimGuncelle", "Birim",FormMethod.Post))
+{
+    <b>Birim Id</b>
+    @Html.TextBoxFor(x=>x.BirimId, new {@class= "form-control"})
+    <br />
+    <b>Birim Adı</b>
+    @Html.TextBoxFor(x=>x.BirimAd, new {@class= "form-control"})
+    <br />
+    <button class="btn btn-default" style="background-color:#ebdede; color: black;">Birim Güncelle</button>
+
+}
+
