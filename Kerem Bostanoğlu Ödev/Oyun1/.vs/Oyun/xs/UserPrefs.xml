@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{0365ECF9-A12B-4E39-BBAE-C22C7350D7CB}|https">
+  <MonoDevelop.Ide.ItemProperties.Oyun.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Oyun.Web/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="Oyun.Web/Controllers/AdminGamesController.cs" Line="112" Column="74" />
+      <File FileName="Oyun.Web/Views/AdminGames/List.cshtml" Line="12" Column="13" />
+      <File FileName="Oyun.Web/Views/AdminGames/Search.cshtml" Line="12" Column="51" />
+      <File FileName="Oyun.Web/appsettings.json" Line="11" Column="129" />
+      <File FileName="Oyun.Web/Views/Home/Index.cshtml" Line="22" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Oyun" expanded="True">
+            <Node name="Oyun.Web" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="AdminGames" expanded="True" />
+                <Node name="Detail" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

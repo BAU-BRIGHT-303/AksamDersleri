@@ -1,0 +1,28 @@
+﻿@model Oyun.Web.Models.ViewModels.GamesDetailsViewModel
+@{
+
+}
+
+@if (Model != null)
+{
+    <div class="container-fluid text-center text-light mt-2 mb-2 mh-auto " style="height: 70px; border-bottom: 3px solid #66B933; background-color: #212529; ">
+        <h1 class="pt-2" style="font-size:25px"> Details of <span class="text-success justify-content-center d-flex align-items-center" style="font-size:25px"> @Model.Title </span> </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img class="img-fluid rounded" style="height:400px" src="@Model.FeaturedImageUrl" />
+        </div>
+        <div class="col-md-6 text-center">
+            <h1 class="text-success mt-5">@Model.Title</h1>
+            <h6 class="badge bg-secondary me-1">@Model.Heading</h6>
+            <h6 class="text-muted">@Model.Description</h6>
+
+        </div>
+
+    </div>
+}
+else
+{
+    <h1>There is no game</h1>
+}
