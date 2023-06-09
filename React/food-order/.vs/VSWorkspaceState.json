@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\public",
+    "\\client\\src",
+    "\\client\\src\\actions",
+    "\\server",
+    "\\server\\models",
+    "\\server\\routes"
+  ],
+  "SelectedNode": "\\client\\src\\actions\\burgerActions.js",
+  "PreviewInSolutionExplorer": false
+}
